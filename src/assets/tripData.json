@@ -215,7 +215,7 @@
         "Gondola tickets"
       ],
       "media": [
-        "https://example.com/images/europe_1.jpg",
+        "assets/img/package_europe.jpg",
         "https://example.com/images/europe_2.jpg",
         "https://example.com/videos/europe_tour.mp4"
       ]
@@ -299,11 +299,9 @@
           "Mini bar items"
         ],
         "note": "The rate is applicable only for immediate confirmation. Delay will lead to an increase in flight costs, and rates will vary.",
-        "media": {
-          "image1": "https://example.com/images/bali_1.jpg",
-          "image2": "https://example.com/images/bali_2.jpg",
-          "video": "https://example.com/videos/bali_tour.mp4"
-        }
+        "media": [
+          "assets/img/package_bali.jpg"
+        ]
     },
     {
         "package_name": "MALDIVES SPECIAL PACKAGE",
@@ -367,11 +365,9 @@
           "Any items specifically not mentioned in the itinerary",
           "5% TCS"
         ],
-        "media": {
-          "image1": "https://example.com/images/maldives_1.jpg",
-          "image2": "https://example.com/images/maldives_2.jpg",
-          "video": "https://example.com/videos/maldives_tour.mp4"
-        }
+        "media": [
+          "assets/img/package_maldives.jpg"
+        ]
     },
     {
   "package_name": "Singapore-Malaysia",
@@ -1236,6 +1232,9 @@
           "Personal activities and tips.",
           "Small vehicle charges in boat no-entry areas.",
           "Flight ticket."
+        ],
+        "media": [
+          "assets/img/package_chardham.png"
         ]
     },
     {
@@ -1418,6 +1417,9 @@
           "Boat, auto charges, personal activities, tips.",
           "Small vehicle charges in boat no-entry areas.",
           "Flight ticket."
+        ],
+        "media":[
+          "assets/img/package_northindia.jpg"
         ]
     },
     {
@@ -1605,6 +1607,9 @@
           "Insurance.",
           "Boat, auto charges, personal activities, tips.",
           "Somnath and Mount Abu small vehicle charges."
+        ],
+        "media":[
+          "assets/img/package_somnath.jpg"
         ]
     },
     {
@@ -1779,7 +1784,7 @@
           "Ayodhya and Naimisaranyam small vehicle charges."
         ],
         "media": [
-        "https://example.com/images/europe_1.jpg",
+        "assets/img/kashi1.jpg",
         "https://example.com/images/europe_2.jpg",
         "https://example.com/videos/europe_tour.mp4"
       ]
@@ -1961,6 +1966,9 @@
           "Auto charges, boat charges.",
           "Ropeway charges.",
           "Kathmandu and Naimisaranyam sightseeing mini vehicle charges."
+        ],
+        "media":[
+          "assets/img/package_muktinath.png"
         ]
     },
     {

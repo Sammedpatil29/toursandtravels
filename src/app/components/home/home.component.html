@@ -1762,7 +1762,7 @@
                                 <div class="col-lg-4 col-md-6" *ngFor="let item of internationalPackagesForHome">
                                     <div class="package-card">
                                         <div class="package-card-img-wrap">
-                                            <a href="package-details.html" class="card-img"><img src="assets/img/home1/package-card-img1.png" alt=""></a>
+                                            <a href="package-details.html" class="card-img"><img [src]="item.media[0]" alt=""></a>
                                             <div class="batch">
                                                 <span class="date">{{item.days}}</span>
                                                 <div class="location">
@@ -3102,7 +3102,7 @@
                                 <div class="col-lg-4 col-md-6" *ngFor="let item of domesticPackagesForHome">
                                     <div class="package-card">
                                         <div class="package-card-img-wrap">
-                                            <a href="package-details.html" class="card-img"><img src="assets/img/home1/package-card-img1.png" alt=""></a>
+                                            <a href="package-details.html" class="card-img"><img [src]="item.media[0]" alt=""></a>
                                             <div class="batch">
                                                 <span class="date">{{item.days}}</span>
                                                 <div class="location">
