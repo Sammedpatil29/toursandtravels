@@ -227,63 +227,68 @@
         "places_visiting": ["Bali", "Kintamani", "Tanjung", "Uluwatu", "Tanah Lot"],
         "days": "5 Days / 4 Nights",
         "package_description": "The BALI SPECIAL TOUR is a 5-day adventure through Bali's most iconic locations. From exploring the volcanic landscapes of Kintamani to beach tours in Tanjung and visiting the Uluwatu Temple, this package includes all essential activities and experiences in Bali.",
-        "itinerary": {
-          "day_1": {
-            "title": "Arrival in Bali and Pirates Dinner Cruise",
-            "activities": [
-              "Flight to Bali",
-              "Arrival in Bali",
-              "After immigration, proceed to lunch",
-              "Lunch",
-              "Hotel check-in",
-              "Pick up for Pirates Dinner Cruise (International Buffet)",
-              "Back to hotel"
-            ]
-          },
-          "day_2": {
-            "title": "Kintamani Volcano and Ubud Tour",
-            "activities": [
-              "08:00am - Breakfast",
-              "Pick up for Kintamani Volcano Tour",
-              "Lunch (02:00pm)",
-              "After lunch, Ubud Village and Ubud Market tour",
-              "Back to hotel",
-              "Dinner"
-            ]
-          },
-          "day_3": {
-            "title": "Tanjung Benoa Beach and Uluwatu Cliff Temple",
-            "activities": [
-              "07:00am - Breakfast",
-              "09:00am to 01:00pm - Tanjung Benoa Beach Tour with Complimentary Banana Boat ride, Glass Bottom Boat, and Turtle Island Visit",
-              "01:00pm - Lunch",
-              "After lunch, Uluwatu Cliff Temple Tour",
-              "05:00pm - Back to hotel",
-              "08:00pm to 09:00pm - Dinner"
-            ]
-          },
-          "day_4": {
-            "title": "Kuta Shopping and Tanah Lot Temple",
-            "activities": [
-              "07:00am - Breakfast",
-              "09:00am - Kuta Shopping Tour",
-              "01:00pm to 02:00pm - Lunch",
-              "After lunch, Tanah Lot Temple Tour",
-              "06:00pm - Back to hotel",
-              "08:00pm to 09:00pm - Dinner"
-            ]
-          },
-          "day_5": {
-            "title": "Departure from Bali",
-            "activities": [
-              "07:00am to 08:00am - Breakfast",
-              "09:00am - Check out from hotel",
-              "Drop at airport",
-              "Flight to Hyderabad",
-              "Arrival in Hyderabad"
-            ]
-          }
-        },
+        "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival in Bali and Pirates Dinner Cruise",
+      "activities": [
+        "Flight to Bali",
+        "Arrival in Bali",
+        "After immigration, proceed to lunch",
+        "Lunch",
+        "Hotel check-in",
+        "Pick up for Pirates Dinner Cruise (International Buffet)",
+        "Back to hotel"
+      ]
+    },
+    {
+      "day": 2,
+      "title": "Kintamani Volcano and Ubud Tour",
+      "activities": [
+        "08:00am - Breakfast",
+        "Pick up for Kintamani Volcano Tour",
+        "Lunch (02:00pm)",
+        "After lunch, Ubud Village and Ubud Market tour",
+        "Back to hotel",
+        "Dinner"
+      ]
+    },
+    {
+      "day": 3,
+      "title": "Tanjung Benoa Beach and Uluwatu Cliff Temple",
+      "activities": [
+        "07:00am - Breakfast",
+        "09:00am to 01:00pm - Tanjung Benoa Beach Tour with Complimentary Banana Boat ride, Glass Bottom Boat, and Turtle Island Visit",
+        "01:00pm - Lunch",
+        "After lunch, Uluwatu Cliff Temple Tour",
+        "05:00pm - Back to hotel",
+        "08:00pm to 09:00pm - Dinner"
+      ]
+    },
+    {
+      "day": 4,
+      "title": "Kuta Shopping and Tanah Lot Temple",
+      "activities": [
+        "07:00am - Breakfast",
+        "09:00am - Kuta Shopping Tour",
+        "01:00pm to 02:00pm - Lunch",
+        "After lunch, Tanah Lot Temple Tour",
+        "06:00pm - Back to hotel",
+        "08:00pm to 09:00pm - Dinner"
+      ]
+    },
+    {
+      "day": 5,
+      "title": "Departure from Bali",
+      "activities": [
+        "07:00am to 08:00am - Breakfast",
+        "09:00am - Check out from hotel",
+        "Drop at airport",
+        "Flight to Hyderabad",
+        "Arrival in Hyderabad"
+      ]
+    }
+  ],
         "package_includes": [
           "4* Hotel Accommodation",
           "Tour to Kintamani Volcano Tour",
@@ -310,48 +315,52 @@
         "places_visiting": ["Maldives"],
         "days": "4 Days / 3 Nights",
         "package_description": "The MALDIVES SPECIAL PACKAGE offers a relaxing getaway with a blend of leisure and water activities. Enjoy serene beach time, local island tours, and exciting water sports, all while being accommodated in a comfortable hotel with inclusive meals and transfers.",
-        "itinerary": {
-          "day_1": {
-            "title": "Arrival in Maldives",
-            "activities": [
-              "Flight to Maldives",
-              "Arrival in Maldives",
-              "Complete immigration formalities",
-              "Hotel pick-up",
-              "Transfer to island by shared speed boat"
-            ]
-          },
-          "day_2": {
-            "title": "Leisure Day with Water Sports",
-            "activities": [
-              "07:30am - Breakfast",
-              "Leisure or enjoy any water sports on your own",
-              "01:30pm - 02:30pm - Lunch",
-              "Leisure time",
-              "08:30pm - Dinner at hotel"
-            ]
-          },
-          "day_3": {
-            "title": "Local Island Tour and Leisure",
-            "activities": [
-              "07:30am - Breakfast at Hotel",
-              "Local Island Tour on your own",
-              "01:30pm - 02:30pm - Lunch",
-              "Leisure time",
-              "08:30pm - Dinner"
-            ]
-          },
-          "day_4": {
-            "title": "Departure from Maldives",
-            "activities": [
-              "07:30am - Breakfast at Hotel",
-              "Hotel check-out and proceed to Airport",
-              "Drop at Airport",
-              "Flight to Hyderabad",
-              "Arrival in Hyderabad"
-            ]
-          }
-        },
+        "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival in Maldives",
+      "activities": [
+        "Flight to Maldives",
+        "Arrival in Maldives",
+        "Complete immigration formalities",
+        "Hotel pick-up",
+        "Transfer to island by shared speed boat"
+      ]
+    },
+    {
+      "day": 2,
+      "title": "Leisure Day with Water Sports",
+      "activities": [
+        "07:30am - Breakfast",
+        "Leisure or enjoy any water sports on your own",
+        "01:30pm - 02:30pm - Lunch",
+        "Leisure time",
+        "08:30pm - Dinner at hotel"
+      ]
+    },
+    {
+      "day": 3,
+      "title": "Local Island Tour and Leisure",
+      "activities": [
+        "07:30am - Breakfast at Hotel",
+        "Local Island Tour on your own",
+        "01:30pm - 02:30pm - Lunch",
+        "Leisure time",
+        "08:30pm - Dinner"
+      ]
+    },
+    {
+      "day": 4,
+      "title": "Departure from Maldives",
+      "activities": [
+        "07:30am - Breakfast at Hotel",
+        "Hotel check-out and proceed to Airport",
+        "Drop at Airport",
+        "Flight to Hyderabad",
+        "Arrival in Hyderabad"
+      ]
+    }
+  ],
         "package_includes": [
           "3 Nights Hotel accommodation",
           "Breakfast, Lunch, and Dinner",
@@ -378,8 +387,9 @@
   ],
   "days": "6 Days / 5 Nights",
   "package_description": "The Singapore-Malaysia package offers a perfect blend of adventure and leisure, focusing on iconic Singapore attractions such as Universal Studios, Sentosa Island, Gardens by the Bay, and the Night Safari. This package includes flights, accommodation, meals, and all major sightseeing tours in Singapore.",
-  "itinerary": {
-    "day_1": {
+  "itinerary": [
+    {
+      "day": 1,
       "title": "Journey to Singapore",
       "activities": [
         "Journey starts from Hyderabad to Singapore. Meet at RGI Airport at 10:00 pm.",
@@ -392,7 +402,8 @@
         "09:00 pm: Dinner at an Indian restaurant."
       ]
     },
-    "day_2": {
+    {
+      "day": 2,
       "title": "Universal Studios and Sea Aquarium",
       "activities": [
         "08:00 am: Breakfast.",
@@ -400,7 +411,8 @@
         "08:30 pm: Dinner at an Indian restaurant."
       ]
     },
-    "day_3": {
+    {
+      "day": 3,
       "title": "Gardens by the Bay, Sentosa Island, and Madam Tussauds",
       "activities": [
         "08:00 am: Breakfast and hotel checkout.",
@@ -412,7 +424,8 @@
         "08:00 pm: Dinner."
       ]
     },
-    "day_4": {
+    {
+      "day": 4,
       "title": "Explore Singapore",
       "activities": [
         "07:00 am: Breakfast at hotel.",
@@ -422,7 +435,8 @@
         "08:30 pm: Dinner at an Indian restaurant."
       ]
     },
-    "day_5": {
+    {
+      "day": 5,
       "title": "Leisure Day and Shopping",
       "activities": [
         "08:00 am: Breakfast.",
@@ -432,7 +446,8 @@
         "08:30 pm: Dinner."
       ]
     },
-    "day_6": {
+    {
+      "day": 6,
       "title": "Departure to Hyderabad",
       "activities": [
         "08:00 am: Breakfast at hotel.",
@@ -444,7 +459,7 @@
         "11:40 pm: Arrival in Hyderabad."
       ]
     }
-  },
+  ],
   "package_includes": [
     "Hyderabad – Singapore air tickets",
     "Singapore visa charges",
@@ -463,11 +478,11 @@
     "Breakfast, Lunch, and Dinner cannot be provided at flight transits or at airports"
   ],
   "note": "This is a tentative itinerary. The final itinerary will be issued two days before the travel date.",
-  "media": {
-    "image1": "https://example.com/images/singapore_1.jpg",
-    "image2": "https://example.com/images/singapore_2.jpg",
-    "video": "https://example.com/videos/singapore_malaysia_tour.mp4"
-  }
+  "media": [
+        "assets/img/package_europe.jpg",
+        "https://example.com/images/europe_2.jpg",
+        "https://example.com/videos/europe_tour.mp4"
+      ]
     },
     {
         "package_name": "Bangkok – Pattaya - Phuket Tour Package",
@@ -481,77 +496,83 @@
         ],
         "days": "6 Days / 5 Nights",
         "package_description": "This exciting tour takes you through the highlights of Thailand, including the beaches of Pattaya and Phuket, the vibrant city of Bangkok, and the beautiful Phi Phi Islands. Experience Coral Island tours, Alcazar shows, Nong Nooch Village, and a relaxing cruise dinner, with sightseeing and shopping experiences throughout.",
-        "itinerary": {
-          "day_1": {
-            "title": "Journey to Bangkok",
-            "activities": [
-              "Departure to Bangkok (Thai Airways TG 330).",
-              "Arrival in Bangkok.",
-              "Transfer to Pattaya after breakfast.",
-              "Stop for breakfast and zoo entry at Si Racha Tiger Zoo.",
-              "02:00 pm: Check-in at hotel in Pattaya.",
-              "Lunch at an Indian restaurant.",
-              "Transfer to Nong Nooch Village.",
-              "Dinner at an Indian restaurant.",
-              "Return to hotel."
-            ]
-          },
-          "day_2": {
-            "title": "Pattaya Exploration",
-            "activities": [
-              "Breakfast at the hotel.",
-              "09:30 am: Pickup for Coral Island Tour.",
-              "02:00 pm: Lunch at an Indian restaurant.",
-              "Return to hotel.",
-              "05:30 pm: Pickup for Alcazar Show."
-            ]
-          },
-          "day_3": {
-            "title": "Pattaya to Phuket",
-            "activities": [
-              "Breakfast at the hotel.",
-              "Journey to Bangkok airport for the flight to Phuket.",
-              "Lunch and check-in to hotel in Phuket.",
-              "Leisure time at the hotel.",
-              "Dinner at an Indian restaurant."
-            ]
-          },
-          "day_4": {
-            "title": "Phi Phi Island Tour",
-            "activities": [
-              "06:00 am: Breakfast at the hotel.",
-              "08:00 am: Pickup for Phi Phi Island tour with lunch.",
-              "04:00 pm: Return to hotel.",
-              "Leisure time for own activities.",
-              "08:00 pm: Dinner at the hotel."
-            ]
-          },
-          "day_5": {
-            "title": "Phuket to Bangkok",
-            "activities": [
-              "07:00 am to 08:00 am: Breakfast at the hotel.",
-              "09:00 am: Hotel checkout.",
-              "10:30 am: Drop at Phuket airport.",
-              "01:40 pm: Flight to Bangkok.",
-              "03:05 pm: Arrival in Bangkok.",
-              "05:00 pm: Check-in to the hotel in Bangkok.",
-              "05:30 pm: Pickup for dinner cruise.",
-              "09:00 pm: Return to hotel."
-            ]
-          },
-          "day_6": {
-            "title": "Departure to Hyderabad",
-            "activities": [
-              "07:00 am to 08:00 am: Breakfast.",
-              "09:00 am to 11:30 am: Shopping at Indra Market.",
-              "12:00 pm: Check-out from hotel.",
-              "01:00 pm to 02:00 pm: Lunch.",
-              "02:00 pm to 05:00 pm: Bangkok city temple tour.",
-              "Drop at airport for the flight to Hyderabad.",
-              "12:10 am (Next day): Arrival in Hyderabad."
-            ]
-          }
-        },
+        "itinerary": [
+    {
+      "day": 1,
+      "title": "Journey to Bangkok",
+      "activities": [
+        "Departure to Bangkok (Thai Airways TG 330).",
+        "Arrival in Bangkok.",
+        "Transfer to Pattaya after breakfast.",
+        "Stop for breakfast and zoo entry at Si Racha Tiger Zoo.",
+        "02:00 pm: Check-in at hotel in Pattaya.",
+        "Lunch at an Indian restaurant.",
+        "Transfer to Nong Nooch Village.",
+        "Dinner at an Indian restaurant.",
+        "Return to hotel."
+      ]
+    },
+    {
+      "day": 2,
+      "title": "Pattaya Exploration",
+      "activities": [
+        "Breakfast at the hotel.",
+        "09:30 am: Pickup for Coral Island Tour.",
+        "02:00 pm: Lunch at an Indian restaurant.",
+        "Return to hotel.",
+        "05:30 pm: Pickup for Alcazar Show."
+      ]
+    },
+    {
+      "day": 3,
+      "title": "Pattaya to Phuket",
+      "activities": [
+        "Breakfast at the hotel.",
+        "Journey to Bangkok airport for the flight to Phuket.",
+        "Lunch and check-in to hotel in Phuket.",
+        "Leisure time at the hotel.",
+        "Dinner at an Indian restaurant."
+      ]
+    },
+    {
+      "day": 4,
+      "title": "Phi Phi Island Tour",
+      "activities": [
+        "06:00 am: Breakfast at the hotel.",
+        "08:00 am: Pickup for Phi Phi Island tour with lunch.",
+        "04:00 pm: Return to hotel.",
+        "Leisure time for own activities.",
+        "08:00 pm: Dinner at the hotel."
+      ]
+    },
+    {
+      "day": 5,
+      "title": "Phuket to Bangkok",
+      "activities": [
+        "07:00 am to 08:00 am: Breakfast at the hotel.",
+        "09:00 am: Hotel checkout.",
+        "10:30 am: Drop at Phuket airport.",
+        "01:40 pm: Flight to Bangkok.",
+        "03:05 pm: Arrival in Bangkok.",
+        "05:00 pm: Check-in to the hotel in Bangkok.",
+        "05:30 pm: Pickup for dinner cruise.",
+        "09:00 pm: Return to hotel."
+      ]
+    },
+    {
+      "day": 6,
+      "title": "Departure to Hyderabad",
+      "activities": [
+        "07:00 am to 08:00 am: Breakfast.",
+        "09:00 am to 11:30 am: Shopping at Indra Market.",
+        "12:00 pm: Check-out from hotel.",
+        "01:00 pm to 02:00 pm: Lunch.",
+        "02:00 pm to 05:00 pm: Bangkok city temple tour.",
+        "Drop at airport for the flight to Hyderabad.",
+        "12:10 am (Next day): Arrival in Hyderabad."
+      ]
+    }
+  ],
         "package_includes": [
           "02 Nights in Phuket, 02 Nights in Pattaya, 01 Night in Bangkok.",
           "Phi Phi Island Tour.",
@@ -572,11 +593,11 @@
           "Visa charges.",
           "Lunch and Dinner (except as mentioned)."
         ],
-        "media": {
-          "image1": "https://example.com/images/bangkok_1.jpg",
-          "image2": "https://example.com/images/pattaya_1.jpg",
-          "video": "https://example.com/videos/bangkok_pattaya_phuket_tour.mp4"
-        }
+        "media": [
+        "assets/img/package_europe.jpg",
+        "https://example.com/images/europe_2.jpg",
+        "https://example.com/videos/europe_tour.mp4"
+      ]
     },
     {
         "package_name": "Sri Lanka Tour Package",
@@ -597,78 +618,84 @@
           "Vibhishana Temple",
           "Tea Factory"
         ],
-        "itinerary": {
-          "day_1": {
-            "title": "Arrival at Colombo",
-            "activities": [
-              "7:00 am: Meeting at Rajiv Gandhi International Airport at Gate No:3.",
-              "10:25 am: Flight to Colombo (UL178Q - Sri Lanka Airlines).",
-              "12:15 pm: Arrival at Colombo International Airport.",
-              "1:30 pm to 2:30 pm: Lunch.",
-              "3:30 pm: Visit to Muneeswaran Temple.",
-              "4:30 pm: Visit to Manalvari Temple.",
-              "8:00 pm: Dinner at the hotel."
-            ]
-          },
-          "day_2": {
-            "title": "Colombo to Sigiriya",
-            "activities": [
-              "7:00 am to 8:00 am: Breakfast.",
-              "10:45 am: Visit to Shankari Devi Shakti Peetam.",
-              "12:00 pm: Visit to Ravana Hot Wells.",
-              "1:30 pm to 2:30 pm: Lunch.",
-              "3:30 pm: Visit to Dambulla Golden Buddha Temple.",
-              "4:30 pm: Visit to Sigiriya Lion Rock (outside view).",
-              "8:30 pm: Dinner at the hotel."
-            ]
-          },
-          "day_3": {
-            "title": "Sigiriya to Kandy",
-            "activities": [
-              "6:00 am to 7:00 am: Breakfast and hotel checkout.",
-              "7:30 am: Journey to Kandy.",
-              "10:00 am to 12:15 pm: Visit to Spice Garden.",
-              "1:30 pm to 2:30 pm: Lunch.",
-              "4:00 pm: Arrival in Kandy.",
-              "4:30 pm to 5:30 pm: Visit Kandy Tooth Relic Temple.",
-              "6:30 pm: Check-in at hotel.",
-              "8:30 pm: Dinner at the hotel."
-            ]
-          },
-          "day_4": {
-            "title": "Kandy Sightseeing",
-            "activities": [
-              "7:00 am to 8:00 am: Breakfast.",
-              "10:30 am to 11:30 am: Visit Ramboda Hanuman Temple.",
-              "1:00 pm to 2:00 pm: Visit to Sita Ashoka Vatika.",
-              "2:30 pm to 3:30 pm: Lunch.",
-              "4:00 pm to 4:30 pm: Visit Gayatri Mandir.",
-              "6:00 pm: Visit to Tea Factory.",
-              "8:00 pm: Back to hotel.",
-              "8:30 pm: Dinner at the hotel."
-            ]
-          },
-          "day_5": {
-            "title": "Colombo and Shopping",
-            "activities": [
-              "7:30 am to 8:30 am: Breakfast.",
-              "9:00 am to 10:30 am: Visit Gem Museum.",
-              "1:00 pm to 2:00 pm: Lunch.",
-              "4:00 pm: Visit Vibhishana Temple.",
-              "4:00 pm to 6:00 pm: Shopping at Colombo.",
-              "7:30 pm: Check-in at hotel.",
-              "8:00 pm: Dinner at the hotel."
-            ]
-          },
-          "day_6": {
-            "title": "Departure from Colombo",
-            "activities": [
-              "4:30 am: Drop at airport with packed breakfast.",
-              "7:50 am: Return journey to Hyderabad (UL177Q - Sri Lankan Airlines).",
-              "9:15 am: Arrival in Hyderabad."
-            ]
-          }
-        },
+        "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival at Colombo",
+      "activities": [
+        "7:00 am: Meeting at Rajiv Gandhi International Airport at Gate No:3.",
+        "10:25 am: Flight to Colombo (UL178Q - Sri Lanka Airlines).",
+        "12:15 pm: Arrival at Colombo International Airport.",
+        "1:30 pm to 2:30 pm: Lunch.",
+        "3:30 pm: Visit to Muneeswaran Temple.",
+        "4:30 pm: Visit to Manalvari Temple.",
+        "8:00 pm: Dinner at the hotel."
+      ]
+    },
+    {
+      "day": 2,
+      "title": "Colombo to Sigiriya",
+      "activities": [
+        "7:00 am to 8:00 am: Breakfast.",
+        "10:45 am: Visit to Shankari Devi Shakti Peetam.",
+        "12:00 pm: Visit to Ravana Hot Wells.",
+        "1:30 pm to 2:30 pm: Lunch.",
+        "3:30 pm: Visit to Dambulla Golden Buddha Temple.",
+        "4:30 pm: Visit to Sigiriya Lion Rock (outside view).",
+        "8:30 pm: Dinner at the hotel."
+      ]
+    },
+    {
+      "day": 3,
+      "title": "Sigiriya to Kandy",
+      "activities": [
+        "6:00 am to 7:00 am: Breakfast and hotel checkout.",
+        "7:30 am: Journey to Kandy.",
+        "10:00 am to 12:15 pm: Visit to Spice Garden.",
+        "1:30 pm to 2:30 pm: Lunch.",
+        "4:00 pm: Arrival in Kandy.",
+        "4:30 pm to 5:30 pm: Visit Kandy Tooth Relic Temple.",
+        "6:30 pm: Check-in at hotel.",
+        "8:30 pm: Dinner at the hotel."
+      ]
+    },
+    {
+      "day": 4,
+      "title": "Kandy Sightseeing",
+      "activities": [
+        "7:00 am to 8:00 am: Breakfast.",
+        "10:30 am to 11:30 am: Visit Ramboda Hanuman Temple.",
+        "1:00 pm to 2:00 pm: Visit to Sita Ashoka Vatika.",
+        "2:30 pm to 3:30 pm: Lunch.",
+        "4:00 pm to 4:30 pm: Visit Gayatri Mandir.",
+        "6:00 pm: Visit to Tea Factory.",
+        "8:00 pm: Back to hotel.",
+        "8:30 pm: Dinner at the hotel."
+      ]
+    },
+    {
+      "day": 5,
+      "title": "Colombo and Shopping",
+      "activities": [
+        "7:30 am to 8:30 am: Breakfast.",
+        "9:00 am to 10:30 am: Visit Gem Museum.",
+        "1:00 pm to 2:00 pm: Lunch.",
+        "4:00 pm: Visit Vibhishana Temple.",
+        "4:00 pm to 6:00 pm: Shopping at Colombo.",
+        "7:30 pm: Check-in at hotel.",
+        "8:00 pm: Dinner at the hotel."
+      ]
+    },
+    {
+      "day": 6,
+      "title": "Departure from Colombo",
+      "activities": [
+        "4:30 am: Drop at airport with packed breakfast.",
+        "7:50 am: Return journey to Hyderabad (UL177Q - Sri Lankan Airlines).",
+        "9:15 am: Arrival in Hyderabad."
+      ]
+    }
+  ],
         "package_includes": [
           "Hyderabad – Colombo – Hyderabad flight tickets",
           "Visa charges",
@@ -683,7 +710,12 @@
           "Optional tours, cost of puja, entry fees, tips",
           "Other beverages throughout the tour",
           "Any items specifically not mentioned in the itinerary"
-        ]
+        ],
+        "media": [
+        "assets/img/package_europe.jpg",
+        "https://example.com/images/europe_2.jpg",
+        "https://example.com/videos/europe_tour.mp4"
+      ]
     },
     {
         "package_name": "Kailash-Manasarovar Yatra",
@@ -704,143 +736,157 @@
           "Diraphuk",
           "Zuthulphuk"
         ],
-        "itinerary": {
-          "day_1": {
-            "title": "Hyderabad to Kathmandu",
-            "activities": [
-              "Journey from Hyderabad to Kathmandu by Flight (via Delhi).",
-              "Arrival at Kathmandu and transfer to hotel.",
-              "Evening briefing about Manasarovar Yatra.",
-              "9:00 pm: Dinner at Kathmandu."
-            ]
-          },
-          "day_2": {
-            "title": "Kathmandu Local Sightseeing",
-            "activities": [
-              "8:00 am: Breakfast.",
-              "9:00 am to 1:00 pm: Visit Kathmandu local sightseeing spots.",
-              "1:30 pm: Lunch at the hotel.",
-              "Free time for shopping and luggage packing for the Yatra.",
-              "8:00 pm: Dinner at Kathmandu."
-            ]
-          },
-          "day_3": {
-            "title": "Kathmandu to Syabrubesi/Dunche",
-            "activities": [
-              "6:30 am: Breakfast and journey to Syabrubesi/Dunche.",
-              "12:30 pm: Lunch on the way.",
-              "5:00 pm: Arrival and rest at Syabrubesi/Dunche.",
-              "8:00 pm: Dinner at Syabrubesi/Dunche."
-            ]
-          },
-          "day_4": {
-            "title": "Syabrubesi/Dunche to Kerung",
-            "activities": [
-              "7:00 am: Breakfast and journey to Rasuwa border.",
-              "Time for China Immigration and onward journey to Kerung.",
-              "After lunch, check-in to hotel.",
-              "Free time for acclimatization.",
-              "8:00 pm: Dinner at Kerung."
-            ]
-          },
-          "day_5": {
-            "title": "Acclimatization Day at Kerung",
-            "activities": [
-              "8:00 am: Breakfast.",
-              "Full day for acclimatization and shopping in Kerung.",
-              "1:30 pm: Lunch.",
-              "Free time to visit Kerung.",
-              "8:00 pm: Dinner at Kerung."
-            ]
-          },
-          "day_6": {
-            "title": "Kerung to Saga/Dongba",
-            "activities": [
-              "8:00 am: Breakfast and journey to Saga/Dongba.",
-              "1:00 pm: Lunch on the way.",
-              "6:00 pm: Arrival and rest at Saga/Dongba.",
-              "8:00 pm: Dinner at Saga/Dongba."
-            ]
-          },
-          "day_7": {
-            "title": "Saga/Dongba to Manasarovar",
-            "activities": [
-              "7:00 am: Breakfast and journey to Manasarovar.",
-              "12:30 pm: Lunch on the way.",
-              "3:00 pm: First Darshan of Mount Kailash, then start the Manasarovar Lake Parikrama.",
-              "7:00 pm: Arrival at Manasarovar base camp.",
-              "9:00 pm: Dinner at Manasarovar Mud Houses."
-            ]
-          },
-          "day_8": {
-            "title": "Holy Bath in Manasarovar Lake & Journey to Darchen",
-            "activities": [
-              "Holy bath in Manasarovar Lake and Pooja.",
-              "8:00 am: Breakfast.",
-              "12:30 pm: Lunch and journey to Darchen.",
-              "4:00 pm: Arrival and rest at Darchen (Base Camp of Shikara Parikrama).",
-              "8:00 pm: Dinner at Darchen."
-            ]
-          },
-          "day_9": {
-            "title": "Yamadwar - 1st Day Shikara Parikrama",
-            "activities": [
-              "7:30 am: Breakfast and journey to Yamadwar.",
-              "Holy Pooja at Yamadwar, then proceed to first day of Parikrama (Diraphuk, 12 KMS).",
-              "For those not going on Parikrama, they will return to Darchen and stay for 2 days.",
-              "Packaged lunch will be provided.",
-              "6:00 pm: Arrival at Diraphuk, stay at Guest House.",
-              "8:00 pm: Dinner at Diraphuk."
-            ]
-          },
-          "day_10": {
-            "title": "2nd Day Shikara Parikrama",
-            "activities": [
-              "Early morning visit to Mount Kailash in the light of sunrise.",
-              "7:00 am: Breakfast and second day Parikrama (Zuthulphuk, 22 KMS).",
-              "Note: People above 60 years or those who are medically unfit will not be allowed on the second day of Parikrama as per China Government rules.",
-              "Packaged lunch will be provided.",
-              "7:00 pm: Arrival and rest at Zuthulphuk.",
-              "8:00 pm: Dinner at Zuthulphuk."
-            ]
-          },
-          "day_11": {
-            "title": "3rd Day Shikara Parikrama & Return to Saga/Dongba",
-            "activities": [
-              "7:00 am: Breakfast and third day of Parikrama (6 KMS).",
-              "Rest of the group from Darchen will meet at the meeting point.",
-              "12:30 pm: Lunch on the way.",
-              "7:00 pm: Arrival and rest at Saga/Dongba.",
-              "9:00 pm: Dinner at Saga/Dongba."
-            ]
-          },
-          "day_12": {
-            "title": "Saga/Dongba to Kerung",
-            "activities": [
-              "8:00 am: Breakfast and journey to Kerung.",
-              "1:30 pm: Lunch on the way.",
-              "4:00 pm: Arrival at Kerung and rest.",
-              "8:00 pm: Dinner at Kerung."
-            ]
-          },
-          "day_13": {
-            "title": "Kerung to Kathmandu",
-            "activities": [
-              "6:30 am: Breakfast and journey to Rasuwa Border.",
-              "Time for immigration, then journey to Kathmandu.",
-              "1:00 pm: Lunch on the way.",
-              "10:00 pm: Arrival at Kathmandu and dinner."
-            ]
-          },
-          "day_14": {
-            "title": "Kathmandu to Hyderabad",
-            "activities": [
-              "8:00 am: Breakfast.",
-              "Drop at Kathmandu Airport as per flight timings.",
-              "Return journey to Hyderabad via flight (via Delhi)."
-            ]
-          }
-        },
+        "itinerary": [
+    {
+      "day": 1,
+      "title": "Hyderabad to Kathmandu",
+      "activities": [
+        "Journey from Hyderabad to Kathmandu by Flight (via Delhi).",
+        "Arrival at Kathmandu and transfer to hotel.",
+        "Evening briefing about Manasarovar Yatra.",
+        "9:00 pm: Dinner at Kathmandu."
+      ]
+    },
+    {
+      "day": 2,
+      "title": "Kathmandu Local Sightseeing",
+      "activities": [
+        "8:00 am: Breakfast.",
+        "9:00 am to 1:00 pm: Visit Kathmandu local sightseeing spots.",
+        "1:30 pm: Lunch at the hotel.",
+        "Free time for shopping and luggage packing for the Yatra.",
+        "8:00 pm: Dinner at Kathmandu."
+      ]
+    },
+    {
+      "day": 3,
+      "title": "Kathmandu to Syabrubesi/Dunche",
+      "activities": [
+        "6:30 am: Breakfast and journey to Syabrubesi/Dunche.",
+        "12:30 pm: Lunch on the way.",
+        "5:00 pm: Arrival and rest at Syabrubesi/Dunche.",
+        "8:00 pm: Dinner at Syabrubesi/Dunche."
+      ]
+    },
+    {
+      "day": 4,
+      "title": "Syabrubesi/Dunche to Kerung",
+      "activities": [
+        "7:00 am: Breakfast and journey to Rasuwa border.",
+        "Time for China Immigration and onward journey to Kerung.",
+        "After lunch, check-in to hotel.",
+        "Free time for acclimatization.",
+        "8:00 pm: Dinner at Kerung."
+      ]
+    },
+    {
+      "day": 5,
+      "title": "Acclimatization Day at Kerung",
+      "activities": [
+        "8:00 am: Breakfast.",
+        "Full day for acclimatization and shopping in Kerung.",
+        "1:30 pm: Lunch.",
+        "Free time to visit Kerung.",
+        "8:00 pm: Dinner at Kerung."
+      ]
+    },
+    {
+      "day": 6,
+      "title": "Kerung to Saga/Dongba",
+      "activities": [
+        "8:00 am: Breakfast and journey to Saga/Dongba.",
+        "1:00 pm: Lunch on the way.",
+        "6:00 pm: Arrival and rest at Saga/Dongba.",
+        "8:00 pm: Dinner at Saga/Dongba."
+      ]
+    },
+    {
+      "day": 7,
+      "title": "Saga/Dongba to Manasarovar",
+      "activities": [
+        "7:00 am: Breakfast and journey to Manasarovar.",
+        "12:30 pm: Lunch on the way.",
+        "3:00 pm: First Darshan of Mount Kailash, then start the Manasarovar Lake Parikrama.",
+        "7:00 pm: Arrival at Manasarovar base camp.",
+        "9:00 pm: Dinner at Manasarovar Mud Houses."
+      ]
+    },
+    {
+      "day": 8,
+      "title": "Holy Bath in Manasarovar Lake & Journey to Darchen",
+      "activities": [
+        "Holy bath in Manasarovar Lake and Pooja.",
+        "8:00 am: Breakfast.",
+        "12:30 pm: Lunch and journey to Darchen.",
+        "4:00 pm: Arrival and rest at Darchen (Base Camp of Shikara Parikrama).",
+        "8:00 pm: Dinner at Darchen."
+      ]
+    },
+    {
+      "day": 9,
+      "title": "Yamadwar - 1st Day Shikara Parikrama",
+      "activities": [
+        "7:30 am: Breakfast and journey to Yamadwar.",
+        "Holy Pooja at Yamadwar, then proceed to first day of Parikrama (Diraphuk, 12 KMS).",
+        "For those not going on Parikrama, they will return to Darchen and stay for 2 days.",
+        "Packaged lunch will be provided.",
+        "6:00 pm: Arrival at Diraphuk, stay at Guest House.",
+        "8:00 pm: Dinner at Diraphuk."
+      ]
+    },
+    {
+      "day": 10,
+      "title": "2nd Day Shikara Parikrama",
+      "activities": [
+        "Early morning visit to Mount Kailash in the light of sunrise.",
+        "7:00 am: Breakfast and second day Parikrama (Zuthulphuk, 22 KMS).",
+        "Note: People above 60 years or those who are medically unfit will not be allowed on the second day of Parikrama as per China Government rules.",
+        "Packaged lunch will be provided.",
+        "7:00 pm: Arrival and rest at Zuthulphuk.",
+        "8:00 pm: Dinner at Zuthulphuk."
+      ]
+    },
+    {
+      "day": 11,
+      "title": "3rd Day Shikara Parikrama & Return to Saga/Dongba",
+      "activities": [
+        "7:00 am: Breakfast and third day of Parikrama (6 KMS).",
+        "Rest of the group from Darchen will meet at the meeting point.",
+        "12:30 pm: Lunch on the way.",
+        "7:00 pm: Arrival and rest at Saga/Dongba.",
+        "9:00 pm: Dinner at Saga/Dongba."
+      ]
+    },
+    {
+      "day": 12,
+      "title": "Saga/Dongba to Kerung",
+      "activities": [
+        "8:00 am: Breakfast and journey to Kerung.",
+        "1:30 pm: Lunch on the way.",
+        "4:00 pm: Arrival at Kerung and rest.",
+        "8:00 pm: Dinner at Kerung."
+      ]
+    },
+    {
+      "day": 13,
+      "title": "Kerung to Kathmandu",
+      "activities": [
+        "6:30 am: Breakfast and journey to Rasuwa Border.",
+        "Time for immigration, then journey to Kathmandu.",
+        "1:00 pm: Lunch on the way.",
+        "10:00 pm: Arrival at Kathmandu and dinner."
+      ]
+    },
+    {
+      "day": 14,
+      "title": "Kathmandu to Hyderabad",
+      "activities": [
+        "8:00 am: Breakfast.",
+        "Drop at Kathmandu Airport as per flight timings.",
+        "Return journey to Hyderabad via flight (via Delhi)."
+      ]
+    }
+  ],
         "package_includes": [
           "Hyderabad – Kathmandu – Hyderabad Flight Tickets.",
           "Visa charges.",
@@ -856,6 +902,11 @@
           "Other beverages throughout the tour.",
           "Any items specifically not mentioned in the itinerary."
         ],
+        "media": [
+        "assets/img/package_europe.jpg",
+        "https://example.com/images/europe_2.jpg",
+        "https://example.com/videos/europe_tour.mp4"
+      ],
         "note": "Customers should pay for any extra charges incurred due to returning from the tour early because of health conditions or personal problems. This includes visa cancellation charges, transportation, accommodation, and flight tickets."
     },
     {
@@ -868,8 +919,9 @@
           "Bangkok",
           "Pattaya"
         ],
-        "itinerary": {
-          "day_1": {
+        "itinerary": [
+          {
+            "day": 1,
             "title": "Journey to Bangkok",
             "activities": [
               "Departure to Bangkok.",
@@ -883,7 +935,8 @@
               "Overnight stay at Pattaya."
             ]
           },
-          "day_2": {
+          {
+            "day": 2,
             "title": "Pattaya - Coral Island Tour",
             "activities": [
               "8:00 am: Breakfast at the hotel.",
@@ -894,7 +947,8 @@
               "Overnight stay at Pattaya."
             ]
           },
-          "day_3": {
+          {
+            "day": 3,
             "title": "Pattaya - Noong Nooch Village Visit",
             "activities": [
               "8:00 am: Breakfast.",
@@ -906,7 +960,8 @@
               "Overnight stay at Pattaya."
             ]
           },
-          "day_4": {
+          {
+            "day": 4,
             "title": "Pattaya to Bangkok",
             "activities": [
               "8:00 am: Breakfast.",
@@ -919,7 +974,8 @@
               "Overnight stay at Bangkok."
             ]
           },
-          "day_5": {
+          {
+            "day": 5,
             "title": "Bangkok – Hyderabad",
             "activities": [
               "8:00 am: Breakfast.",
@@ -930,7 +986,7 @@
               "Flight to Hyderabad."
             ]
           }
-        },
+        ],
         "package_includes": [
           "Breakfast, Lunch, and Dinner.",
           "Hotel accommodation at Pattaya and Bangkok.",
@@ -945,7 +1001,12 @@
           "Tips and any other personal expenses.",
           "Any entry tickets other than those mentioned in the itinerary.",
           "Alcoholic beverages, cool drinks."
-        ]
+        ],
+        "media": [
+        "assets/img/package_europe.jpg",
+        "https://example.com/images/europe_2.jpg",
+        "https://example.com/videos/europe_tour.mp4"
+      ]
     },
     {
         "package_name": "Dubai Special Tour",
@@ -962,71 +1023,76 @@
           "Desert Safari"
         ],
         "package_description": "Experience the magic of Dubai with this special 5-day tour package. From the iconic Burj Khalifa and Ferrari World to the stunning Miracle Garden and Desert Safari, this package offers a blend of modern attractions and cultural landmarks. Explore the dynamic cityscape of Dubai, visit the capital city of Abu Dhabi, and enjoy unforgettable experiences like the Marina Cruise, Dubai Future Museum, and more. Whether you’re seeking adventure or relaxation, this tour ensures a fantastic time for every traveler.",
-        "itinerary": {
-          "day_1": {
-            "title": "Dubai Arrival",
-            "activities": [
-              "Flight to Dubai.",
-              "Arrival in Dubai and after immigration, pickup for city tour.",
-              "Lunch.",
-              "After lunch, check-in to hotel and rest.",
-              "6:00 pm: Pickup for Marina Cruise Dinner.",
-              "After dinner, drop at hotel.",
-              "Overnight stay in Dubai."
-            ]
-          },
-          "day_2": {
-            "title": "Dubai Local",
-            "activities": [
-              "8:00 am: Breakfast.",
-              "10:00 am: Pickup for Miracle Garden.",
-              "1:00 pm: Lunch.",
-              "3:00 pm: Drop at Dubai Mall for Burj Khalifa 124th Floor visit.",
-              "7:00 pm: Pickup from Dubai Mall.",
-              "8:00 pm: Dinner at hotel or Indian restaurant.",
-              "Drop back to hotel.",
-              "Overnight stay in Dubai."
-            ]
-          },
-          "day_3": {
-            "title": "Abu Dhabi",
-            "activities": [
-              "8:00 am: Breakfast.",
-              "9:00 am: Pickup from hotel and journey to Abu Dhabi.",
-              "11:30 am: Visit Sheikh Zayed Mosque.",
-              "1:00 pm: Lunch.",
-              "Continue Abu Dhabi city tour.",
-              "4:00 pm: Photo stop at Ferrari World.",
-              "5:00 pm: Return to Dubai.",
-              "9:00 pm: Dinner at hotel or Indian restaurant.",
-              "Overnight stay in Dubai."
-            ]
-          },
-          "day_4": {
-            "title": "Dubai Local",
-            "activities": [
-              "8:00 am: Breakfast.",
-              "10:00 am: Pickup for Dubai Future Museum visit.",
-              "Lunch at hotel.",
-              "3:00 pm: Pickup for Desert Safari Dinner.",
-              "9:00 pm: Drop back to hotel.",
-              "Overnight stay in Dubai."
-            ]
-          },
-          "day_5": {
-            "title": "Dubai Local - Departure",
-            "activities": [
-              "9:00 am: Breakfast.",
-              "Check-out and keep luggage in hotel lobby.",
-              "Shopping at Gold Souq.",
-              "Lunch.",
-              "Visit Dubai Frame.",
-              "Drop at airport.",
-              "Flight to Hyderabad.",
-              "Arrival in Hyderabad."
-            ]
-          }
-        },
+        "itinerary": [
+    {
+      "day": 1,
+      "title": "Dubai Arrival",
+      "activities": [
+        "Flight to Dubai.",
+        "Arrival in Dubai and after immigration, pickup for city tour.",
+        "Lunch.",
+        "After lunch, check-in to hotel and rest.",
+        "6:00 pm: Pickup for Marina Cruise Dinner.",
+        "After dinner, drop at hotel.",
+        "Overnight stay in Dubai."
+      ]
+    },
+    {
+      "day": 2,
+      "title": "Dubai Local",
+      "activities": [
+        "8:00 am: Breakfast.",
+        "10:00 am: Pickup for Miracle Garden.",
+        "1:00 pm: Lunch.",
+        "3:00 pm: Drop at Dubai Mall for Burj Khalifa 124th Floor visit.",
+        "7:00 pm: Pickup from Dubai Mall.",
+        "8:00 pm: Dinner at hotel or Indian restaurant.",
+        "Drop back to hotel.",
+        "Overnight stay in Dubai."
+      ]
+    },
+    {
+      "day": 3,
+      "title": "Abu Dhabi",
+      "activities": [
+        "8:00 am: Breakfast.",
+        "9:00 am: Pickup from hotel and journey to Abu Dhabi.",
+        "11:30 am: Visit Sheikh Zayed Mosque.",
+        "1:00 pm: Lunch.",
+        "Continue Abu Dhabi city tour.",
+        "4:00 pm: Photo stop at Ferrari World.",
+        "5:00 pm: Return to Dubai.",
+        "9:00 pm: Dinner at hotel or Indian restaurant.",
+        "Overnight stay in Dubai."
+      ]
+    },
+    {
+      "day": 4,
+      "title": "Dubai Local",
+      "activities": [
+        "8:00 am: Breakfast.",
+        "10:00 am: Pickup for Dubai Future Museum visit.",
+        "Lunch at hotel.",
+        "3:00 pm: Pickup for Desert Safari Dinner.",
+        "9:00 pm: Drop back to hotel.",
+        "Overnight stay in Dubai."
+      ]
+    },
+    {
+      "day": 5,
+      "title": "Dubai Local - Departure",
+      "activities": [
+        "9:00 am: Breakfast.",
+        "Check-out and keep luggage in hotel lobby.",
+        "Shopping at Gold Souq.",
+        "Lunch.",
+        "Visit Dubai Frame.",
+        "Drop at airport.",
+        "Flight to Hyderabad.",
+        "Arrival in Hyderabad."
+      ]
+    }
+  ],
         "package_includes": [
           "Flight tickets.",
           "4-night hotel accommodation.",
@@ -1050,7 +1116,12 @@
           "vaccination": "Double-dose vaccination is compulsory for all travelers, or RT-PCR test required 48 hours before travel date.",
           "return_to_india": "Same rule applies while returning to India.",
           "air_suvida_portal": "Upload vaccination certificate, passport front page, and passport-size photo to the Air Suvida portal 24 hours before arrival to India."
-        }
+        },
+        "media": [
+        "assets/img/package_europe.jpg",
+        "https://example.com/images/europe_2.jpg",
+        "https://example.com/videos/europe_tour.mp4"
+      ]
     },
     {
         "package_name": "Chardham Special Package",
@@ -1069,156 +1140,170 @@
           "Rishikesh"
         ],
         "package_description": "Embark on a divine journey with the Chardham Special Package, visiting the most sacred temples in India. From the spiritual vibrancy of Delhi and Haridwar to the high-altitude temples of Kedarnath and Badrinath, this package offers a deep, enriching experience of India’s spiritual heritage. Explore the holy shrines, partake in sacred ceremonies, and enjoy the serenity of the Himalayas while traveling in comfort. A perfect pilgrimage for those seeking spiritual enlightenment and adventure.",
-        "itinerary": {
-          "day_1": {
-            "title": "Arrival Delhi – Akshardham",
-            "activities": [
-              "Pickup from Delhi Airport / Railway Station.",
-              "Check in to Hotel (Check-in time as per Hotel Policy).",
-              "After lunch, visit Akshardham temple.",
-              "8:30 pm: Dinner.",
-              "Overnight stay at Delhi."
-            ]
-          },
-          "day_2": {
-            "title": "Visit Delhi Local – Haridwar Journey",
-            "activities": [
-              "7:30 am: Breakfast.",
-              "8:00 am to 1:00 pm: Visit Delhi local sightseeing.",
-              "1:30 pm: Lunch.",
-              "Journey to Haridwar.",
-              "8:30 pm: Dinner.",
-              "Overnight stay at Haridwar."
-            ]
-          },
-          "day_3": {
-            "title": "Visit Haridwar Local",
-            "activities": [
-              "7:30 am: Breakfast.",
-              "8:00 am to 2:00 pm: Visit Manasa Devi Temple and Chandi Devi Temple.",
-              "2:30 pm: Lunch.",
-              "5:00 pm to 7:00 pm: Visit Ganga Harathi.",
-              "8:30 pm: Dinner.",
-              "Overnight stay at Haridwar."
-            ]
-          },
-          "day_4": {
-            "title": "Haridwar – Ranachatti Journey",
-            "activities": [
-              "6:30 am: Breakfast and journey to Ranachatti.",
-              "1:00 pm: Lunch on the way.",
-              "6:00 pm: Arrival at Ranachatti and rest.",
-              "8:00 pm: Dinner.",
-              "Overnight stay at Ranachatti."
-            ]
-          },
-          "day_5": {
-            "title": "Yamunothri Temple Darshan",
-            "activities": [
-              "6:30 am: Breakfast.",
-              "Journey to JanakiChatti.",
-              "8:00 am to 4:00 pm: Visit Yamunothri Temple Darshan (by walk, doli, or horse).",
-              "Return journey to Ranachatti.",
-              "8:30 pm: Dinner.",
-              "Overnight stay at Ranachatti."
-            ]
-          },
-          "day_6": {
-            "title": "Uttarkashi Journey – Visit Uttarkashi Temple",
-            "activities": [
-              "7:00 am: Breakfast.",
-              "Journey to Uttarkashi.",
-              "2:00 pm: Arrival and lunch.",
-              "4:00 pm to 6:00 pm: Visit Uttarkashi (Kashi Viswanath) temple.",
-              "8:00 pm: Dinner.",
-              "Overnight stay at Uttarkashi."
-            ]
-          },
-          "day_7": {
-            "title": "Gangothri Temple Visit",
-            "activities": [
-              "4:00 am: Journey starts to Gangothri.",
-              "8:00 am: Breakfast on the way.",
-              "9:00 am to 12:00 pm: Holy bath and visit Gangothri temple.",
-              "1:30 pm: Lunch.",
-              "Return to Uttarkashi.",
-              "8:00 pm: Dinner.",
-              "Overnight stay at Uttarkashi."
-            ]
-          },
-          "day_8": {
-            "title": "Rampur Journey",
-            "activities": [
-              "6:00 am: Breakfast.",
-              "Journey to Rampur.",
-              "1:30 pm: Lunch on the way.",
-              "7:00 pm: Arrival and rest.",
-              "9:00 pm: Dinner.",
-              "Overnight stay at Rampur."
-            ]
-          },
-          "day_9": {
-            "title": "Kedarnath Temple Visit",
-            "activities": [
-              "6:00 am to 7:00 pm: Full day visit Kedarnath temple.",
-              "Packed breakfast.",
-              "Dinner at hotel.",
-              "Overnight stay at Rampur."
-            ]
-          },
-          "day_10": {
-            "title": "Optional Day for Kedarnath Visit",
-            "activities": [
-              "6:00 am to 7:00 pm: Optional full day visit Kedarnath temple.",
-              "Packed breakfast.",
-              "Dinner at hotel.",
-              "Overnight stay at Rampur."
-            ]
-          },
-          "day_11": {
-            "title": "Rampur – Badrinath Journey",
-            "activities": [
-              "7:00 am: Breakfast.",
-              "Journey to Badrinath.",
-              "1:00 pm: Lunch on the way.",
-              "7:00 pm: Arrival at Badrinath.",
-              "8:30 pm: Dinner.",
-              "Overnight stay at Badrinath."
-            ]
-          },
-          "day_12": {
-            "title": "Badrinath Temple Visit",
-            "activities": [
-              "8:00 am: Breakfast.",
-              "9:00 am to 1:00 pm: Visit Badrinath temple and perform pooja at Brahmakapalam.",
-              "1:30 pm: Lunch.",
-              "4:00 pm to 6:00 pm: Visit Mana Village by local vehicle.",
-              "8:30 pm: Dinner.",
-              "Overnight stay at Badrinath."
-            ]
-          },
-          "day_13": {
-            "title": "Visit Rishikesh Local – Haridwar Journey",
-            "activities": [
-              "5:00 am: Journey starts to Rishikesh.",
-              "8:00 am: Breakfast.",
-              "1:30 pm: Lunch.",
-              "6:00 pm to 8:00 pm: Visit Rishikesh local sightseeing.",
-              "Proceed to Haridwar.",
-              "9:30 pm: Dinner.",
-              "Overnight stay at Haridwar."
-            ]
-          },
-          "day_14": {
-            "title": "Return Journey",
-            "activities": [
-              "8:00 am: Breakfast and check-out from the hotel.",
-              "9:00 am: Journey to Delhi.",
-              "After lunch, drop at Delhi Airport / Railway Station.",
-              "Overnight stay at Haridwar."
-            ]
-          }
-        },
+        "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival Delhi – Akshardham",
+      "activities": [
+        "Pickup from Delhi Airport / Railway Station.",
+        "Check in to Hotel (Check-in time as per Hotel Policy).",
+        "After lunch, visit Akshardham temple.",
+        "8:30 pm: Dinner.",
+        "Overnight stay at Delhi."
+      ]
+    },
+    {
+      "day": 2,
+      "title": "Visit Delhi Local – Haridwar Journey",
+      "activities": [
+        "7:30 am: Breakfast.",
+        "8:00 am to 1:00 pm: Visit Delhi local sightseeing.",
+        "1:30 pm: Lunch.",
+        "Journey to Haridwar.",
+        "8:30 pm: Dinner.",
+        "Overnight stay at Haridwar."
+      ]
+    },
+    {
+      "day": 3,
+      "title": "Visit Haridwar Local",
+      "activities": [
+        "7:30 am: Breakfast.",
+        "8:00 am to 2:00 pm: Visit Manasa Devi Temple and Chandi Devi Temple.",
+        "2:30 pm: Lunch.",
+        "5:00 pm to 7:00 pm: Visit Ganga Harathi.",
+        "8:30 pm: Dinner.",
+        "Overnight stay at Haridwar."
+      ]
+    },
+    {
+      "day": 4,
+      "title": "Haridwar – Ranachatti Journey",
+      "activities": [
+        "6:30 am: Breakfast and journey to Ranachatti.",
+        "1:00 pm: Lunch on the way.",
+        "6:00 pm: Arrival at Ranachatti and rest.",
+        "8:00 pm: Dinner.",
+        "Overnight stay at Ranachatti."
+      ]
+    },
+    {
+      "day": 5,
+      "title": "Yamunothri Temple Darshan",
+      "activities": [
+        "6:30 am: Breakfast.",
+        "Journey to JanakiChatti.",
+        "8:00 am to 4:00 pm: Visit Yamunothri Temple Darshan (by walk, doli, or horse).",
+        "Return journey to Ranachatti.",
+        "8:30 pm: Dinner.",
+        "Overnight stay at Ranachatti."
+      ]
+    },
+    {
+      "day": 6,
+      "title": "Uttarkashi Journey – Visit Uttarkashi Temple",
+      "activities": [
+        "7:00 am: Breakfast.",
+        "Journey to Uttarkashi.",
+        "2:00 pm: Arrival and lunch.",
+        "4:00 pm to 6:00 pm: Visit Uttarkashi (Kashi Viswanath) temple.",
+        "8:00 pm: Dinner.",
+        "Overnight stay at Uttarkashi."
+      ]
+    },
+    {
+      "day": 7,
+      "title": "Gangothri Temple Visit",
+      "activities": [
+        "4:00 am: Journey starts to Gangothri.",
+        "8:00 am: Breakfast on the way.",
+        "9:00 am to 12:00 pm: Holy bath and visit Gangothri temple.",
+        "1:30 pm: Lunch.",
+        "Return to Uttarkashi.",
+        "8:00 pm: Dinner.",
+        "Overnight stay at Uttarkashi."
+      ]
+    },
+    {
+      "day": 8,
+      "title": "Rampur Journey",
+      "activities": [
+        "6:00 am: Breakfast.",
+        "Journey to Rampur.",
+        "1:30 pm: Lunch on the way.",
+        "7:00 pm: Arrival and rest.",
+        "9:00 pm: Dinner.",
+        "Overnight stay at Rampur."
+      ]
+    },
+    {
+      "day": 9,
+      "title": "Kedarnath Temple Visit",
+      "activities": [
+        "6:00 am to 7:00 pm: Full day visit Kedarnath temple.",
+        "Packed breakfast.",
+        "Dinner at hotel.",
+        "Overnight stay at Rampur."
+      ]
+    },
+    {
+      "day": 10,
+      "title": "Optional Day for Kedarnath Visit",
+      "activities": [
+        "6:00 am to 7:00 pm: Optional full day visit Kedarnath temple.",
+        "Packed breakfast.",
+        "Dinner at hotel.",
+        "Overnight stay at Rampur."
+      ]
+    },
+    {
+      "day": 11,
+      "title": "Rampur – Badrinath Journey",
+      "activities": [
+        "7:00 am: Breakfast.",
+        "Journey to Badrinath.",
+        "1:00 pm: Lunch on the way.",
+        "7:00 pm: Arrival at Badrinath.",
+        "8:30 pm: Dinner.",
+        "Overnight stay at Badrinath."
+      ]
+    },
+    {
+      "day": 12,
+      "title": "Badrinath Temple Visit",
+      "activities": [
+        "8:00 am: Breakfast.",
+        "9:00 am to 1:00 pm: Visit Badrinath temple and perform pooja at Brahmakapalam.",
+        "1:30 pm: Lunch.",
+        "4:00 pm to 6:00 pm: Visit Mana Village by local vehicle.",
+        "8:30 pm: Dinner.",
+        "Overnight stay at Badrinath."
+      ]
+    },
+    {
+      "day": 13,
+      "title": "Visit Rishikesh Local – Haridwar Journey",
+      "activities": [
+        "5:00 am: Journey starts to Rishikesh.",
+        "8:00 am: Breakfast.",
+        "1:30 pm: Lunch.",
+        "6:00 pm to 8:00 pm: Visit Rishikesh local sightseeing.",
+        "Proceed to Haridwar.",
+        "9:30 pm: Dinner.",
+        "Overnight stay at Haridwar."
+      ]
+    },
+    {
+      "day": 14,
+      "title": "Return Journey",
+      "activities": [
+        "8:00 am: Breakfast and check-out from the hotel.",
+        "9:00 am: Journey to Delhi.",
+        "After lunch, drop at Delhi Airport / Railway Station.",
+        "Overnight stay at Haridwar."
+      ]
+    }
+  ],
         "package_includes": [
           "AC Vehicle for road transportation.",
           "Breakfast, Lunch, and Dinner.",
@@ -1257,8 +1342,9 @@
           "Chandigarh"
         ],
         "package_description": "The North India Special Package offers a rich spiritual and cultural experience, taking you through sacred temples, historic landmarks, and the picturesque landscapes of northern India. From the holy shrines of Amritsar and Vaishno Devi to the serene beauty of Dalhousie, Dharamshala, and Chandigarh, this tour provides a complete experience of devotion, history, and nature. Explore the iconic Wagah Border, visit renowned temples like Chamunda, Jwalamukhi, and Naina Devi, and end your journey with a local tour of Delhi. A perfect pilgrimage for those looking to experience the divine beauty of North India.",
-        "itinerary": {
-          "day_1": {
+        "itinerary": [
+          {
+            "day": 1,
             "title": "Arrival Ahmedabad – Akshardham",
             "activities": [
               "Journey starts from Hyderabad to Delhi by flight.",
@@ -1269,7 +1355,8 @@
               "Overnight stay at Amritsar."
             ]
           },
-          "day_2": {
+          {
+            "day": 2,
             "title": "Visit Amritsar – Wagah Border",
             "activities": [
               "8:00 am: Breakfast.",
@@ -1280,7 +1367,8 @@
               "Overnight stay at Dwarka."
             ]
           },
-          "day_3": {
+          {
+            "day": 3,
             "title": "Visit Jammu",
             "activities": [
               "8:00 am: Breakfast and journey to Katra.",
@@ -1291,7 +1379,8 @@
               "Overnight stay at Katra."
             ]
           },
-          "day_4": {
+          {
+            "day": 4,
             "title": "Visit Vaishno Devi Temple",
             "activities": [
               "8:00 am: Breakfast.",
@@ -1301,7 +1390,8 @@
               "Overnight stay at Katra."
             ]
           },
-          "day_5": {
+          {
+            "day": 5,
             "title": "Dalhousie Journey",
             "activities": [
               "8:00 am: Breakfast.",
@@ -1312,7 +1402,8 @@
               "Overnight stay at Dalhousie."
             ]
           },
-          "day_6": {
+          {
+            "day": 6,
             "title": "Visit Dalhousie",
             "activities": [
               "8:00 am: Breakfast.",
@@ -1322,7 +1413,8 @@
               "Overnight stay at Dalhousie."
             ]
           },
-          "day_7": {
+          {
+            "day": 7,
             "title": "Dharamshala Journey",
             "activities": [
               "8:00 am: Breakfast.",
@@ -1334,7 +1426,8 @@
               "Overnight stay at Dharamshala."
             ]
           },
-          "day_8": {
+          {
+            "day": 8,
             "title": "Visit Dharamshala – Kangra",
             "activities": [
               "8:00 am: Breakfast.",
@@ -1346,7 +1439,8 @@
               "Overnight stay at Chamunda."
             ]
           },
-          "day_9": {
+          {
+            "day": 9,
             "title": "Visit Chamunda – Jwalamukhi",
             "activities": [
               "6:00 am to 8:00 am: Visit Chamunda Temple.",
@@ -1359,7 +1453,8 @@
               "Overnight stay at Chintapurni."
             ]
           },
-          "day_10": {
+          {
+            "day": 10,
             "title": "Visit Chintapurni – Naina Devi",
             "activities": [
               "6:00 am to 7:30 am: Visit Chintapurni Temple.",
@@ -1372,7 +1467,8 @@
               "Overnight stay at Chandigarh."
             ]
           },
-          "day_11": {
+          {
+            "day": 11,
             "title": "Visit Chandigarh Local",
             "activities": [
               "8:00 am: Breakfast.",
@@ -1383,7 +1479,8 @@
               "Overnight stay at Kurukshetra."
             ]
           },
-          "day_12": {
+          {
+            "day": 12,
             "title": "Visit Kurukshetra Local",
             "activities": [
               "6:00 am to 9:00 am: Visit Kurukshetra local (Jyotisar, Ban Ganga, Badrakali Temple, Brahma Sarovar).",
@@ -1395,7 +1492,8 @@
               "Overnight stay at Delhi."
             ]
           },
-          "day_13": {
+          {
+            "day": 13,
             "title": "Visit Delhi Local – Return Journey",
             "activities": [
               "7:30 am: Breakfast.",
@@ -1404,7 +1502,8 @@
               "Drop at Delhi Airport for departure."
             ]
           }
-        },
+        ]
+        ,
         "package_includes": [
           "AC vehicle for road transportation.",
           "Breakfast, lunch, and dinner.",
@@ -1445,8 +1544,9 @@
           "Omkareshwar"
         ],
         "package_description": "The Gujarat Special Flight Package offers a spiritual and scenic journey across Gujarat's most revered temples, historical landmarks, and natural wonders. Experience the holy pilgrimages of Dwarka, Somnath, and Ambaji, along with a visit to the majestic Statue of Unity. The package also includes visits to Mount Abu and Ujjain, with spiritual rituals like Abhishekam and Kumkum Pooja to elevate the experience. A perfect blend of history, culture, and spirituality, this package provides a unique and enriching journey across Gujarat and beyond.",
-        "itinerary": {
-          "day_1": {
+        "itinerary": [
+          {
+            "day": 1,
             "title": "Arrival Ahmedabad – Akshardham",
             "activities": [
               "Journey starts from Hyderabad to Ahmedabad by flight.",
@@ -1458,7 +1558,8 @@
               "Overnight stay at Ahmedabad."
             ]
           },
-          "day_2": {
+          {
+            "day": 2,
             "title": "Dwarka Journey – Visit Dwarka Main Temple",
             "activities": [
               "7:00 am: Breakfast.",
@@ -1470,7 +1571,8 @@
               "Overnight stay at Dwarka."
             ]
           },
-          "day_3": {
+          {
+            "day": 3,
             "title": "Bet Dwarka – Nagesham – MulDwarka – Porbandar – Somnath Journey",
             "activities": [
               "7:30 am: Breakfast.",
@@ -1482,7 +1584,8 @@
               "Overnight stay at Somnath."
             ]
           },
-          "day_4": {
+          {
+            "day": 4,
             "title": "Abhishekam at Somnath Old Temple – Visit New Temple – Local Temples",
             "activities": [
               "6:00 am to 9:00 am: Abhishekam at Somnath Old Temple and visit to New Temple.",
@@ -1493,7 +1596,8 @@
               "Overnight stay at Somnath."
             ]
           },
-          "day_5": {
+          {
+            "day": 5,
             "title": "Vadodara Journey",
             "activities": [
               "8:00 am: Breakfast.",
@@ -1504,7 +1608,8 @@
               "Overnight stay at Vadodara."
             ]
           },
-          "day_6": {
+          {
+            "day": 6,
             "title": "Visit Statue of Unity – Ahmedabad Journey",
             "activities": [
               "7:30 am: Breakfast.",
@@ -1517,7 +1622,8 @@
               "Overnight stay at Ahmedabad."
             ]
           },
-          "day_7": {
+          {
+            "day": 7,
             "title": "Visit Ahmedabad Local",
             "activities": [
               "8:00 am: Breakfast.",
@@ -1528,7 +1634,8 @@
               "Overnight stay at Ahmedabad."
             ]
           },
-          "day_8": {
+          {
+            "day": 8,
             "title": "Visit Mathru Gaya – Ambaji – Mount Abu Journey",
             "activities": [
               "7:00 am: Breakfast.",
@@ -1543,7 +1650,8 @@
               "Overnight stay at Abu Road."
             ]
           },
-          "day_9": {
+          {
+            "day": 9,
             "title": "Abhishekham – Kumkum Pooja",
             "activities": [
               "4:30 am to 8:00 am: Abhishekam at Viswanath Temple and Kumkum Pooja at Annapurna Devi Temple.",
@@ -1554,7 +1662,8 @@
               "Overnight stay at Kashi."
             ]
           },
-          "day_10": {
+          {
+            "day": 10,
             "title": "Visit Nath Dwarka – Kankroli Dwarka – Udaipur Railway Station Drop",
             "activities": [
               "5:00 am to 7:00 am: Visit Nath Dwarka Temple.",
@@ -1568,7 +1677,8 @@
               "Overnight journey by train to Indore."
             ]
           },
-          "day_11": {
+          {
+            "day": 11,
             "title": "Arrival Ahmedabad – Akshardham",
             "activities": [
               "9:00 am: Arrival at Indore and proceed to hotel.",
@@ -1581,7 +1691,8 @@
               "Overnight stay at Indore."
             ]
           },
-          "day_12": {
+          {
+            "day": 12,
             "title": "Visit Ujjain Local Temples – Return Journey",
             "activities": [
               "7:00 am: Breakfast.",
@@ -1593,7 +1704,8 @@
               "6:00 pm: Arrival in Hyderabad."
             ]
           }
-        },
+        ]
+        ,
         "package_includes": [
           "AC vehicle for road transportation.",
           "Breakfast, lunch, and dinner.",
@@ -1631,8 +1743,9 @@
           "Ayodhya"
         ],
         "package_description": "The Naimisaranyam Kashi-Gaya Special Package is a spiritual journey across the most sacred temples and pilgrimage sites in India. From the ancient temples of Naimisaranyam and Ayodhya to the holy city of Kashi (Varanasi), and the profound rituals at Prayaga (Allahabad), this tour encompasses key sites for both worship and spiritual growth. It also includes a visit to Bodh Gaya, where Lord Buddha attained enlightenment, and the sacred town of Gaya for ancestral rituals.",
-        "itinerary": {
-          "day_1": {
+        "itinerary": [
+          {
+            "day": 1,
             "title": "Arrival Lucknow – Visit Naimisaranyam Temples",
             "activities": [
               "Journey starts from Hyderabad to Lucknow by flight.",
@@ -1644,7 +1757,8 @@
               "Overnight stay at Naimisaranyam."
             ]
           },
-          "day_2": {
+          {
+            "day": 2,
             "title": "Satyanarayana Swami Vratam – Ayodhya Journey",
             "activities": [
               "8:00 am: Breakfast.",
@@ -1654,7 +1768,8 @@
               "Overnight stay at Kashi."
             ]
           },
-          "day_3": {
+          {
+            "day": 3,
             "title": "Visit Kashi Local Temples",
             "activities": [
               "8:00 am: Breakfast.",
@@ -1665,7 +1780,8 @@
               "Overnight stay at Kashi."
             ]
           },
-          "day_4": {
+          {
+            "day": 4,
             "title": "Visit Allahabad – Madhaveshwari Temple",
             "activities": [
               "4:00 am: Journey starts to Allahabad.",
@@ -1679,7 +1795,8 @@
               "Overnight stay at Kashi."
             ]
           },
-          "day_5": {
+          {
+            "day": 5,
             "title": "Visit Kashi Vishwanath Temple",
             "activities": [
               "6:00 am to 8:00 am: Visit Kashi Vishwanath Temple.",
@@ -1689,7 +1806,8 @@
               "Overnight stay at Kashi."
             ]
           },
-          "day_6": {
+          {
+            "day": 6,
             "title": "Visit Ayodhya Local Temples",
             "activities": [
               "4:00 am: Journey to Ayodhya.",
@@ -1700,7 +1818,8 @@
               "Overnight stay at Kashi."
             ]
           },
-          "day_7": {
+          {
+            "day": 7,
             "title": "Visit Vindhyachal – Sitamarhi",
             "activities": [
               "6:30 am: Breakfast.",
@@ -1714,7 +1833,8 @@
               "Overnight stay at Kashi."
             ]
           },
-          "day_8": {
+          {
+            "day": 8,
             "title": "Ceremony Pooja – Manikarnika Ghat Bath – 64 Ghats – Ganga Harathi",
             "activities": [
               "7:30 am: Breakfast.",
@@ -1726,7 +1846,8 @@
               "Overnight stay at Kashi."
             ]
           },
-          "day_9": {
+          {
+            "day": 9,
             "title": "Abhishekham – Kumkum Pooja",
             "activities": [
               "4:30 am to 8:00 am: Abhishekham at Viswanath Temple and Kumkum Pooja at Annapurna Devi Temple.",
@@ -1737,7 +1858,8 @@
               "Overnight stay at Kashi."
             ]
           },
-          "day_10": {
+          {
+            "day": 10,
             "title": "Sapta Rishi Harathi",
             "activities": [
               "8:00 am: Breakfast.",
@@ -1747,7 +1869,8 @@
               "Overnight stay at Kashi."
             ]
           },
-          "day_11": {
+          {
+            "day": 11,
             "title": "Visit Gaya – Bodh Gaya",
             "activities": [
               "2:00 am: Journey to Gaya.",
@@ -1760,7 +1883,8 @@
               "Overnight stay at Bodh Gaya."
             ]
           },
-          "day_12": {
+          {
+            "day": 12,
             "title": "Return Journey",
             "activities": [
               "8:00 am: Breakfast and journey to Patna.",
@@ -1769,7 +1893,8 @@
               "4:30 pm: Return journey to Hyderabad by flight."
             ]
           }
-        },
+        ]
+        ,
         "package_includes": [
           "AC vehicle for road transportation.",
           "Breakfast, lunch, and dinner.",
@@ -1807,8 +1932,9 @@
           "Varanasi"
         ],
         "package_description": "The Mukthinath Special Package offers a divine pilgrimage to the holy temples across Nepal and India. Starting from the sacred city of Janakpur, it takes you through Mukthinath Temple in the Himalayas, famous for its spiritual significance, and Manokamna Devi Temple, known for fulfilling wishes. Visit the UNESCO-listed Lumbini, the birthplace of Lord Buddha, and conclude your journey with visits to the holy city of Varanasi and Naimisaranyam. This is a spiritual journey you will cherish forever.",
-        "itinerary": {
-          "day_1": {
+        "itinerary": [
+          {
+            "day": 1,
             "title": "Hyderabad – Patna Flight",
             "activities": [
               "Journey starts from Hyderabad to Patna by flight.",
@@ -1818,7 +1944,8 @@
               "Overnight stay at Patna."
             ]
           },
-          "day_2": {
+          {
+            "day": 2,
             "title": "Janakpur Journey – Visit Janakpur",
             "activities": [
               "6:30 am: Breakfast.",
@@ -1830,7 +1957,8 @@
               "Overnight stay at Janakpur."
             ]
           },
-          "day_3": {
+          {
+            "day": 3,
             "title": "Pokhara Journey",
             "activities": [
               "6:30 am: Breakfast.",
@@ -1841,7 +1969,8 @@
               "Overnight stay at Pokhara."
             ]
           },
-          "day_4": {
+          {
+            "day": 4,
             "title": "Mukthinath Darshan by Charter Flight",
             "activities": [
               "6:00 am: After breakfast, journey to Jomsom by flight with packed lunch.",
@@ -1853,7 +1982,8 @@
               "Overnight stay at Jomsom."
             ]
           },
-          "day_5": {
+          {
+            "day": 5,
             "title": "Return From Mukthinath – Pokhara Local",
             "activities": [
               "7:00 am: Journey to Pokhara by flight.",
@@ -1863,7 +1993,8 @@
               "Overnight stay at Pokhara."
             ]
           },
-          "day_6": {
+          {
+            "day": 6,
             "title": "Optional Day",
             "activities": [
               "This day is reserved for any flight delays due to climate uncertainties.",
@@ -1873,7 +2004,8 @@
               "Overnight stay at Pokhara."
             ]
           },
-          "day_7": {
+          {
+            "day": 7,
             "title": "Manakamana Devi Visit – Kathmandu Journey",
             "activities": [
               "6:00 am: Breakfast.",
@@ -1886,7 +2018,8 @@
               "Overnight stay at Kathmandu."
             ]
           },
-          "day_8": {
+          {
+            "day": 8,
             "title": "Visit Full Day Kathmandu Local",
             "activities": [
               "7:30 am: Breakfast.",
@@ -1897,7 +2030,8 @@
               "Overnight stay at Kathmandu."
             ]
           },
-          "day_9": {
+          {
+            "day": 9,
             "title": "Sonauli Journey",
             "activities": [
               "6:30 am: Breakfast.",
@@ -1908,7 +2042,8 @@
               "Overnight stay at Sonauli."
             ]
           },
-          "day_10": {
+          {
+            "day": 10,
             "title": "Visit Lumbini – Naimisharanyam Journey",
             "activities": [
               "7:00 am: Breakfast.",
@@ -1919,7 +2054,8 @@
               "Overnight stay at Naimisharanyam."
             ]
           },
-          "day_11": {
+          {
+            "day": 11,
             "title": "Visit Naimisharanyam temples – Return Journey",
             "activities": [
               "7:30 am: Breakfast and check-out from the hotel.",
@@ -1930,7 +2066,8 @@
               "Overnight stay at Varanasi."
             ]
           },
-          "day_12": {
+          {
+            "day": 12,
             "title": "Visit Kashi Main Temples – 64 Ghats – Ganga Harathi",
             "activities": [
               "8:00 am: Breakfast.",
@@ -1941,7 +2078,8 @@
               "Overnight stay at Varanasi."
             ]
           },
-          "day_13": {
+          {
+            "day": 13,
             "title": "Visit Main Temple – Return Journey",
             "activities": [
               "8:00 am: Breakfast.",
@@ -1951,7 +2089,8 @@
               "Arrival in Hyderabad."
             ]
           }
-        },
+        ]
+        ,
         "package_includes": [
           "Deluxe AC accommodation.",
           "AC vehicle for road transportation (Except hill stations).",
@@ -1992,8 +2131,9 @@
           "Pushkar"
         ],
         "package_description": "Embark on a magnificent tour across Rajasthan with visits to iconic forts, palaces, and temples. From Jaipur’s Amber Fort to Jaisalmer’s golden sandstone forts, explore the grandeur of royal Rajasthan. This spiritual journey also includes holy temples in Nath Dwarka, Kankroli, and Pushkar. Enjoy local sightseeing in cities like Udaipur, Jodhpur, and Mount Abu, and experience the grandeur of Rajasthan's heritage and culture.",
-        "itinerary": {
-          "day_1": {
+        "itinerary": [
+          {
+            "day": 1,
             "title": "Arrival Jaipur – Visit Amber Fort",
             "activities": [
               "Journey starts from Hyderabad to Jaipur by flight.",
@@ -2004,7 +2144,8 @@
               "Overnight stay at Jaipur."
             ]
           },
-          "day_2": {
+          {
+            "day": 2,
             "title": "Bikaner Journey – Visit Deshnok",
             "activities": [
               "8:00 am: Breakfast.",
@@ -2016,7 +2157,8 @@
               "Overnight stay at Bikaner."
             ]
           },
-          "day_3": {
+          {
+            "day": 3,
             "title": "Visit Bikaner Local – Jaisalmer Journey",
             "activities": [
               "8:00 am: Breakfast.",
@@ -2028,7 +2170,8 @@
               "Overnight stay at Jaisalmer."
             ]
           },
-          "day_4": {
+          {
+            "day": 4,
             "title": "Visit Jaisalmer Local – Sam Sand Dunes",
             "activities": [
               "8:00 am: Breakfast.",
@@ -2040,7 +2183,8 @@
               "Overnight stay at Sam."
             ]
           },
-          "day_5": {
+          {
+            "day": 5,
             "title": "Jodhpur Journey – Visit Umaid Bhavan Palace",
             "activities": [
               "6:30 am: Breakfast and journey to Jodhpur.",
@@ -2051,7 +2195,8 @@
               "Overnight stay at Jodhpur."
             ]
           },
-          "day_6": {
+          {
+            "day": 6,
             "title": "Visit Jodhpur Local – Mount Abu Journey",
             "activities": [
               "7:30 am: Breakfast.",
@@ -2063,7 +2208,8 @@
               "Overnight stay at Mount Abu."
             ]
           },
-          "day_7": {
+          {
+            "day": 7,
             "title": "Visit Mount Abu Local Sightseeing – Udaipur Journey",
             "activities": [
               "8:00 am: Breakfast.",
@@ -2075,7 +2221,8 @@
               "Overnight stay at Udaipur."
             ]
           },
-          "day_8": {
+          {
+            "day": 8,
             "title": "Visit Udaipur Local Sightseeing",
             "activities": [
               "8:00 am: Breakfast.",
@@ -2086,7 +2233,8 @@
               "Overnight stay at Nathdwara."
             ]
           },
-          "day_9": {
+          {
+            "day": 9,
             "title": "Visit Nath Dwarka – Kankroli Dwarka – Pushkar Journey",
             "activities": [
               "5:00 am to 7:00 am: Visit Nath Dwarka Temple.",
@@ -2100,7 +2248,8 @@
               "Overnight stay at Pushkar."
             ]
           },
-          "day_10": {
+          {
+            "day": 10,
             "title": "Visit Jaipur Local – Return Journey",
             "activities": [
               "8:00 am: Breakfast.",
@@ -2112,7 +2261,8 @@
               "10:20 pm: Arrival in Hyderabad. Dinner."
             ]
           }
-        },
+        ]
+        ,
         "package_includes": [
           "AC vehicle for road transportation.",
           "Breakfast, lunch, and dinner.",
@@ -2122,7 +2272,12 @@
         "package_excludes": [
           "All entry tickets, insurance, boat, auto charges, personal activities, and tips.",
           "Mount Abu small vehicle charges and flight tickets."
-        ]
+        ],
+        "media": [
+        "assets/img/package_europe.jpg",
+        "https://example.com/images/europe_2.jpg",
+        "https://example.com/videos/europe_tour.mp4"
+      ]
     },
     {
         "package_name": "Kashi Special Package",
@@ -2142,8 +2297,9 @@
           "Bodhgaya"
         ],
         "package_description": "Embark on a divine spiritual journey across sacred destinations in India, with visits to renowned temples and ghats. Experience the sacred rituals of Kashi, witness the confluence of rivers at Prayaga, and explore the holy sites of Allahabad, Sitamarhi, Vindyachal, Ayodhya, and Bodhgaya. This package offers a unique blend of history, spirituality, and culture, making it ideal for those seeking a spiritual retreat.",
-        "itinerary": {
-          "day_1": {
+        "itinerary": [
+          {
+            "day": 1,
             "title": "Arrival in Varanasi – Hotel Check-in",
             "activities": [
               "Journey starts from Hyderabad to Varanasi by flight.",
@@ -2153,7 +2309,8 @@
               "Overnight stay at Kashi."
             ]
           },
-          "day_2": {
+          {
+            "day": 2,
             "title": "Visit Kashi Local Temples",
             "activities": [
               "8:00 am: Breakfast.",
@@ -2164,7 +2321,8 @@
               "Overnight stay at Kashi."
             ]
           },
-          "day_3": {
+          {
+            "day": 3,
             "title": "Visit Allahabad – Madhaveshwari Temple",
             "activities": [
               "4:00 am: Journey starts to Allahabad.",
@@ -2179,7 +2337,8 @@
               "Overnight stay at Kashi."
             ]
           },
-          "day_4": {
+          {
+            "day": 4,
             "title": "Visit Vindhyachal – Sitamarhi",
             "activities": [
               "6:30 am: Breakfast.",
@@ -2193,7 +2352,8 @@
               "Overnight stay at Kashi."
             ]
           },
-          "day_5": {
+          {
+            "day": 5,
             "title": "Visit Kashi Viswanath Temple",
             "activities": [
               "6:00 am to 8:00 am: Visit Kashi Viswanath Temple.",
@@ -2203,7 +2363,8 @@
               "Overnight stay at Kashi."
             ]
           },
-          "day_6": {
+          {
+            "day": 6,
             "title": "Visit Ayodhya Local Temples",
             "activities": [
               "4:00 am: Journey to Ayodhya.",
@@ -2215,7 +2376,8 @@
               "Overnight stay at Kashi."
             ]
           },
-          "day_7": {
+          {
+            "day": 7,
             "title": "Ceremony Pooja – Manikarnika Ghat Bath – 64 Ghats – Ganga Aarti",
             "activities": [
               "8:00 am: Breakfast.",
@@ -2227,7 +2389,8 @@
               "Overnight stay at Kashi."
             ]
           },
-          "day_8": {
+          {
+            "day": 8,
             "title": "Visit Gaya – Bodhgaya",
             "activities": [
               "8:00 am: Breakfast.",
@@ -2242,7 +2405,8 @@
               "Overnight stay at Kashi."
             ]
           },
-          "day_9": {
+          {
+            "day": 9,
             "title": "Visit Main Temples – Sapta Rishi Aarti",
             "activities": [
               "5:00 am to 8:00 am: Visit Kashi Viswanath Mandir, Annapurna Devi Temple, Vishalakshi, and Varahi Temple.",
@@ -2254,7 +2418,8 @@
               "Overnight stay at Kashi."
             ]
           },
-          "day_10": {
+          {
+            "day": 10,
             "title": "Visit Kashi Main Temples – Return Journey",
             "activities": [
               "8:00 am: Breakfast.",
@@ -2266,7 +2431,8 @@
               "Dinner."
             ]
           }
-        },
+        ]
+        ,
         "package_includes": [
           "AC vehicle for road transportation.",
           "Breakfast, Lunch, and Dinner.",
@@ -2277,7 +2443,12 @@
           "All entry tickets, insurance, boat, auto charges, personal activities, and tips.",
           "Ayodhya small vehicle charges.",
           "Flights/Trains (Special Domestic category)."
-        ]
+        ],
+        "media": [
+        "assets/img/package_europe.jpg",
+        "https://example.com/images/europe_2.jpg",
+        "https://example.com/videos/europe_tour.mp4"
+      ]
     },
     {
         "package_name": "Dodham Special Package",
@@ -2294,8 +2465,9 @@
           "Akshardham"
         ],
         "package_description": "Embark on a divine journey through some of India's most sacred and serene destinations. Explore Delhi's iconic landmarks, Haridwar's spiritual ambiance, the holy Kedarnath and Badrinath temples, and the tranquil beauty of Rishikesh. This special package ensures an enriching experience with both pilgrimage and sightseeing in the heart of India's religious culture.",
-        "itinerary": {
-          "day_1": {
+        "itinerary": [
+          {
+            "day": 1,
             "title": "Arrival Delhi – Visit Akshardham",
             "activities": [
               "Pickup from Delhi Airport / Railway Station.",
@@ -2305,7 +2477,8 @@
               "Overnight stay at Delhi."
             ]
           },
-          "day_2": {
+          {
+            "day": 2,
             "title": "Haridwar Journey – Visit Manasa Devi Temple – Ganga Harathi",
             "activities": [
               "5:00 am: Journey starts to Haridwar (with packed breakfast).",
@@ -2316,7 +2489,8 @@
               "Overnight stay at Haridwar."
             ]
           },
-          "day_3": {
+          {
+            "day": 3,
             "title": "Rampur Journey",
             "activities": [
               "7:00 am: Breakfast and journey starts to Rampur.",
@@ -2326,7 +2500,8 @@
               "Overnight stay at Rampur."
             ]
           },
-          "day_4": {
+          {
+            "day": 4,
             "title": "Visit Kedarnath Temple",
             "activities": [
               "3:00 am to 9:00 pm: Full day visit to Kedarnath Temple.",
@@ -2335,14 +2510,16 @@
               "Overnight stay at Rampur."
             ]
           },
-          "day_5": {
+          {
+            "day": 5,
             "title": "Optional Day",
             "activities": [
               "3:00 am to 9:00 pm: Optional day reserved for Kedarnath temple darshan.",
               "Overnight stay at Rampur."
             ]
           },
-          "day_6": {
+          {
+            "day": 6,
             "title": "Pipalkot Journey",
             "activities": [
               "7:30 am: Breakfast.",
@@ -2353,7 +2530,8 @@
               "Overnight stay at Pipalkot."
             ]
           },
-          "day_7": {
+          {
+            "day": 7,
             "title": "Badrinath Darshan",
             "activities": [
               "3:00 am: Journey starts to Badrinath.",
@@ -2366,7 +2544,8 @@
               "Overnight stay at Pipalkot."
             ]
           },
-          "day_8": {
+          {
+            "day": 8,
             "title": "Visit Rishikesh Local – Delhi Journey",
             "activities": [
               "7:00 am: Breakfast and journey starts to Rishikesh.",
@@ -2376,7 +2555,8 @@
               "Overnight stay at Delhi."
             ]
           },
-          "day_9": {
+          {
+            "day": 9,
             "title": "Visit Delhi Local – Return Journey",
             "activities": [
               "3:00 am: Arrival in Delhi and check-in at hotel.",
@@ -2386,7 +2566,8 @@
               "Drop at airport / railway station."
             ]
           }
-        },
+        ]
+        ,
         "package_includes": [
           "Breakfast, Lunch, and Dinner.",
           "Deluxe Accommodation (AC room in Delhi & Haridwar, Non-AC Accommodation at Hill Stations).",
@@ -2397,7 +2578,12 @@
           "All Entry Tickets, Insurance, Boat, Auto charges, Personal Activities, Tips.",
           "Optional tour cost, Flight / Train tickets.",
           "Boat Charges, Auto Rickshaw Charges, Flight / Train tickets, Helicopter Charges, Doli & Horses Charges (Kedarnath)."
-        ]
+        ],
+        "media": [
+        "assets/img/package_europe.jpg",
+        "https://example.com/images/europe_2.jpg",
+        "https://example.com/videos/europe_tour.mp4"
+      ]
     },
     {
         "package_name": "Tamilnadu Special Package",
@@ -2420,15 +2606,17 @@
           "Palani",
           "Coimbatore"
         ],
-        "itinerary": {
-          "day_1": {
+        "itinerary": [
+          {
+            "day": 1,
             "title": "Kanipakam Journey",
             "activities": [
               "4:00 pm: Journey starts from Hyderabad to Kanipakam by Bus.",
               "Overnight journey by bus."
             ]
           },
-          "day_2": {
+          {
+            "day": 2,
             "title": "Visit Kanipakam – Sripuram",
             "activities": [
               "5:00 am: Arrival and freshen up.",
@@ -2442,7 +2630,8 @@
               "Overnight stay at Tiruvannamalai."
             ]
           },
-          "day_3": {
+          {
+            "day": 3,
             "title": "Visit Tiruvannamalai – Chidambaram",
             "activities": [
               "6:00 am to 8:00 am: Visit Tiruvannamalai Temple.",
@@ -2457,7 +2646,8 @@
               "Overnight stay at Kumbakonam."
             ]
           },
-          "day_4": {
+          {
+            "day": 4,
             "title": "Visit Kumbakonam – Srirangam - Jambukeswaram",
             "activities": [
               "6:00 am to 8:00 am: Visit Kumbakonam Temple.",
@@ -2469,7 +2659,8 @@
               "Overnight stay at Srirangam."
             ]
           },
-          "day_5": {
+          {
+            "day": 5,
             "title": "Visit Tanjavur",
             "activities": [
               "7:30 am: Breakfast.",
@@ -2482,7 +2673,8 @@
               "Overnight stay at Rameswaram."
             ]
           },
-          "day_6": {
+          {
+            "day": 6,
             "title": "Visit Rameswaram – Tiruchendur",
             "activities": [
               "5:00 am to 8:00 am: Spatikalinga Darshanam, holy bath in ocean, 22 wells bath, and visit Rameswaram Temple.",
@@ -2495,7 +2687,8 @@
               "Overnight stay at Kanyakumari."
             ]
           },
-          "day_7": {
+          {
+            "day": 7,
             "title": "Visit Sunrise – Kanyakumari Amma Temple – Vivekananda Rock – Madurai",
             "activities": [
               "5:30 am: Visit Sunrise view.",
@@ -2508,7 +2701,8 @@
               "Overnight stay at Madurai."
             ]
           },
-          "day_8": {
+          {
+            "day": 8,
             "title": "Visit Palani",
             "activities": [
               "7:30 am: Breakfast.",
@@ -2521,7 +2715,8 @@
               "Overnight stay at Coimbatore."
             ]
           },
-          "day_9": {
+          {
+            "day": 9,
             "title": "Visit Dyanalingam Temple",
             "activities": [
               "6:00 am to 8:00 am: Visit Dyanalingam Temple.",
@@ -2533,7 +2728,8 @@
               "Overnight stay at Kanchipuram."
             ]
           },
-          "day_10": {
+          {
+            "day": 10,
             "title": "Visit Kanchipuram – Tiruttani – Return Journey",
             "activities": [
               "6:00 am to 8:00 am: Visit Kanchi Kamakshi Temple.",
@@ -2547,13 +2743,15 @@
               "Overnight journey by bus."
             ]
           },
-          "day_11": {
+          {
+            "day": 11,
             "title": "Arrival in Hyderabad",
             "activities": [
               "6:00 am: Arrival in Hyderabad."
             ]
           }
-        },
+        ]
+        ,
         "package_includes": [
           "Breakfast, Lunch, and Dinner.",
           "AC Vehicle for road transportation.",
@@ -2565,7 +2763,12 @@
           "Boat, Auto charges.",
           "Flight tickets.",
           "Personal activities, Tips."
-        ]
+        ],
+        "media": [
+        "assets/img/package_europe.jpg",
+        "https://example.com/images/europe_2.jpg",
+        "https://example.com/videos/europe_tour.mp4"
+      ]
     },
     {
         "package_name": "Shimla-Manali Special Package",
@@ -2582,8 +2785,9 @@
           "Chandigarh",
           "Delhi"
         ],
-        "itinerary": {
-          "day_1": {
+        "itinerary": [
+          {
+            "day": 1,
             "title": "Arrival Delhi – Kurukshetra Journey – Visit Kurukshetra Local",
             "activities": [
               "Journey starts from Hyderabad to Delhi by Flight.",
@@ -2595,7 +2799,8 @@
               "Overnight stay at Kurukshetra."
             ]
           },
-          "day_2": {
+          {
+            "day": 2,
             "title": "Shimla Journey",
             "activities": [
               "7:30 am: Breakfast.",
@@ -2606,7 +2811,8 @@
               "Overnight stay at Shimla."
             ]
           },
-          "day_3": {
+          {
+            "day": 3,
             "title": "Visit Kufri – Manali Journey",
             "activities": [
               "7:00 am: Breakfast.",
@@ -2618,7 +2824,8 @@
               "Overnight stay at Manali."
             ]
           },
-          "day_4": {
+          {
+            "day": 4,
             "title": "Visit Ice Point and Manali Local",
             "activities": [
               "7:00 am: Breakfast.",
@@ -2629,7 +2836,8 @@
               "Overnight stay at Manali."
             ]
           },
-          "day_5": {
+          {
+            "day": 5,
             "title": "River Rafting – Chandigarh Journey",
             "activities": [
               "8:00 am: Breakfast.",
@@ -2639,7 +2847,8 @@
               "Overnight stay at Chandigarh."
             ]
           },
-          "day_6": {
+          {
+            "day": 6,
             "title": "Visit Chandigarh Local – Delhi Journey",
             "activities": [
               "7:30 am: Breakfast.",
@@ -2649,7 +2858,8 @@
               "Overnight stay at Delhi."
             ]
           },
-          "day_7": {
+          {
+            "day": 7,
             "title": "Visit Delhi Local – Return Journey",
             "activities": [
               "8:00 am: Breakfast.",
@@ -2657,7 +2867,8 @@
               "After lunch, drop at Delhi Airport for return journey."
             ]
           }
-        },
+        ]
+        ,
         "package_includes": [
           "Breakfast, Lunch, and Dinner.",
           "Luxury Accommodation.",
@@ -2672,7 +2883,12 @@
           "Optional tour costs.",
           "Boat charges.",
           "Mini vehicle charge for Manali local and Ice Point."
-        ]
+        ],
+        "media": [
+        "assets/img/package_europe.jpg",
+        "https://example.com/images/europe_2.jpg",
+        "https://example.com/videos/europe_tour.mp4"
+      ]
     },
     {
         "package_name": "Kashmir Special Package",
@@ -2686,8 +2902,9 @@
           "Pahalgham",
           "Sonmarg"
         ],
-        "itinerary": {
-          "day_1": {
+        "itinerary": [
+          {
+            "day": 1,
             "title": "Delhi – Srinagar Flight Journey – Dal Lake Shikara",
             "activities": [
               "7:30 am: Breakfast and proceed to Delhi Airport.",
@@ -2699,7 +2916,8 @@
               "Overnight stay at House Boat."
             ]
           },
-          "day_2": {
+          {
+            "day": 2,
             "title": "Visit Full Day Srinagar Local Sightseeing",
             "activities": [
               "8:00 am: Breakfast.",
@@ -2710,7 +2928,8 @@
               "Overnight stay at Srinagar."
             ]
           },
-          "day_3": {
+          {
+            "day": 3,
             "title": "Visit Gulmarg",
             "activities": [
               "8:00 am: Breakfast and journey to Gulmarg.",
@@ -2721,7 +2940,8 @@
               "Overnight stay at Srinagar."
             ]
           },
-          "day_4": {
+          {
+            "day": 4,
             "title": "Visit Pahalgham",
             "activities": [
               "8:00 am: Breakfast and journey to Pahalgham.",
@@ -2731,7 +2951,8 @@
               "Overnight stay at Pahalgham."
             ]
           },
-          "day_5": {
+          {
+            "day": 5,
             "title": "Visit Awantipura Ruins – Lal Chowk Market",
             "activities": [
               "8:00 am: Breakfast.",
@@ -2743,7 +2964,8 @@
               "Overnight stay at Srinagar."
             ]
           },
-          "day_6": {
+          {
+            "day": 6,
             "title": "Visit Sonmarg",
             "activities": [
               "8:00 am: Breakfast and journey to Sonmarg.",
@@ -2754,7 +2976,8 @@
               "Overnight stay at Srinagar."
             ]
           },
-          "day_7": {
+          {
+            "day": 7,
             "title": "Return Journey",
             "activities": [
               "7:30 am: Breakfast and proceed to Srinagar Airport.",
@@ -2764,7 +2987,8 @@
               "7:00 pm: Arrival in Hyderabad."
             ]
           }
-        },
+        ]
+        ,
         "package_includes": [
           "Breakfast, Lunch, and Dinner.",
           "Deluxe Accommodation.",
@@ -2778,7 +3002,12 @@
           "Local taxi charges.",
           "Gondola tickets.",
           "Horse charges."
-        ]
+        ],
+        "media": [
+        "assets/img/package_europe.jpg",
+        "https://example.com/images/europe_2.jpg",
+        "https://example.com/videos/europe_tour.mp4"
+      ]
     },
     {
         "package_name": "Karnataka Special Package",
@@ -2801,15 +3030,17 @@
           "Gokarna",
           "Hampi"
         ],
-        "itinerary": {
-          "day_1": {
+        "itinerary": [
+          {
+            "day": 1,
             "title": "Arrival Bangalore - Mysore Journey - Visit Mysore City Tour",
             "activities": [
               "6:00 pm: Journey starts from R.V. Tours and Travels Pvt. Ltd. Office, Kukatapally to Hyderabad by Bus.",
               "Overnight Journey to Bangalore by Bus."
             ]
           },
-          "day_2": {
+          {
+            "day": 2,
             "title": "Arrival Bangalore – Visit Bangalore",
             "activities": [
               "7:00 am: Arrival and check-in at hotel.",
@@ -2819,7 +3050,8 @@
               "Overnight stay at Bangalore."
             ]
           },
-          "day_3": {
+          {
+            "day": 3,
             "title": "Visit Mysore",
             "activities": [
               "7:30 am: Breakfast and journey to Mysore.",
@@ -2830,7 +3062,8 @@
               "Overnight stay at Mysore."
             ]
           },
-          "day_4": {
+          {
+            "day": 4,
             "title": "Visit Halebidu - Belur - Hornadu",
             "activities": [
               "6:30 am: Breakfast and journey to Halebidu.",
@@ -2841,7 +3074,8 @@
               "Overnight stay at Kukke Subramanya."
             ]
           },
-          "day_5": {
+          {
+            "day": 5,
             "title": "Visit Kukke Subramanya - Dharmasthala - Sringeri",
             "activities": [
               "5:30 am to 7:30 am: Visit Kukke Subramanya Temple.",
@@ -2853,7 +3087,8 @@
               "Overnight stay at Udupi."
             ]
           },
-          "day_6": {
+          {
+            "day": 6,
             "title": "Visit Udupi - Kollur - Murudeshwar",
             "activities": [
               "6:00 am to 8:00 am: Visit Udupi Temple.",
@@ -2865,7 +3100,8 @@
               "Overnight stay at Murudeshwar."
             ]
           },
-          "day_7": {
+          {
+            "day": 7,
             "title": "Visit Gokarna",
             "activities": [
               "7:30 am: Breakfast and journey to Gokarna.",
@@ -2876,7 +3112,8 @@
               "Overnight stay at Hampi."
             ]
           },
-          "day_8": {
+          {
+            "day": 8,
             "title": "Visit Hampi - Return Journey",
             "activities": [
               "7:30 am: Breakfast.",
@@ -2885,13 +3122,15 @@
               "Overnight journey to Hyderabad by bus."
             ]
           },
-          "day_9": {
+          {
+            "day": 9,
             "title": "Arrival Hyderabad",
             "activities": [
               "6:00 am: Arrival in Hyderabad."
             ]
           }
-        },
+        ]
+        ,
         "package_includes": [
           "Breakfast, Lunch, and Dinner.",
           "Deluxe AC Accommodation.",
@@ -2902,7 +3141,12 @@
         "package_excludes": [
           "All entry tickets and Pooja tickets.",
           "Optional tour cost and auto charges."
-        ]
+        ],
+        "media": [
+        "assets/img/package_europe.jpg",
+        "https://example.com/images/europe_2.jpg",
+        "https://example.com/videos/europe_tour.mp4"
+      ]
     },
     {
         "package_name": "Kashi-Allahabad Flight Package",
@@ -2915,8 +3159,9 @@
           "Prayaga",
           "Allahabad"
         ],
-        "itinerary": {
-          "day_1": {
+        "itinerary": [
+          {
+            "day": 1,
             "title": "Arrival Varanasi - Hotel Checkin",
             "activities": [
               "9:10 am: Journey starts from Hyderabad to Varanasi by Flight No: 6E - 915.",
@@ -2926,7 +3171,8 @@
               "Overnight stay at Kashi."
             ]
           },
-          "day_2": {
+          {
+            "day": 2,
             "title": "Visit Allahabad - Madhaveshwari Temple",
             "activities": [
               "4:00 am: Journey starts to Allahabad.",
@@ -2941,7 +3187,8 @@
               "Overnight stay at Kashi."
             ]
           },
-          "day_3": {
+          {
+            "day": 3,
             "title": "Visit Kashi Local Temples",
             "activities": [
               "8:00 am: Breakfast.",
@@ -2952,7 +3199,8 @@
               "Overnight stay at Kashi."
             ]
           },
-          "day_4": {
+          {
+            "day": 4,
             "title": "Visit Kashi Main Temples - Return Journey",
             "activities": [
               "8:00 am: Breakfast.",
@@ -2961,7 +3209,8 @@
               "Drop at Varanasi Airport/Railway Station for your return journey."
             ]
           }
-        },
+        ]
+        ,
         "package_includes": [
           "AC Vehicle for road transportation.",
           "Breakfast, Lunch, and Dinner.",
@@ -2973,7 +3222,12 @@
           "Personal activities, tips.",
           "Optional tour cost.",
           "Flight tickets/train tickets."
-        ]
+        ],
+        "media": [
+        "assets/img/package_europe.jpg",
+        "https://example.com/images/europe_2.jpg",
+        "https://example.com/videos/europe_tour.mp4"
+      ]
     },
     {
         "package_name": "Kerala Special Package",
@@ -2992,15 +3246,17 @@
           "Alleppey",
           "Cochin"
         ],
-        "itinerary": {
-          "day_1": {
+        "itinerary": [
+          {
+            "day": 1,
             "title": "Arrival Cochin - Visit Guruvayur Temple",
             "activities": [
               "5:00 pm to 8:00 pm: Visit Guruvayur Temple.",
               "9:00 pm: Dinner."
             ]
           },
-          "day_2": {
+          {
+            "day": 2,
             "title": "Visit Athirampally Waterfalls - Travel to Munnar",
             "activities": [
               "7:30 am: Breakfast.",
@@ -3010,7 +3266,8 @@
               "8:30 pm: Dinner."
             ]
           },
-          "day_3": {
+          {
+            "day": 3,
             "title": "Munnar Local Sightseeing",
             "activities": [
               "8:00 am: Breakfast.",
@@ -3018,7 +3275,8 @@
               "Evening: Free time for shopping."
             ]
           },
-          "day_4": {
+          {
+            "day": 4,
             "title": "Munnar to Thekkady",
             "activities": [
               "8:00 am: Breakfast and journey to Thekkady.",
@@ -3028,7 +3286,8 @@
               "9:00 pm: Dinner."
             ]
           },
-          "day_5": {
+          {
+            "day": 5,
             "title": "Thekkady - Kovalam - Trivandrum",
             "activities": [
               "7:00 am: Breakfast and journey to Trivandrum.",
@@ -3038,7 +3297,8 @@
               "8:30 pm: Dinner."
             ]
           },
-          "day_6": {
+          {
+            "day": 6,
             "title": "Trivandrum - Varkala - Alleppey - Cochin",
             "activities": [
               "4:00 am to 7:00 am: Visit Trivandrum Temple.",
@@ -3050,7 +3310,8 @@
               "9:00 pm: Dinner."
             ]
           },
-          "day_7": {
+          {
+            "day": 7,
             "title": "Cochin Local Sightseeing - Return Journey",
             "activities": [
               "8:00 am: Breakfast.",
@@ -3060,7 +3321,8 @@
               "Drop at Cochin Airport/Railway Station for return journey."
             ]
           }
-        },
+        ]
+        ,
         "package_includes": [
           "Breakfast, Lunch, and Dinner.",
           "Deluxe Accommodation.",
@@ -3071,7 +3333,12 @@
           "All entry tickets.",
           "Optional tour cost, boating charges.",
           "Flight tickets/Train tickets."
-        ]
+        ],
+        "media": [
+        "assets/img/package_europe.jpg",
+        "https://example.com/images/europe_2.jpg",
+        "https://example.com/videos/europe_tour.mp4"
+      ]
     },
     {
         "package_name": "Maharashtra Special Package",
@@ -3100,15 +3367,17 @@
           "Mahur",
           "Parli"
         ],
-        "itinerary": {
-          "day_1": {
+        "itinerary": [
+          {
+            "day": 1,
             "title": "Journey to Pandaripuram",
             "activities": [
               "5:00 pm: Journey starts to Pandaripuram from R.V. TOURS AND TRAVELS Office.",
               "Overnight journey."
             ]
           },
-          "day_2": {
+          {
+            "day": 2,
             "title": "Pandaripuram - Kolhapur",
             "activities": [
               "5:00 am: Arrival at Pandaripuram and freshen up.",
@@ -3119,7 +3388,8 @@
               "9:00 pm: Dinner and overnight stay in Kolhapur."
             ]
           },
-          "day_3": {
+          {
+            "day": 3,
             "title": "Pali - Mahad - Pune Journey",
             "activities": [
               "7:00 am: Breakfast and journey to Pali.",
@@ -3130,7 +3400,8 @@
               "9:00 pm: Arrival in Pune and dinner. Overnight stay in Pune."
             ]
           },
-          "day_4": {
+          {
+            "day": 4,
             "title": "Theur - Sidhateck - Morgaon - Ranjangaon",
             "activities": [
               "5:00 am: Journey to Theur.",
@@ -3142,7 +3413,8 @@
               "10:00 pm: Dinner and overnight stay in Pune."
             ]
           },
-          "day_5": {
+          {
+            "day": 5,
             "title": "Bhimashanker - Lenyadri - Ozar",
             "activities": [
               "6:30 am: Breakfast and journey to Bhimashanker.",
@@ -3152,7 +3424,8 @@
               "9:00 pm: Dinner and overnight stay at Ozar."
             ]
           },
-          "day_6": {
+          {
+            "day": 6,
             "title": "Triambakeswar - Shirdi Journey",
             "activities": [
               "7:00 am: Breakfast and journey to Trimbakeswar.",
@@ -3161,7 +3434,8 @@
               "9:00 pm: Arrival in Shirdi and dinner. Overnight stay in Shirdi."
             ]
           },
-          "day_7": {
+          {
+            "day": 7,
             "title": "Shirdi - Shanisingnapur - Aurangabad",
             "activities": [
               "4:00 am to 7:00 am: Visit Shirdi Temple.",
@@ -3172,7 +3446,8 @@
               "8:00 pm: Dinner and overnight stay in Aurangabad."
             ]
           },
-          "day_8": {
+          {
+            "day": 8,
             "title": "Grishneswar - Parli - Nanded Journey",
             "activities": [
               "5:00 am: Journey to Grishneswar Temple.",
@@ -3181,7 +3456,8 @@
               "8:00 pm: Dinner and overnight stay in Parli."
             ]
           },
-          "day_9": {
+          {
+            "day": 9,
             "title": "Aundanaganath - Mahur - Return Journey",
             "activities": [
               "6:30 am: Breakfast and journey to Aundanaganath Temple.",
@@ -3191,13 +3467,15 @@
               "Overnight journey."
             ]
           },
-          "day_10": {
+          {
+            "day": 10,
             "title": "Arrival in Hyderabad",
             "activities": [
               "Arrival in Hyderabad."
             ]
           }
-        },
+        ]
+        ,
         "package_includes": [
           "Breakfast, Lunch, and Dinner.",
           "AC Accommodation.",
@@ -3209,7 +3487,12 @@
           "Boat, Auto charges.",
           "Flight/Train tickets.",
           "Personal activities, Tips."
-        ]
+        ],
+        "media": [
+        "assets/img/package_europe.jpg",
+        "https://example.com/images/europe_2.jpg",
+        "https://example.com/videos/europe_tour.mp4"
+      ]
     },
     {
         "package_name": "Goa Special Package",
@@ -3223,34 +3506,38 @@
             "Sequirim Beach",
             "Calangute Beach"
         ],
-        "itinerary": {
-            "day_1": {
-                "title": "Arrival in Goa",
-                "activities": [
-                    "Arrival in Goa and proceed to hotel.",
-                    "8:30 pm: Dinner and overnight stay in Goa."
-                ]
-            },
-            "day_2": {
-                "title": "Exploring Fort Aguada, Lighthouse, and Sequirim Beach",
-                "activities": [
-                    "7:30 am: Breakfast.",
-                    "9:00 am to 1:00 pm: Visit Fort Aguada, Lighthouse, and Sequirim Beach.",
-                    "1:30 pm: Lunch.",
-                    "Free time for personal activities.",
-                    "9:00 pm: Dinner and overnight stay in Goa."
-                ]
-            },
-            "day_3": {
-                "title": "Visit Calangute Beach & Departure",
-                "activities": [
-                    "8:00 am: Breakfast.",
-                    "9:00 am to 11:00 am: Visit Calangute Beach.",
-                    "12:00 pm: Check-out from hotel.",
-                    "Free time for shopping (by own transportation)."
-                ]
-            }
-        },
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Arrival in Goa",
+            "activities": [
+              "Arrival in Goa and proceed to hotel.",
+              "8:30 pm: Dinner and overnight stay in Goa."
+            ]
+          },
+          {
+            "day": 2,
+            "title": "Exploring Fort Aguada, Lighthouse, and Sequirim Beach",
+            "activities": [
+              "7:30 am: Breakfast.",
+              "9:00 am to 1:00 pm: Visit Fort Aguada, Lighthouse, and Sequirim Beach.",
+              "1:30 pm: Lunch.",
+              "Free time for personal activities.",
+              "9:00 pm: Dinner and overnight stay in Goa."
+            ]
+          },
+          {
+            "day": 3,
+            "title": "Visit Calangute Beach & Departure",
+            "activities": [
+              "8:00 am: Breakfast.",
+              "9:00 am to 11:00 am: Visit Calangute Beach.",
+              "12:00 pm: Check-out from hotel.",
+              "Free time for shopping (by own transportation)."
+            ]
+          }
+        ]
+        ,
         "package_includes": [
             "Breakfast and Dinner.",
             "Deluxe Accommodation.",
@@ -3263,7 +3550,12 @@
             "Personal Activities, Tips.",
             "Optional Tour Cost.",
             "Flight / Train Tickets."
-        ]
+        ],
+         "media": [
+        "assets/img/package_europe.jpg",
+        "https://example.com/images/europe_2.jpg",
+        "https://example.com/videos/europe_tour.mp4"
+      ]
     },
     {
         "package_name": "Andaman Special Package",
@@ -3279,62 +3571,68 @@
             "Light House Beach",
             "Kalapathar Beach"
         ],
-        "itinerary": {
-            "day_1": {
-                "title": "Hyderabad to Portblair",
-                "activities": [
-                    "6:30 am: Journey starts from Hyderabad to Portblair by Flight.",
-                    "11:30 am: Arrival at Portblair and proceed to hotel.",
-                    "1:00 pm: Lunch and visit Cellular Jail.",
-                    "6:00 pm: Attend Light & Sound Show.",
-                    "8:00 pm: Dinner and overnight stay at Portblair."
-                ]
-            },
-            "day_2": {
-                "title": "Portblair to Havelock - Radhanagar Beach",
-                "activities": [
-                    "6:00 am: Breakfast.",
-                    "7:00 am: Journey to Harbour.",
-                    "7:30 am: Check-in at Harbour for Cruise.",
-                    "7:30 am: Depart for Havelock Island by Cruise.",
-                    "10:00 am: Arrival at Havelock and transfer to hotel.",
-                    "1:00 pm: Lunch.",
-                    "Visit Radhanagar Beach.",
-                    "8:00 pm: Dinner and overnight stay at Havelock."
-                ]
-            },
-            "day_3": {
-                "title": "Elephant Beach",
-                "activities": [
-                    "7:00 am: Breakfast.",
-                    "8:00 am to 12:00 noon: Visit Elephant Beach.",
-                    "1:00 pm: Lunch.",
-                    "Evening free for personal activities.",
-                    "8:00 pm: Dinner and overnight stay at Havelock."
-                ]
-            },
-            "day_4": {
-                "title": "Kalapathar Beach and Return to Portblair",
-                "activities": [
-                    "7:00 am: Breakfast.",
-                    "8:00 am to 11:00 am: Visit Kalapathar Beach.",
-                    "1:00 pm: Lunch.",
-                    "Drop at Harbour for return journey.",
-                    "3:00 pm: Check-in for Cruise back to Portblair.",
-                    "6:00 pm: Arrival in Portblair and transfer to hotel.",
-                    "8:00 pm: Dinner and overnight stay at Portblair."
-                ]
-            },
-            "day_5": {
-                "title": "Return Journey to Hyderabad",
-                "activities": [
-                    "8:00 am: Breakfast.",
-                    "10:00 am: Drop at Portblair Airport.",
-                    "11:30 am: Return flight to Hyderabad (Flight timings may change subject to availability).",
-                    "3:25 pm: Arrival in Hyderabad."
-                ]
-            }
-        },
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Hyderabad to Portblair",
+            "activities": [
+              "6:30 am: Journey starts from Hyderabad to Portblair by Flight.",
+              "11:30 am: Arrival at Portblair and proceed to hotel.",
+              "1:00 pm: Lunch and visit Cellular Jail.",
+              "6:00 pm: Attend Light & Sound Show.",
+              "8:00 pm: Dinner and overnight stay at Portblair."
+            ]
+          },
+          {
+            "day": 2,
+            "title": "Portblair to Havelock - Radhanagar Beach",
+            "activities": [
+              "6:00 am: Breakfast.",
+              "7:00 am: Journey to Harbour.",
+              "7:30 am: Check-in at Harbour for Cruise.",
+              "7:30 am: Depart for Havelock Island by Cruise.",
+              "10:00 am: Arrival at Havelock and transfer to hotel.",
+              "1:00 pm: Lunch.",
+              "Visit Radhanagar Beach.",
+              "8:00 pm: Dinner and overnight stay at Havelock."
+            ]
+          },
+          {
+            "day": 3,
+            "title": "Elephant Beach",
+            "activities": [
+              "7:00 am: Breakfast.",
+              "8:00 am to 12:00 noon: Visit Elephant Beach.",
+              "1:00 pm: Lunch.",
+              "Evening free for personal activities.",
+              "8:00 pm: Dinner and overnight stay at Havelock."
+            ]
+          },
+          {
+            "day": 4,
+            "title": "Kalapathar Beach and Return to Portblair",
+            "activities": [
+              "7:00 am: Breakfast.",
+              "8:00 am to 11:00 am: Visit Kalapathar Beach.",
+              "1:00 pm: Lunch.",
+              "Drop at Harbour for return journey.",
+              "3:00 pm: Check-in for Cruise back to Portblair.",
+              "6:00 pm: Arrival in Portblair and transfer to hotel.",
+              "8:00 pm: Dinner and overnight stay at Portblair."
+            ]
+          },
+          {
+            "day": 5,
+            "title": "Return Journey to Hyderabad",
+            "activities": [
+              "8:00 am: Breakfast.",
+              "10:00 am: Drop at Portblair Airport.",
+              "11:30 am: Return flight to Hyderabad (Flight timings may change subject to availability).",
+              "3:25 pm: Arrival in Hyderabad."
+            ]
+          }
+        ]
+        ,
         "package_includes": [
             "Breakfast, Lunch, and Dinner.",
             "Daily one mineral water bottle.",
@@ -3350,7 +3648,12 @@
             "Boat, Auto charges.",
             "Flight Tickets.",
             "Personal Activities, Tips."
-        ]
+        ],
+        "media": [
+        "assets/img/package_europe.jpg",
+        "https://example.com/images/europe_2.jpg",
+        "https://example.com/videos/europe_tour.mp4"
+      ]
     },
     {
         "package_name": "Gangtok-Darjeeling Special Package",
@@ -3364,76 +3667,84 @@
             "Mirik Lake",
             "Tsomgo Lake"
         ],
-        "itinerary": {
-            "day_1": {
-                "title": "Hyderabad to Bagdogra - Journey to Gangtok",
-                "activities": [
-                    "8:20 am: Journey starts from Hyderabad to Bagdogra by Indigo Airlines, Flight No: 6E-618.",
-                    "10:50 am: Arrival at Bagdogra and proceed to Gangtok.",
-                    "12:30 pm: Lunch and continue journey to Gangtok.",
-                    "6:00 pm: Arrival in Gangtok and rest.",
-                    "8:00 pm: Dinner and overnight stay in Gangtok."
-                ]
-            },
-            "day_2": {
-                "title": "Gangtok Local Sightseeing",
-                "activities": [
-                    "8:00 am: Breakfast.",
-                    "Gangtok Local Sightseeing: Namgyal Institute of Tibetology, Banjakri Falls, Flower Show, Do Drul Chorten Stupa, Enchey Monastery, Handicrafts Centre.",
-                    "Free time for shopping (by own transportation).",
-                    "8:00 pm: Dinner and overnight stay in Gangtok."
-                ]
-            },
-            "day_3": {
-                "title": "Baba Harbajan Singh Temple - Tsomgo Lake",
-                "activities": [
-                    "7:30 am: Breakfast.",
-                    "Journey to Baba Harbajan Singh Temple.",
-                    "11:00 am to 1:00 pm: Visit Baba Harbajan Singh Temple.",
-                    "3:00 pm to 5:00 pm: Visit Tsomgo Lake.",
-                    "Return to hotel after sightseeing.",
-                    "9:00 pm: Dinner and overnight stay in Gangtok."
-                ]
-            },
-            "day_4": {
-                "title": "Journey from Gangtok to Darjeeling",
-                "activities": [
-                    "8:00 am: Breakfast and journey to Darjeeling.",
-                    "1:00 pm: Check-in at hotel and lunch.",
-                    "Free time for shopping and personal activities.",
-                    "8:00 pm: Dinner and overnight stay in Darjeeling."
-                ]
-            },
-            "day_5": {
-                "title": "Darjeeling Full Day Tour",
-                "activities": [
-                    "3:00 am: Pickup for sunrise at Tiger Hill View Point.",
-                    "8:00 am: Breakfast.",
-                    "Visit Darjeeling local sightseeing: Tenzing Rock, Tea Garden, Tibetan Refugee Centre, Ghum Monastery, Batasia Loop, Padmaja Naidu Zoological Park, Japanese Temple.",
-                    "8:00 pm: Dinner and overnight stay in Darjeeling."
-                ]
-            },
-            "day_6": {
-                "title": "Mirik Lake - Siliguri",
-                "activities": [
-                    "7:30 am: Breakfast.",
-                    "Journey to Mirik Lake.",
-                    "11:00 am to 3:00 pm: Visit Mirik Lake and lunch.",
-                    "3:30 pm: Journey to Siliguri.",
-                    "7:00 pm: Arrival at hotel and rest.",
-                    "9:00 pm: Dinner and overnight stay in Siliguri."
-                ]
-            },
-            "day_7": {
-                "title": "Return Journey",
-                "activities": [
-                    "8:00 am: Breakfast.",
-                    "9:00 am: Drop at Bagdogra Airport.",
-                    "11:30 am: Return journey to Hyderabad from Bagdogra by Indigo Airlines, Flight No: 6E-619.",
-                    "2:00 pm: Arrival in Hyderabad."
-                ]
-            }
-        },
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Hyderabad to Bagdogra - Journey to Gangtok",
+            "activities": [
+              "8:20 am: Journey starts from Hyderabad to Bagdogra by Indigo Airlines, Flight No: 6E-618.",
+              "10:50 am: Arrival at Bagdogra and proceed to Gangtok.",
+              "12:30 pm: Lunch and continue journey to Gangtok.",
+              "6:00 pm: Arrival in Gangtok and rest.",
+              "8:00 pm: Dinner and overnight stay in Gangtok."
+            ]
+          },
+          {
+            "day": 2,
+            "title": "Gangtok Local Sightseeing",
+            "activities": [
+              "8:00 am: Breakfast.",
+              "Gangtok Local Sightseeing: Namgyal Institute of Tibetology, Banjakri Falls, Flower Show, Do Drul Chorten Stupa, Enchey Monastery, Handicrafts Centre.",
+              "Free time for shopping (by own transportation).",
+              "8:00 pm: Dinner and overnight stay in Gangtok."
+            ]
+          },
+          {
+            "day": 3,
+            "title": "Baba Harbajan Singh Temple - Tsomgo Lake",
+            "activities": [
+              "7:30 am: Breakfast.",
+              "Journey to Baba Harbajan Singh Temple.",
+              "11:00 am to 1:00 pm: Visit Baba Harbajan Singh Temple.",
+              "3:00 pm to 5:00 pm: Visit Tsomgo Lake.",
+              "Return to hotel after sightseeing.",
+              "9:00 pm: Dinner and overnight stay in Gangtok."
+            ]
+          },
+          {
+            "day": 4,
+            "title": "Journey from Gangtok to Darjeeling",
+            "activities": [
+              "8:00 am: Breakfast and journey to Darjeeling.",
+              "1:00 pm: Check-in at hotel and lunch.",
+              "Free time for shopping and personal activities.",
+              "8:00 pm: Dinner and overnight stay in Darjeeling."
+            ]
+          },
+          {
+            "day": 5,
+            "title": "Darjeeling Full Day Tour",
+            "activities": [
+              "3:00 am: Pickup for sunrise at Tiger Hill View Point.",
+              "8:00 am: Breakfast.",
+              "Visit Darjeeling local sightseeing: Tenzing Rock, Tea Garden, Tibetan Refugee Centre, Ghum Monastery, Batasia Loop, Padmaja Naidu Zoological Park, Japanese Temple.",
+              "8:00 pm: Dinner and overnight stay in Darjeeling."
+            ]
+          },
+          {
+            "day": 6,
+            "title": "Mirik Lake - Siliguri",
+            "activities": [
+              "7:30 am: Breakfast.",
+              "Journey to Mirik Lake.",
+              "11:00 am to 3:00 pm: Visit Mirik Lake and lunch.",
+              "3:30 pm: Journey to Siliguri.",
+              "7:00 pm: Arrival at hotel and rest.",
+              "9:00 pm: Dinner and overnight stay in Siliguri."
+            ]
+          },
+          {
+            "day": 7,
+            "title": "Return Journey",
+            "activities": [
+              "8:00 am: Breakfast.",
+              "9:00 am: Drop at Bagdogra Airport.",
+              "11:30 am: Return journey to Hyderabad from Bagdogra by Indigo Airlines, Flight No: 6E-619.",
+              "2:00 pm: Arrival in Hyderabad."
+            ]
+          }
+        ]
+        ,
         "package_includes": [
             "Breakfast, Lunch, and Dinner.",
             "Deluxe Accommodation.",
@@ -3444,7 +3755,12 @@
             "All Entry Tickets.",
             "Flight Tickets.",
             "Small Vehicle to Icepoint."
-        ]
+        ],
+        "media": [
+        "assets/img/package_europe.jpg",
+        "https://example.com/images/europe_2.jpg",
+        "https://example.com/videos/europe_tour.mp4"
+      ]
     },
     {
         "package_name": "Guwahati-Special Package",
@@ -3478,76 +3794,84 @@
             "Tirupati Balaji Temple",
             "Sukleswar Temple"
         ],
-        "itinerary": {
-            "day_1": {
-                "title": "Hyderabad to Guwahati - Journey to Shillong",
-                "activities": [
-                    "9:10 am: Journey starts from Hyderabad to Guwahati by Indigo Airlines, Flight No: 6E-186.",
-                    "11:45 am: Arrival at Guwahati.",
-                    "1:00 pm: Lunch and journey to Shillong.",
-                    "On the way, visit Umium Lake View Point.",
-                    "6:00 pm: Arrival at Shillong and rest.",
-                    "8:00 pm: Dinner and overnight stay in Shillong."
-                ]
-            },
-            "day_2": {
-                "title": "Full Day Shillong Tour",
-                "activities": [
-                    "8:00 am: Breakfast.",
-                    "Visit Shillong sightseeing spots: Donbosco Museum, Wards Lake, Elephant Falls, Golf Course, Shillong Peak.",
-                    "Free time for shopping (by own transportation).",
-                    "8:00 pm: Dinner and overnight stay in Shillong."
-                ]
-            },
-            "day_3": {
-                "title": "Shillong to Cherrapunjee",
-                "activities": [
-                    "7:30 am: Breakfast and journey to Cherrapunjee.",
-                    "Visit Mawkdok Valley, Nohkalikai Falls, Dainthelen Falls, and Rama Krishna Mission.",
-                    "5:00 pm: Arrival and rest.",
-                    "8:00 pm: Dinner and overnight stay in Cherrapunjee."
-                ]
-            },
-            "day_4": {
-                "title": "Full Day Cherrapunjee Tour",
-                "activities": [
-                    "8:00 am: Breakfast.",
-                    "Half-day trek to Double Decker Living Root Bridge.",
-                    "Afternoon visit to Nohsngithiang Falls (Seven Sisters Waterfalls), Mawsmai Cave, Khoh Ram Hah, Eco Park.",
-                    "8:00 pm: Dinner and overnight stay in Cherrapunjee."
-                ]
-            },
-            "day_5": {
-                "title": "Cherrapunjee to Guwahati",
-                "activities": [
-                    "7:30 am: Breakfast and journey to Guwahati.",
-                    "2:00 pm: Arrival and lunch.",
-                    "4:00 pm to 7:00 pm: Visit Vasista Ashram and Kalashetra.",
-                    "9:00 pm: Dinner and overnight stay in Guwahati."
-                ]
-            },
-            "day_6": {
-                "title": "Kamakya Devi Temple and Guwahati Local Tour",
-                "activities": [
-                    "7:30 am: Breakfast.",
-                    "9:00 am to 1:00 pm: Visit Kamakya Devi Temple.",
-                    "1:30 pm: Lunch at hotel.",
-                    "3:00 pm to 6:00 pm: Visit Nabagraha Mandir, Tirupati Balaji Temple, Sukleswar Temple.",
-                    "8:00 pm: Dinner.",
-                    "Optional: Cruise Dinner on the Brahmaputra River (on direct payment to local team).",
-                    "Overnight stay in Guwahati."
-                ]
-            },
-            "day_7": {
-                "title": "Return Journey",
-                "activities": [
-                    "7:30 am: Breakfast.",
-                    "9:00 am: Drop at Guwahati Airport.",
-                    "10:30 am: Return journey to Hyderabad from Guwahati by Indigo Airlines, Flight No: 6E-4880.",
-                    "1:10 pm: Arrival in Hyderabad."
-                ]
-            }
-        },
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Hyderabad to Guwahati - Journey to Shillong",
+            "activities": [
+              "9:10 am: Journey starts from Hyderabad to Guwahati by Indigo Airlines, Flight No: 6E-186.",
+              "11:45 am: Arrival at Guwahati.",
+              "1:00 pm: Lunch and journey to Shillong.",
+              "On the way, visit Umium Lake View Point.",
+              "6:00 pm: Arrival at Shillong and rest.",
+              "8:00 pm: Dinner and overnight stay in Shillong."
+            ]
+          },
+          {
+            "day": 2,
+            "title": "Full Day Shillong Tour",
+            "activities": [
+              "8:00 am: Breakfast.",
+              "Visit Shillong sightseeing spots: Donbosco Museum, Wards Lake, Elephant Falls, Golf Course, Shillong Peak.",
+              "Free time for shopping (by own transportation).",
+              "8:00 pm: Dinner and overnight stay in Shillong."
+            ]
+          },
+          {
+            "day": 3,
+            "title": "Shillong to Cherrapunjee",
+            "activities": [
+              "7:30 am: Breakfast and journey to Cherrapunjee.",
+              "Visit Mawkdok Valley, Nohkalikai Falls, Dainthelen Falls, and Rama Krishna Mission.",
+              "5:00 pm: Arrival and rest.",
+              "8:00 pm: Dinner and overnight stay in Cherrapunjee."
+            ]
+          },
+          {
+            "day": 4,
+            "title": "Full Day Cherrapunjee Tour",
+            "activities": [
+              "8:00 am: Breakfast.",
+              "Half-day trek to Double Decker Living Root Bridge.",
+              "Afternoon visit to Nohsngithiang Falls (Seven Sisters Waterfalls), Mawsmai Cave, Khoh Ram Hah, Eco Park.",
+              "8:00 pm: Dinner and overnight stay in Cherrapunjee."
+            ]
+          },
+          {
+            "day": 5,
+            "title": "Cherrapunjee to Guwahati",
+            "activities": [
+              "7:30 am: Breakfast and journey to Guwahati.",
+              "2:00 pm: Arrival and lunch.",
+              "4:00 pm to 7:00 pm: Visit Vasista Ashram and Kalashetra.",
+              "9:00 pm: Dinner and overnight stay in Guwahati."
+            ]
+          },
+          {
+            "day": 6,
+            "title": "Kamakya Devi Temple and Guwahati Local Tour",
+            "activities": [
+              "7:30 am: Breakfast.",
+              "9:00 am to 1:00 pm: Visit Kamakya Devi Temple.",
+              "1:30 pm: Lunch at hotel.",
+              "3:00 pm to 6:00 pm: Visit Nabagraha Mandir, Tirupati Balaji Temple, Sukleswar Temple.",
+              "8:00 pm: Dinner.",
+              "Optional: Cruise Dinner on the Brahmaputra River (on direct payment to local team).",
+              "Overnight stay in Guwahati."
+            ]
+          },
+          {
+            "day": 7,
+            "title": "Return Journey",
+            "activities": [
+              "7:30 am: Breakfast.",
+              "9:00 am: Drop at Guwahati Airport.",
+              "10:30 am: Return journey to Hyderabad from Guwahati by Indigo Airlines, Flight No: 6E-4880.",
+              "1:10 pm: Arrival in Hyderabad."
+            ]
+          }
+        ]
+        ,
         "package_includes": [
             "Breakfast, Lunch, and Dinner.",
             "Deluxe Accommodation.",
@@ -3559,7 +3883,12 @@
             "Boat charges.",
             "Flight tickets.",
             "Personal activities, Tips."
-        ]
+        ],
+        "media": [
+        "assets/img/package_europe.jpg",
+        "https://example.com/images/europe_2.jpg",
+        "https://example.com/videos/europe_tour.mp4"
+      ]
     },
     {
       "package_name": "Amarnath Yatra Special Package",
@@ -3584,8 +3913,9 @@
         "Akshardham",
         "Wagah Border"
       ],
-      "itinerary": {
-        "day_1": {
+      "itinerary": [
+        {
+          "day": 1,
           "title": "Pickup at Delhi – Visit Akshardham",
           "activities": [
             "Pickup from Delhi airport/Railway station.",
@@ -3594,7 +3924,8 @@
             "8:00 pm: Dinner and overnight stay in Delhi."
           ]
         },
-        "day_2": {
+        {
+          "day": 2,
           "title": "Delhi – Amritsar Journey",
           "activities": [
             "7:30 am: Breakfast.",
@@ -3603,7 +3934,8 @@
             "9:00 pm: Dinner and overnight stay in Amritsar."
           ]
         },
-        "day_3": {
+        {
+          "day": 3,
           "title": "Amritsar Local Sightseeing – Visit Wagah Border",
           "activities": [
             "7:00 am: Breakfast.",
@@ -3613,7 +3945,8 @@
             "9:00 pm: Dinner and overnight stay in Katra."
           ]
         },
-        "day_4": {
+        {
+          "day": 4,
           "title": "Visit Vaishnavi Devi Temple",
           "activities": [
             "1:00 am: Arrival at Katra and rest.",
@@ -3623,7 +3956,8 @@
             "8:00 pm: Dinner and overnight stay in Katra."
           ]
         },
-        "day_5": {
+        {
+          "day": 5,
           "title": "Katra – Srinagar Journey",
           "activities": [
             "3:00 am: Pickup from Katra.",
@@ -3633,7 +3967,8 @@
             "8:00 pm: Dinner and overnight stay in Srinagar."
           ]
         },
-        "day_6": {
+        {
+          "day": 6,
           "title": "Srinagar – Baltal Journey",
           "activities": [
             "7:00 am: Breakfast.",
@@ -3642,14 +3977,16 @@
             "Overnight stay at Baltal."
           ]
         },
-        "day_7": {
+        {
+          "day": 7,
           "title": "Visit Amarnath Temple",
           "activities": [
             "3:00 am to 6:00 pm: Visit Amarnath Darshan by Horse, Doli (16 KMS).",
             "Overnight stay in Baltal."
           ]
         },
-        "day_8": {
+        {
+          "day": 8,
           "title": "Baltal – Srinagar Journey",
           "activities": [
             "10:00 am: Journey back to Srinagar.",
@@ -3658,7 +3995,8 @@
             "Overnight stay in Srinagar."
           ]
         },
-        "day_9": {
+        {
+          "day": 9,
           "title": "Srinagar Local Sightseeing",
           "activities": [
             "8:00 am: Breakfast.",
@@ -3666,7 +4004,8 @@
             "9:00 pm: Dinner and overnight stay in Srinagar."
           ]
         },
-        "day_10": {
+        {
+          "day": 10,
           "title": "Srinagar – Chamunda Journey",
           "activities": [
             "6:00 am: Breakfast.",
@@ -3675,7 +4014,8 @@
             "Overnight journey."
           ]
         },
-        "day_11": {
+        {
+          "day": 11,
           "title": "Chamunda – Kangda – Chintapoornima",
           "activities": [
             "Early morning: Arrival at Chamunda Devi.",
@@ -3686,7 +4026,8 @@
             "Overnight stay at Chintapoornima."
           ]
         },
-        "day_12": {
+        {
+          "day": 12,
           "title": "Chintapoornima – Naina Devi – Kurukshetra",
           "activities": [
             "5:00 am to 7:00 am: Visit Chintapoornima Devi Temple.",
@@ -3696,7 +4037,8 @@
             "8:00 pm: Dinner and overnight stay in Kurukshetra."
           ]
         },
-        "day_13": {
+        {
+          "day": 13,
           "title": "Kurukshetra Local – Delhi Journey",
           "activities": [
             "7:30 am: Breakfast.",
@@ -3705,7 +4047,8 @@
             "8:30 pm: Dinner and overnight stay in Delhi."
           ]
         },
-        "day_14": {
+        {
+          "day": 14,
           "title": "Return Journey",
           "activities": [
             "8:00 am: Breakfast.",
@@ -3713,7 +4056,8 @@
             "Return journey to destinations as per departure timings."
           ]
         }
-      },
+      ]
+      ,
       "package_includes": [
         "Breakfast, Lunch, and Dinner.",
         "Deluxe Accommodation (AC rooms in Delhi, Katra, Kurukshetra, Amritsar).",
@@ -3726,6 +4070,11 @@
         "Boat, Auto, Doli, Horse charges.",
         "Flight/Train tickets.",
         "Personal activities, Tips."
+      ],
+      "media": [
+        "assets/img/package_europe.jpg",
+        "https://example.com/images/europe_2.jpg",
+        "https://example.com/videos/europe_tour.mp4"
       ]
     }  
   ]

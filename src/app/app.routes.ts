@@ -17,7 +17,6 @@ export const routes: Routes = [
         {path: 'location', component: LocationinfoComponent},
         {path: 'packagelist', component: PackagelistComponent},
         {path: 'aboutus', component: AboutusComponent},
-        {path: 'tourPackages', component: PackagelistComponent},
         {path: 'tripDetails', component: DetailspageComponent},
         {path: '**', component: NotfoundComponent},
     ]},

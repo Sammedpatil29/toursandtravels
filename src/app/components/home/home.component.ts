@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { HeroComponent } from "../hero/hero.component";
 import { DataService } from '../../services/data.service';
 import { CommonModule } from '@angular/common';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -12,7 +13,7 @@ import { CommonModule } from '@angular/common';
 })
 export class HomeComponent implements OnInit {
   
-  constructor(private dataService: DataService) {}
+  constructor(private dataService: DataService, private router: Router) {}
   
   ngOnInit(): void {
     this.getTripData()
@@ -93,4 +94,15 @@ console.log("data fetched", this.internationalPackagesForHome.length)
  })
 }
 
+openDetails(item:any) {
+  this.router.navigate(['/tripDetails'], { state: { item: item } });
+}
+
+openAllPackages(category:any) {
+  if(category == "International") {
+    this.router.navigate(['/packagelist'], { state: { item: this.internationalPackages, title:category } });
+  } else if (category == "Domestic") {
+    this.router.navigate(['/packagelist'], { state: { item: this.domesticPackages, title:category }});
+  }
+}
 }

@@ -257,7 +257,7 @@
                 </div>
                 <div class="content">
                     <span>To More Inquiry</span>
-                    <h6><a href="tel:+990737621432">987654321</a></h6>
+                    <h6><a href="tel:+919490391100">+91 9490391100</a></h6>
                 </div>
             </div>
             <div class="email-area">
@@ -1762,7 +1762,7 @@
                                 <div class="col-lg-4 col-md-6" *ngFor="let item of internationalPackagesForHome">
                                     <div class="package-card">
                                         <div class="package-card-img-wrap">
-                                            <a href="package-details.html" class="card-img"><img [src]="item.media[0]" alt=""></a>
+                                            <a href="javascript:void(0)" (click)="openDetails(item)" class="card-img"><img [src]="item.media[0]" alt=""></a>
                                             <div class="batch">
                                                 <span class="date">{{item.days}}</span>
                                                 <div class="location">
@@ -2917,7 +2917,7 @@
             </div>
             <div class="row mt-5">
                 <div class="col-lg-12 d-flex justify-content-center">
-                    <a href="package-grid.html" class="secondary-btn1">View All Package</a>
+                    <a href="javascript:void(0)" (click)="openAllPackages('International')" class="secondary-btn1">View All Package</a>
                 </div>
             </div>
         </div>
@@ -3071,7 +3071,7 @@
     <!-- End Facility section -->
 
     <!-- Start Packages section -->
-    <div class="package-card-section pt-120 mb-120">
+    <div class="package-card-section pt-2 mb-120">
         <img src="assets/img/home1/section-vector1.png" alt="" class="section-vector1">
         <img src="assets/img/home1/section-vector3.png" alt="" class="section-vector3">
         <div class="container">
@@ -4257,7 +4257,7 @@
             </div>
             <div class="row mt-5">
                 <div class="col-lg-12 d-flex justify-content-center">
-                    <a href="package-grid.html" class="secondary-btn1">View All Package</a>
+                    <a href="javascript:void(0)" (click)="openAllPackages('Domestic')" class="secondary-btn1">View All Package</a>
                 </div>
             </div>
              <!-- package card end -->
