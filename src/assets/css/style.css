@@ -67,7 +67,7 @@ img {
 }
 
 a {
-    text-decoration: none
+    text-decoration: none !important;
 }
 
 p {
@@ -1913,7 +1913,7 @@ ul {
 
 .top-bar p a {
     color: var(--primary-color1);
-    text-decoration: underline;
+    /* text-decoration: underline; */
     transition: .5s
 }
 

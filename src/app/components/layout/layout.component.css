@@ -1,0 +1,28 @@
+.floating-btn {
+    position: fixed;  /* Fixed positioning so it stays on top */
+    bottom: 20px;         /* Distance from the top of the page */
+    right: 20px;       /* Distance from the right edge of the page */
+    background-color: var(--primary-color1); /* Background color of the button */
+    color: white;      /* Text color */
+    border: none;
+    border-radius: 100px; /* Slight border radius to make it rounded */
+    /* padding: 12px 24px; Padding for square shape with some width */
+    font-size: 25px;    /* Font size for the text */
+    font-weight: bold;  /* Make the text bold */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for floating effect */
+    cursor: pointer;   /* Pointer cursor on hover */
+    transition: transform 0.3s ease; /* Animation effect */
+    z-index: 1000;      /* Make sure the button is above all other elements */
+  }
+  
+  .floating-btn:hover {
+    transform: scale(1.05); /* Slight scale effect on hover */
+  }
+  
+  .floating-btn span {
+    text-align: center; /* Center the text inside the button */
+    white-space: nowrap; /* Prevent text from wrapping */
+  }

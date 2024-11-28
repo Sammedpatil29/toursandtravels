@@ -6,3 +6,54 @@
     text-overflow: ellipsis;
     white-space: normal; /* Ensures that text wraps normally */
   }
+
+  /* Style the container */
+.search-container {
+  position: absolute;
+  z-index: 1000;
+  top: 70px;
+  right: 20px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+/* Style the search input field */
+.search-input {
+  width: 100%;
+  padding: 10px 40px 10px 20px; /* Add padding to make space for the icon */
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 25px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Focus effect on input field */
+.search-input:focus {
+  border-color: #4CAF50;
+  box-shadow: 0 0 5px rgba(0, 128, 0, 0.5);
+}
+
+/* Style the search button */
+.search-button {
+  position: absolute;
+  top: 100%;
+  right: 10px;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: #4CAF50;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect on the search button */
+.search-button:hover {
+  color: #45a049;
+}
+
+/* Style the search icon */
+.search-icon {
+  font-size: 20px;
+}

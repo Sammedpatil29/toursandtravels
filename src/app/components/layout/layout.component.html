@@ -1,4 +1,8 @@
-<app-navbar></app-navbar>
+<app-navbar [International]="internationalPackages" [Domestic]="domesticPackages" [Temple]="templePackages"></app-navbar>
 <router-outlet></router-outlet>
-<app-footer></app-footer>
+<app-footer [International]="internationalPackages" [Domestic]="domesticPackages" [Temple]="templePackages"></app-footer>
+<button class="floating-btn primary-btn1" (click)="onclick()">
+  <i class="fab fa-whatsapp"></i>
+  <!-- <span>Enquire for more</span> -->
+</button>
     
