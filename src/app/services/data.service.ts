@@ -12,4 +12,8 @@ export class DataService {
   getData(): Observable<any> {
     return this.http.get<any>('assets/tripData.json');
   }
+
+  getbanners(): Observable<any> {
+    return this.http.get<any>('assets/banners.json');
+}
 }

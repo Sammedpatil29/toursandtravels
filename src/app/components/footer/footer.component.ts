@@ -40,4 +40,14 @@ openAllPackages(category:any) {
 
 }
 
+onclick(){
+  let message = "Hi, I need details about your trip plans!!";
+  const whatsappUrl=`https://wa.me/9490391100?text=${message}`
+  window.open(whatsappUrl, '_blank');
+}
+
+openDialog(){
+  
+}
+
 }

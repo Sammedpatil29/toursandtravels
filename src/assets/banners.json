@@ -1,0 +1,536 @@
+[
+  {
+    "package_name": "EUROPE SPL Tour package",
+    "place": "Europe",
+    "category": ["International", "Special"],
+    "places_visiting": [
+      "Paris",
+      "Eiffel Tower",
+      "Disneyland",
+      "The Grand Place",
+      "Amsterdam Canal Cruise",
+      "Cologne Cathedral"
+    ],
+    "days": "15 Days / 14 Nights",
+    "package_description": "The EUROPE SPL Tour package is a 15-day journey through Europe's most iconic destinations. Visit Paris, Brussels, Amsterdam, Stuttgart, Zurich, Venice, Pisa, Florence, and Rome. Explore historical landmarks, cultural sites, and scenic beauty, including the Eiffel Tower, Disneyland, Rhine Falls, and the Colosseum.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Flight to Paris and City Tour",
+        "activities": [
+          "Flight to Paris",
+          "Arrival in Paris",
+          "After immigration, Paris city tour",
+          "Paris city tour (2 hours)",
+          "05:00pm - Hotel check-in",
+          "Rest",
+          "Dinner (packed dinner)"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Overnight Stay at Paris",
+        "activities": [
+          "07:00am - Breakfast",
+          "10:00am to 01:00pm - Eiffel Tower visit",
+          "02:00pm - Lunch",
+          "03:00pm to 04:00pm - Seine River Cruise",
+          "04:00pm to 06:00pm - Shopping",
+          "06:30pm - Dinner",
+          "07:30pm - Drop at hotel"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Overnight Stay at Paris",
+        "activities": [
+          "07:00am to 08:00am - Breakfast",
+          "10:00am to 06:00pm - Disneyland visit",
+          "Back to hotel",
+          "Dinner (packed dinner)"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Overnight Stay at Brussels",
+        "activities": [
+          "07:00am - Breakfast",
+          "08:00am - Hotel checkout",
+          "Proceed to Brussels (5 hrs approx.)",
+          "01:00pm - View of Atomium, Mini Europe with lunch",
+          "04:00pm - Visit The Grand Place",
+          "07:00pm - Check-in to hotel with packed dinner"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Overnight Stay at Amsterdam",
+        "activities": [
+          "07:00am - Breakfast",
+          "Proceed to Amsterdam (3 hrs approx.)",
+          "Lunch",
+          "01:00pm - Zaanse Schan windmills & cheese shop",
+          "02:00pm - Proceed to Amsterdam",
+          "04:00pm - Amsterdam canal cruise and free time for shopping",
+          "07:00pm - Check-in hotel with packed dinner"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Overnight Stay at Stuttgart",
+        "activities": [
+          "07:00am - Breakfast and hotel checkout",
+          "08:00am - Journey to Germany (3hrs 30mins approx.)",
+          "01:00pm - Lunch",
+          "02:00pm to 03:00pm - Visit Cologne Cathedral",
+          "03:00pm - Journey to Stuttgart (4 hrs approx.)",
+          "08:00pm - Check-in hotel with packed dinner"
+        ]
+      },
+      {
+        "day": 7,
+        "title": "Overnight Stay at Zurich",
+        "activities": [
+          "07:00am - Breakfast",
+          "08:00am - Journey to Switzerland (3hrs approx.)",
+          "12:00pm - Visit Drubba Cuckoo clock",
+          "01:00pm - Lunch",
+          "04:00pm - Visit Rhine Falls",
+          "08:00pm - Check-in hotel with packed dinner"
+        ]
+      },
+      {
+        "day": 8,
+        "title": "Overnight Stay at Zurich",
+        "activities": [
+          "07:00am - Breakfast",
+          "08:00am - Proceed to Engelberg Station (Mount Titlis)",
+          "10:00am to 12:00pm - At Mount Titlis",
+          "12:00pm - Proceed to Lucerne",
+          "01:00pm - Lunch at Lucerne",
+          "03:00pm to 05:30pm - Lucerne walking tour",
+          "07:00pm - Dinner in Zurich (packed dinner)"
+        ]
+      },
+      {
+        "day": 9,
+        "title": "Overnight Stay at Zurich",
+        "activities": [
+          "07:00am - Breakfast",
+          "Full day - Jungfraujoch in Interlaken",
+          "08:00pm - Dinner"
+        ]
+      },
+      {
+        "day": 10,
+        "title": "Overnight Stay at Venice",
+        "activities": [
+          "07:00am - Breakfast",
+          "08:00am - Hotel checkout",
+          "Proceed to Venice (6 hrs approx.)",
+          "Lunch",
+          "03:00pm - Half-day walking tour in Venice Island – Saint Mark’s Basilica, St. Mark’s Square, Bridge of Sighs",
+          "05:00pm - Gondola boat ride (25 mins, 5 persons in each gondola)",
+          "08:00pm - Check into hotel with packed dinner"
+        ]
+      },
+      {
+        "day": 11,
+        "title": "Overnight Stay at Pisa",
+        "activities": [
+          "08:00am - Breakfast",
+          "10:00am - Hotel check-out",
+          "Proceed to Florence (3 hrs approx.)",
+          "01:00pm - Lunch",
+          "02:00pm to 04:30pm - Florence sightseeing",
+          "05:00pm - Journey to Pisa",
+          "07:30pm - Dinner",
+          "08:00pm - Check-in hotel"
+        ]
+      },
+      {
+        "day": 12,
+        "title": "Overnight Stay at Rome",
+        "activities": [
+          "07:00am - Breakfast",
+          "09:00am - Hotel check-out and visit Leaning Tower of Pisa",
+          "01:00pm - Lunch",
+          "02:00pm - Proceed to Rome (4 hrs approx.)",
+          "06:00pm - Check-in hotel",
+          "07:00pm - Dinner (packed)"
+        ]
+      },
+      {
+        "day": 13,
+        "title": "Overnight Stay at Rome",
+        "activities": [
+          "08:00am - Breakfast",
+          "10:00am to 01:00pm - Vatican tour with admission to Vatican Museum",
+          "02:00pm - Lunch",
+          "04:00pm - Visit Trevi Fountain",
+          "07:00pm - Check-in hotel with packed dinner"
+        ]
+      },
+      {
+        "day": 14,
+        "title": "Overnight Stay at Rome",
+        "activities": [
+          "07:00am - Breakfast",
+          "08:00am - Hotel check-out",
+          "10:00am - Visit Colosseum",
+          "12:30pm - Lunch",
+          "01:30pm to 05:30pm - Free time for shopping at Porta di Roma Galleria Commerciale",
+          "07:00pm - Drop at hotel with packed dinner"
+        ]
+      },
+      {
+        "day": 15,
+        "title": "Departure from Rome",
+        "activities": [
+          "05:00am - Hotel check-out with packed breakfast",
+          "06:00am - Drop at airport",
+          "Flight to Hyderabad"
+        ]
+      }
+    ],
+    "package_includes": [
+      "Airfare",
+      "Visa fee",
+      "Meals: Breakfast at Hotel",
+      "Lunch: Indian Restaurant/ Packed Indian lunches veg/non-veg menu as per itinerary",
+      "Dinner: Indian restaurants with standard menu veg/non-veg menu",
+      "Travel insurance",
+      "3/4-star hotels",
+      "Deluxe coach",
+      "Entrance fees as mentioned in the Itinerary",
+      "Sightseeing as mentioned in the itinerary",
+      "Daily 1 mineral bottle (500ml)"
+    ],
+    "package_excludes": [
+      "Tips to driver (4€ per day per person)",
+      "Anything not mentioned in inclusions",
+      "Optional tours other than mentioned in the Itinerary",
+      "Any meals/drinks other than mentioned in the Itinerary",
+      "5% GST and 5% TCS",
+      "Gondola tickets"
+    ],
+    "media": [
+      "assets/img/package_europe.jpg",
+      "https://example.com/images/europe_2.jpg",
+      "https://example.com/videos/europe_tour.mp4"
+    ],
+    "imageUrl": "assets/img/home1/home1-banner-img1.png",
+    "title": "Charming European Cities"
+  },
+  {
+    "package_name": "Chardham Special Package",
+    "place": "Chardham ",
+    "category": ["Temple", "Special", "Domestic"],
+    "days": "13 Nights - 14 Days",
+    "places_visiting": [
+      "Delhi",
+      "Akshardham",
+      "Haridwar",
+      "Ranachatti",
+      "Uttarkashi",
+      "Rampur",
+      "Kedarnath",
+      "Badrinath",
+      "Rishikesh"
+    ],
+    "package_description": "Embark on a divine journey with the Chardham Special Package, visiting the most sacred temples in India. From the spiritual vibrancy of Delhi and Haridwar to the high-altitude temples of Kedarnath and Badrinath, this package offers a deep, enriching experience of India’s spiritual heritage. Explore the holy shrines, partake in sacred ceremonies, and enjoy the serenity of the Himalayas while traveling in comfort. A perfect pilgrimage for those seeking spiritual enlightenment and adventure.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival Delhi – Akshardham",
+        "activities": [
+          "Pickup from Delhi Airport / Railway Station.",
+          "Check in to Hotel (Check-in time as per Hotel Policy).",
+          "After lunch, visit Akshardham temple.",
+          "8:30 pm: Dinner.",
+          "Overnight stay at Delhi."
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Visit Delhi Local – Haridwar Journey",
+        "activities": [
+          "7:30 am: Breakfast.",
+          "8:00 am to 1:00 pm: Visit Delhi local sightseeing.",
+          "1:30 pm: Lunch.",
+          "Journey to Haridwar.",
+          "8:30 pm: Dinner.",
+          "Overnight stay at Haridwar."
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Visit Haridwar Local",
+        "activities": [
+          "7:30 am: Breakfast.",
+          "8:00 am to 2:00 pm: Visit Manasa Devi Temple and Chandi Devi Temple.",
+          "2:30 pm: Lunch.",
+          "5:00 pm to 7:00 pm: Visit Ganga Harathi.",
+          "8:30 pm: Dinner.",
+          "Overnight stay at Haridwar."
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Haridwar – Ranachatti Journey",
+        "activities": [
+          "6:30 am: Breakfast and journey to Ranachatti.",
+          "1:00 pm: Lunch on the way.",
+          "6:00 pm: Arrival at Ranachatti and rest.",
+          "8:00 pm: Dinner.",
+          "Overnight stay at Ranachatti."
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Yamunothri Temple Darshan",
+        "activities": [
+          "6:30 am: Breakfast.",
+          "Journey to JanakiChatti.",
+          "8:00 am to 4:00 pm: Visit Yamunothri Temple Darshan (by walk, doli, or horse).",
+          "Return journey to Ranachatti.",
+          "8:30 pm: Dinner.",
+          "Overnight stay at Ranachatti."
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Uttarkashi Journey – Visit Uttarkashi Temple",
+        "activities": [
+          "7:00 am: Breakfast.",
+          "Journey to Uttarkashi.",
+          "2:00 pm: Arrival and lunch.",
+          "4:00 pm to 6:00 pm: Visit Uttarkashi (Kashi Viswanath) temple.",
+          "8:00 pm: Dinner.",
+          "Overnight stay at Uttarkashi."
+        ]
+      },
+      {
+        "day": 7,
+        "title": "Gangothri Temple Visit",
+        "activities": [
+          "4:00 am: Journey starts to Gangothri.",
+          "8:00 am: Breakfast on the way.",
+          "9:00 am to 12:00 pm: Holy bath and visit Gangothri temple.",
+          "1:30 pm: Lunch.",
+          "Return to Uttarkashi.",
+          "8:00 pm: Dinner.",
+          "Overnight stay at Uttarkashi."
+        ]
+      },
+      {
+        "day": 8,
+        "title": "Rampur Journey",
+        "activities": [
+          "6:00 am: Breakfast.",
+          "Journey to Rampur.",
+          "1:30 pm: Lunch on the way.",
+          "7:00 pm: Arrival and rest.",
+          "9:00 pm: Dinner.",
+          "Overnight stay at Rampur."
+        ]
+      },
+      {
+        "day": 9,
+        "title": "Kedarnath Temple Visit",
+        "activities": [
+          "6:00 am to 7:00 pm: Full day visit Kedarnath temple.",
+          "Packed breakfast.",
+          "Dinner at hotel.",
+          "Overnight stay at Rampur."
+        ]
+      },
+      {
+        "day": 10,
+        "title": "Optional Day for Kedarnath Visit",
+        "activities": [
+          "6:00 am to 7:00 pm: Optional full day visit Kedarnath temple.",
+          "Packed breakfast.",
+          "Dinner at hotel.",
+          "Overnight stay at Rampur."
+        ]
+      },
+      {
+        "day": 11,
+        "title": "Rampur – Badrinath Journey",
+        "activities": [
+          "7:00 am: Breakfast.",
+          "Journey to Badrinath.",
+          "1:00 pm: Lunch on the way.",
+          "7:00 pm: Arrival at Badrinath.",
+          "8:30 pm: Dinner.",
+          "Overnight stay at Badrinath."
+        ]
+      },
+      {
+        "day": 12,
+        "title": "Badrinath Temple Visit",
+        "activities": [
+          "8:00 am: Breakfast.",
+          "9:00 am to 1:00 pm: Visit Badrinath temple and perform pooja at Brahmakapalam.",
+          "1:30 pm: Lunch.",
+          "4:00 pm to 6:00 pm: Visit Mana Village by local vehicle.",
+          "8:30 pm: Dinner.",
+          "Overnight stay at Badrinath."
+        ]
+      },
+      {
+        "day": 13,
+        "title": "Visit Rishikesh Local – Haridwar Journey",
+        "activities": [
+          "5:00 am: Journey starts to Rishikesh.",
+          "8:00 am: Breakfast.",
+          "1:30 pm: Lunch.",
+          "6:00 pm to 8:00 pm: Visit Rishikesh local sightseeing.",
+          "Proceed to Haridwar.",
+          "9:30 pm: Dinner.",
+          "Overnight stay at Haridwar."
+        ]
+      },
+      {
+        "day": 14,
+        "title": "Return Journey",
+        "activities": [
+          "8:00 am: Breakfast and check-out from the hotel.",
+          "9:00 am: Journey to Delhi.",
+          "After lunch, drop at Delhi Airport / Railway Station.",
+          "Overnight stay at Haridwar."
+        ]
+      }
+    ],
+    "package_includes": [
+      "AC Vehicle for road transportation.",
+      "Breakfast, Lunch, and Dinner.",
+      "AC accommodation (twin sharing).",
+      "Daily one mineral water bottle."
+    ],
+    "package_excludes": [
+      "All entry tickets.",
+      "Insurance.",
+      "Boat and auto charges.",
+      "Personal activities and tips.",
+      "Small vehicle charges in boat no-entry areas.",
+      "Flight ticket."
+    ],
+    "media": ["assets/img/package_chardham.png"],
+    "imageUrl": "assets/img/home1/home1-banner-img2.png",
+    "title": "Sacred Spiritual Journey"
+  },
+  {
+    "package_name": "Kerala Special Package",
+    "place": "Kerala",
+    "category": ["Domestic", "Special"],
+    "days": "6 Nights – 7 Days",
+    "package_description": "The Kerala Special Package is a delightful journey through some of Kerala’s most iconic locations, offering a perfect mix of temples, natural beauty, and cultural experiences. From the serene Guruvayur Temple to the pristine beaches of Kovalam and the tranquil backwaters of Alleppey, this package has something for everyone.",
+    "places_visiting": [
+      "Guruvayur",
+      "Athirampally",
+      "Munnar",
+      "Thekkady",
+      "Kovalam",
+      "Trivandrum",
+      "Varkala",
+      "Alleppey",
+      "Cochin"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival Cochin - Visit Guruvayur Temple",
+        "activities": [
+          "5:00 pm to 8:00 pm: Visit Guruvayur Temple.",
+          "9:00 pm: Dinner."
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Visit Athirampally Waterfalls - Travel to Munnar",
+        "activities": [
+          "7:30 am: Breakfast.",
+          "10:00 am to 12:00 pm: Visit Athirampally Waterfalls.",
+          "12:30 pm: Journey to Munnar.",
+          "6:30 pm: Arrival in Munnar and rest.",
+          "8:30 pm: Dinner."
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Munnar Local Sightseeing",
+        "activities": [
+          "8:00 am: Breakfast.",
+          "9:00 am to 5:00 pm: Munnar local sightseeing - Flower Garden, Photo Point, Honey Bee Tree, Echo Point, Shooting Point, Madupatty Dam, Tea Museum.",
+          "Evening: Free time for shopping."
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Munnar to Thekkady",
+        "activities": [
+          "8:00 am: Breakfast and journey to Thekkady.",
+          "11:00 am to 1:00 pm: Visit Spice Garden and Elephant Park.",
+          "2:00 pm to 5:00 pm: Wildlife boat ride at Thekkady.",
+          "Evening: Kalari Fight Show and Cultural Dance Show.",
+          "9:00 pm: Dinner."
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Thekkady - Kovalam - Trivandrum",
+        "activities": [
+          "7:00 am: Breakfast and journey to Trivandrum.",
+          "2:00 pm: Arrival and Lunch.",
+          "4:00 pm to 6:00 pm: Visit Kovalam Beach.",
+          "Evening: Free time for shopping.",
+          "8:30 pm: Dinner."
+        ]
+      },
+      {
+        "day": 6,
+        "title": "Trivandrum - Varkala - Alleppey - Cochin",
+        "activities": [
+          "4:00 am to 7:00 am: Visit Trivandrum Temple.",
+          "7:30 am: Breakfast and journey to Varkala Beach.",
+          "10:00 am to 11:00 am: Visit Varkala Beach.",
+          "Proceed to Alleppey.",
+          "4:00 pm to 5:00 pm: Alleppey sightseeing by boat.",
+          "6:00 pm: Journey to Cochin.",
+          "9:00 pm: Dinner."
+        ]
+      },
+      {
+        "day": 7,
+        "title": "Cochin Local Sightseeing - Return Journey",
+        "activities": [
+          "8:00 am: Breakfast.",
+          "9:00 am to 11:00 am: Visit Chotanikker Amman Temple.",
+          "12:30 pm: Lunch.",
+          "2:00 pm to 4:00 pm: Visit Marine Drive.",
+          "Drop at Cochin Airport/Railway Station for return journey."
+        ]
+      }
+    ],
+    "package_includes": [
+      "Breakfast, Lunch, and Dinner.",
+      "Deluxe Accommodation.",
+      "AC Vehicle for transportation (Except Hill Stations).",
+      "Daily one mineral water bottle."
+    ],
+    "package_excludes": [
+      "All entry tickets.",
+      "Optional tour cost, boating charges.",
+      "Flight tickets/Train tickets."
+    ],
+    "media": [
+      "assets/img/package_europe.jpg",
+      "https://example.com/images/europe_2.jpg",
+      "https://example.com/videos/europe_tour.mp4"
+    ],
+    "imageUrl": "assets/img/home1/home1-banner-img2.png",
+    "title": "God's Own Country"
+  }
+]

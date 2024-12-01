@@ -6,4 +6,13 @@
     text-overflow: ellipsis;
     white-space: normal; /* Ensures that text wraps normally */
   }
+
+  .truncate-text-one {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;  /* Limits the text to 2 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal; /* Ensures that text wraps normally */
+  }
   

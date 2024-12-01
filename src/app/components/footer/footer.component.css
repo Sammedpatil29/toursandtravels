@@ -1,0 +1,7 @@
+.click:hover {
+    color: var(--primary-color1)
+}
+
+.click {
+    cursor: pointer;
+}

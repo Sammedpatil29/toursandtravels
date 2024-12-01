@@ -12,63 +12,22 @@ import { Router } from '@angular/router';
   styleUrl: './home.component.css'
 })
 export class HomeComponent implements OnInit {
+
+
   
   constructor(private dataService: DataService, private router: Router) {}
   
   ngOnInit(): void {
-    this.getTripData()
+    this.getTripData();
+    this.getBanners();
   }
-  banners = [
-    {
-      imageUrl: 'assets/img/home1/home1-banner-img1.png',
-      tag: 'Europe',
-      title: 'Let\'s Travel And Explore Destination.',
-      description: 'Life is unpredictable, and we understand that plans might change. Enjoy flexible booking options, so you can reschedule or modify your trip with ease.',
-      buttonText: 'Book A Trip',
-      buttonLink: 'package-grid.html'
-    },
-    {
-      imageUrl: 'assets/img/home1/home1-banner-img2.png',
-      tag: 'Kerala',
-      title: 'Adventure Awaits You.',
-      description: 'Experience the thrill of the great outdoors with our adventure packages.',
-      buttonText: 'Book A Trip',
-      buttonLink: 'package-grid.html'
-    },
-    {
-      imageUrl: 'assets/img/home1/home1-banner-img2.png',
-      tag: 'Dubai',
-      title: 'Adventure Awaits You.',
-      description: 'Experience the thrill of the great outdoors with our adventure packages.',
-      buttonText: 'Book A Trip',
-      buttonLink: 'package-grid.html'
-    },
-    {
-      imageUrl: 'assets/img/home1/home1-banner-img2.png',
-      tag: 'Kerala',
-      title: 'Adventure Awaits You.',
-      description: 'Experience the thrill of the great outdoors with our adventure packages.',
-      buttonText: 'Book A Trip',
-      buttonLink: 'package-grid.html'
-    },
-    {
-      imageUrl: 'assets/img/home1/home1-banner-img1.png',
-      tag: 'Europe',
-      title: 'Let\'s Travel And Explore Destination.',
-      description: 'Life is unpredictable, and we understand that plans might change. Enjoy flexible booking options, so you can reschedule or modify your trip with ease.',
-      buttonText: 'Book A Trip',
-      buttonLink: 'package-grid.html'
-    },
-    {
-      imageUrl: 'assets/img/home1/home1-banner-img2.png',
-      tag: 'Kerala',
-      title: 'Adventure Awaits You.',
-      description: 'Experience the thrill of the great outdoors with our adventure packages.',
-      buttonText: 'Book A Trip',
-      buttonLink: 'package-grid.html'
-    },
-    // Add more banners here
-  ];
+
+  bookTrip(banner:any) {
+    this.router.navigate(['/tripDetails'], { queryParams: { title: banner.package_name } });
+  }
+
+  banners: any[] = [];
+
   tripPackages:any;
   internationalPackages:any;
   specialPackages:any;
@@ -78,6 +37,7 @@ export class HomeComponent implements OnInit {
   domesticPackagesForHome:any;
   specialPackagesForHome:any;
   templePackagesForHome:any;
+
 getTripData(){
  this.dataService.getData().subscribe((data) => {
 this.tripPackages = data;
@@ -95,7 +55,14 @@ console.log("data fetched", this.internationalPackagesForHome.length)
 }
 
 openDetails(item:any) {
-  this.router.navigate(['/tripDetails'], { state: { item: item } });
+  this.router.navigate(['/tripDetails'], { queryParams: { title: item.package_name } });
+}
+
+getBanners() {
+  this.dataService.getbanners().subscribe((data) => {
+    this.banners = data;
+    console.log(this.banners)
+  })
 }
 
 openAllPackages(category:any) {
@@ -104,5 +71,14 @@ openAllPackages(category:any) {
   } else if (category == "Domestic") {
     this.router.navigate(['/packagelist'], { state: { item: this.domesticPackages, title:category }});
   }
+}
+
+onButtonClick(item:any) {
+  // const messa = encodeURIComponent(this.message);
+  let message = `Hi, I want to book *${item.package_name}*%0ADetails:%0APlace: ${item.place}%0APackage: ${item.days}`;
+  const whatsappUrl = `https://wa.me/9490391100?text=${message}`;
+  
+  // Open WhatsApp with the pre-filled message
+  window.open(whatsappUrl, '_blank');
 }
 }
