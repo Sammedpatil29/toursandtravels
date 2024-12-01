@@ -1,0 +1,33 @@
+   
+  <h2 mat-dialog-title class="d-flex justify-content-center pt-4 mb-0 text-center"><h2>Request <span style="color:var(--primary-color1)">Customised</span> Trip</h2>
+</h2>
+<mat-dialog-content>
+  <div class="row g-3">
+    <div class="col-md-6">
+      <label class="form-label">Name</label>
+      <input type="text" [(ngModel)]="customerName" class="form-control" placeholder="eg: Mahaadev">
+    </div>
+  
+    <div class="col-md-6">
+      <label for="inputPassword4" class="form-label">Contact</label>
+      <input type="text" [(ngModel)]="phoneNumber" class="form-control" placeholder="eg: +91 9490391100">
+    </div>
+  
+    <div class="col-12">
+      <label for="inputAddress" class="form-label">Place</label>
+      <input type="text" [(ngModel)]="place" class="form-control" placeholder="eg: Hyderabad">
+    </div>
+  
+    <div class="col-12">
+      <label for="inputAddress2" class="form-label">Add your request</label>
+      <textarea type="textarea" [(ngModel)]="request" class="form-control" id="inputAddress2" placeholder="eg: I am planning a 'USA' trip but it is not available in your list. Can I get a package for me?"></textarea>
+    </div>
+  
+    <p *ngIf="warning == true" class="pt-1" style="color: red;">*Please fill all the fields.</p>
+  
+    <div class="col-12 d-flex justify-content-center">
+      <button type="button" class="primary-btn1" (click)="send()">Send Request</button>
+    </div>
+  </div>
+  
+</mat-dialog-content>
