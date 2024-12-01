@@ -20,13 +20,21 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     this.getTripData();
     this.getBanners();
+    this.dataService.modalState$.subscribe(state => {
+      this.isModalOpen = state;
+    });
   }
 
   bookTrip(banner:any) {
     this.router.navigate(['/tripDetails'], { queryParams: { title: banner.package_name } });
   }
 
+  closeModal(): void {
+    this.dataService.closeModal(); // Close the modal when the close button is clicked
+  }
+
   banners: any[] = [];
+  isModalOpen: boolean = false;
 
   tripPackages:any;
   internationalPackages:any;
@@ -70,6 +78,8 @@ openAllPackages(category:any) {
     this.router.navigate(['/packagelist'], { state: { item: this.internationalPackages, title:category } });
   } else if (category == "Domestic") {
     this.router.navigate(['/packagelist'], { state: { item: this.domesticPackages, title:category }});
+  } else if (category == "Temple") {
+    this.router.navigate(['/packagelist'], { state: { item: this.templePackages, title:category }});
   }
 }
 

@@ -3,11 +3,12 @@ import { NavbarComponent } from "../navbar/navbar.component";
 import { FooterComponent } from "../footer/footer.component";
 import { RouterOutlet } from '@angular/router';
 import { DataService } from '../../services/data.service';
+import { DialogComponent } from '../dialog/dialog.component';
 
 @Component({
   selector: 'app-layout',
   standalone: true,
-  imports: [NavbarComponent, FooterComponent, RouterOutlet],
+  imports: [NavbarComponent, FooterComponent, RouterOutlet, DialogComponent],
   templateUrl: './layout.component.html',
   styleUrl: './layout.component.css'
 })

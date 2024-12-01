@@ -1,20 +1,37 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { DataService } from '../../services/data.service';
+import {ChangeDetectionStrategy, inject} from '@angular/core';
+import {MatButtonModule} from '@angular/material/button';
+import {
+  MatDialog,
+  MatDialogActions,
+  MatDialogClose,
+  MatDialogContent,
+  MatDialogTitle,
+} from '@angular/material/dialog';
+import { DialogComponent } from '../dialog/dialog.component';
 
 @Component({
   selector: 'app-footer',
   standalone: true,
-  imports: [],
+  imports: [MatButtonModule],
   templateUrl: './footer.component.html',
   styleUrl: './footer.component.css'
 })
-export class FooterComponent {
+export class FooterComponent implements OnInit{
+  readonly dialog = inject(MatDialog);
+
   @Input() International: any[] = [];  // Array of international trips
   @Input() Domestic: any[] = [];
   @Input() Temple: any[] = [];
 email: string = 'srimahaadevtoursntravels@gmail.com';
 
-constructor(private router:Router){}
+constructor(private router:Router, private dataService:DataService){}
+
+ngOnInit(): void {
+  
+}
 
 openAllPackages(category:any) {
   window.scrollTo(0, 0);
@@ -40,14 +57,16 @@ openAllPackages(category:any) {
 
 }
 
+openDialog() {
+  this.dialog.open(DialogComponent, {
+    width: '500px',
+  });
+}
+
 onclick(){
   let message = "Hi, I need details about your trip plans!!";
   const whatsappUrl=`https://wa.me/9490391100?text=${message}`
   window.open(whatsappUrl, '_blank');
-}
-
-openDialog(){
-  
 }
 
 }
