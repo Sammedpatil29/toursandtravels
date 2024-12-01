@@ -1,3 +1,4 @@
+import { Dialog } from '@angular/cdk/dialog';
 import { CommonModule } from '@angular/common';
 import { Component, Inject } from '@angular/core';
 import {ChangeDetectionStrategy, inject} from '@angular/core';
@@ -37,18 +38,6 @@ send(){
   window.open(whatsappUrl, '_blank');
   }
   
-}
-
-printContent() {
-  const printContents = document.querySelector('.package-terms')?.innerHTML;
-  const originalContents = document.body.innerHTML;
-
-  // Set the body content to the print content and trigger the print dialog
-  document.body.innerHTML = printContents as string;
-  window.print();
-
-  // Restore the original content after printing
-  document.body.innerHTML = originalContents;
 }
 
 }

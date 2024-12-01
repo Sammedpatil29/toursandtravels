@@ -1,8 +1,8 @@
 
 <!-- Floating Action Button -->
 <!-- Floating Button with Text -->
-    <button class="floating-btn primary-btn1" (click)="onButtonClick(item)">
-        <span>Book {{item.place | uppercase }} Trip Now</span>
+    <button class="floating-btn primary-btn1"  (click)="onButtonClick(item)">
+        <span style="white-space: wrap;">Book {{item.place | uppercase }} Trip Now</span>
       </button>
   
   
@@ -78,7 +78,14 @@
                                 <li *ngFor="let data of item.package_excludes"><i class="bi bi-check-lg"></i> {{data}}</li>
                             </ul>
                         </div>
-                        <h4>Itinerary</h4>
+                        <h4 *ngIf="item.places_visiting">Places Visiting</h4>
+                        <div class="note mt-4 d-inline-block" *ngIf="item.places_visiting">
+                            <ng-container *ngFor="let data of item.places_visiting">
+                                <span class="d-inline" style="margin-right: 10px;"><i class="fa-solid fa-location-dot" style="color: #098618;"></i>&nbsp;{{ data }}&nbsp;</span>
+                            </ng-container>
+                        </div>
+                        
+                        <h4 class="mt-4">Itinerary</h4>
                         <div class="accordion tour-plan" id="tourPlan">
                             <!-- Loop through the itinerary data -->
                             <div class="accordion-item" *ngFor="let data of item.itinerary; let i = index">
@@ -105,10 +112,15 @@
                         <div class="note" *ngIf="item.note">
                             <p><strong>Note:</strong> {{item.note}}</p>
                         </div>
-                        <div class="action-btns d-flex justify-content-between mx-0">
-                            <div><Button class="primary-btn3" (click)="openDialog('CancellationPolicy')">Cancellation policy</Button></div>
-                            <div><button class="primary-btn3" (click)="openDialogwide('tandc')">Terms and Conditions</button></div>
+                        <div class="action-btns d-flex flex-column flex-sm-row justify-content-between mx-0">
+                            <div class="mb-3 mb-sm-0">
+                                <button class="primary-btn3" (click)="openDialog('CancellationPolicy')">Cancellation Policy</button>
+                            </div>
+                            <div>
+                                <button class="primary-btn3" (click)="openDialogwide('tandc')">Terms and Conditions</button>
+                            </div>
                         </div>
+                        
                         </div>
         </div>
         

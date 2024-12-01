@@ -219,7 +219,7 @@
       "https://example.com/images/europe_2.jpg",
       "https://example.com/videos/europe_tour.mp4"
     ],
-    "imageUrl": "assets/img/home1/home1-banner-img1.png",
+    "imageUrl": "assets/img/home-banner-europe-2.png",
     "title": "Charming European Cities"
   },
   {
@@ -418,7 +418,7 @@
       "Flight ticket."
     ],
     "media": ["assets/img/package_chardham.png"],
-    "imageUrl": "assets/img/home1/home1-banner-img2.png",
+    "imageUrl": "assets/img/home-banner-chardam-2.png",
     "title": "Sacred Spiritual Journey"
   },
   {
@@ -530,7 +530,7 @@
       "https://example.com/images/europe_2.jpg",
       "https://example.com/videos/europe_tour.mp4"
     ],
-    "imageUrl": "assets/img/home1/home1-banner-img2.png",
+    "imageUrl": "assets/img/home-banner-kerala-2.png",
     "title": "God's Own Country"
   }
 ]

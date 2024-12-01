@@ -60,7 +60,7 @@ openAllPackages(category:any) {
 openDialog(event:any) {
   window.scrollTo(0,0)
   this.dialog.open(DialogComponent, {
-    width: '500px',
+    width: '600px',
     data: {
       title: event
     }

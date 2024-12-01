@@ -34,17 +34,16 @@
             <li class="menu-item-has-children">
                 <a href="javascript:void(0);" class="drop-down">Branches</a><i class="bi bi-plus dropdown-icon"></i>
                 <ul class="sub-menu">
-                    <li><a href="destination1.html">Hyderabad</a></li>
-                    <li><a href="destination2.html">Bangalore</a></li>
-                    <li><a href="destination3.html">Proddatur</a></li>
-                    <li><a href="destination4.html">Chennai</a></li>
+                    <li><a href="javascript:void(0)" (click)="navigate('hyderabad')">Hyderabad</a></li>
+                    <li><a href="javascript:void(0)" (click)="navigate('proddatur')">Proddatur</a></li>
+                    <li><a href="javascript:void(0)" (click)="navigate('srikakulam')">Srikakulam</a></li>
                 </ul>
             </li>
             <li [class.active]="activeMenu === 'AboutUs'">
                 <a (click)="navigate('AboutUs')" href="javascript:void(0);" class="drop-down">About Us</a>
             </li>
             <li>
-                <a href="javascript:void(0);" class="drop-down">Contact</a>
+                <a href="javascript:void(0);" class="drop-down" (click)="navigate('all')">Contact</a>
             </li>
         </ul>
         

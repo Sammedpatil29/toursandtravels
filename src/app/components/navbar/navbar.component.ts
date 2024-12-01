@@ -23,6 +23,18 @@ navigate(event:any) {
   } else if(event == 'Home') {
     this.router.navigate(['/home'])
   }
+   else if(event == 'hyderabad') {
+    this.router.navigate(['/contact'], {queryParams:{branch: event}})
+  }
+   else if(event == 'proddatur') {
+    this.router.navigate(['/contact'], {queryParams:{branch: event}})
+  }
+   else if(event == 'srikakulam') {
+    this.router.navigate(['/contact'], {queryParams:{branch: event}})
+  }
+   else if(event == 'all') {
+    this.router.navigate(['/contact'], {queryParams:{branch: event}})
+  }
 }
 
 activeMenu: string = 'Home'; // Default active menu

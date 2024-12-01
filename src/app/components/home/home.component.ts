@@ -3,11 +3,12 @@ import { HeroComponent } from "../hero/hero.component";
 import { DataService } from '../../services/data.service';
 import { CommonModule } from '@angular/common';
 import { Router } from '@angular/router';
+import { ContactComponent } from '../contact/contact.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [HeroComponent, CommonModule],
+  imports: [HeroComponent, CommonModule, ContactComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
