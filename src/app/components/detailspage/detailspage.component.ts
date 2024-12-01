@@ -1,17 +1,21 @@
 import { CommonModule } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { DataService } from '../../services/data.service';
+import { MatDialog } from '@angular/material/dialog';
+import { MatButtonModule } from '@angular/material/button';
+import { DialogComponent } from '../dialog/dialog.component';
 
 @Component({
   selector: 'app-detailspage',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, MatButtonModule],
   templateUrl: './detailspage.component.html',
   styleUrl: './detailspage.component.css'
 })
 export class DetailspageComponent implements OnInit{
  
+  readonly dialog = inject(MatDialog);
 
   constructor(private route:ActivatedRoute, private dataService:DataService) {
     const navigation = window.history.state;
@@ -47,5 +51,25 @@ console.log(this.item)
     
     // Open WhatsApp with the pre-filled message
     window.open(whatsappUrl, '_blank');
+  }
+
+  openDialogwide(event:any) {
+    window.scrollTo(0,0)
+    this.dialog.open(DialogComponent, {
+      height: '75vh',
+      data: {
+        title: event
+      }
+    });
+  }
+
+  openDialog(event:any) {
+    window.scrollTo(0,0)
+    this.dialog.open(DialogComponent, {
+      width: '500px',
+      data: {
+        title: event
+      }
+    });
   }
 }

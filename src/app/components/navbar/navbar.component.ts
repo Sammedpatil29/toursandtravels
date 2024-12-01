@@ -14,9 +14,10 @@ export class NavbarComponent {
   @Input() Temple: any[] = [];
 
   constructor(private router: Router) { }
-gmail:string = 'test@gmail.com'
+gmail:string = 'srimahaadevtoursntravels@gmail.com'
 
 navigate(event:any) {
+  this.activeMenu = event;
   if(event == 'AboutUs'){
     this.router.navigate(['/aboutus'])
   } else if(event == 'Home') {
@@ -24,7 +25,10 @@ navigate(event:any) {
   }
 }
 
+activeMenu: string = 'Home'; // Default active menu
+
 openAllPackages(category:any) {
+  this.activeMenu = category;
   window.scrollTo(0, 0);
 
   // Determine the data based on the category

@@ -57,9 +57,23 @@ openAllPackages(category:any) {
 
 }
 
-openDialog() {
+openDialog(event:any) {
+  window.scrollTo(0,0)
   this.dialog.open(DialogComponent, {
     width: '500px',
+    data: {
+      title: event
+    }
+  });
+}
+
+openDialogwide(event:any) {
+  window.scrollTo(0,0)
+  this.dialog.open(DialogComponent, {
+    height: '75vh',
+    data: {
+      title: event
+    }
   });
 }
 

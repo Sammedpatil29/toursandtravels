@@ -54,10 +54,6 @@
                 </div>
             </div>
         </div>
-        <div class="others-image-wrap d-none">
-            <a href="https://triprex.b-cdn.net/wp-content/uploads/2024/02/package-02.webp" data-fancybox="images"><img src="https://triprex.b-cdn.net/wp-content/uploads/2024/02/package-02.webp" alt="thumbnail"></a>
-            <a href="https://triprex.b-cdn.net/wp-content/uploads/2024/02/package-03.webp" data-fancybox="images"><img src="https://triprex.b-cdn.net/wp-content/uploads/2024/02/package-03.webp" alt="thumbnail"></a>
-        </div>
         <div class="row g-xl-4 gy-5">
             <div class="col-xl-12">
                 <ul class="tour-info-metalist">
@@ -86,35 +82,36 @@
                         <div class="accordion tour-plan" id="tourPlan">
                             <!-- Loop through the itinerary data -->
                             <div class="accordion-item" *ngFor="let data of item.itinerary; let i = index">
-                              <h2 class="accordion-header" [id]="'heading' + i">
-                                <button class="accordion-button" 
-                                        type="button" 
-                                        [attr.data-bs-toggle]="'collapse'" 
-                                        [attr.data-bs-target]="'#collapse' + i" 
-                                        [attr.aria-expanded]="i === 0 ? 'true' : 'false'" 
+                                <h2 class="accordion-header" [id]="'heading' + i">
+                                    <button class="accordion-button" type="button" [attr.data-bs-toggle]="'collapse'"
+                                        [attr.data-bs-target]="'#collapse' + i" [attr.aria-expanded]="i === 0 ? 'true' : 'false'"
                                         [attr.aria-controls]="'collapse' + i">
-                                  <span>Day {{ data.day }}:</span> {{ data.title }}
-                                </button>
-                              </h2>
-                              <div [id]="'collapse' + i" 
-                                   class="accordion-collapse collapse" 
-                                   [class.show]="i === 0" 
-                                   [attr.aria-labelledby]="'heading' + i" 
-                                   data-bs-parent="#tourPlan">
-                                <div class="accordion-body">
-                                  <!-- <p>{{ data.description }}</p> -->
-                                  <ul class="exclud">
-                                    <li *ngFor="let activity of data.activities">
-                                      <i class="bi bi-check-lg"></i> {{ activity }}
-                                    </li>
-                                  </ul>
+                                        <span>Day {{ data.day }}:</span> {{ data.title }}
+                                    </button>
+                                </h2>
+                                <div [id]="'collapse' + i" class="accordion-collapse collapse" [class.show]="i === 0"
+                                    [attr.aria-labelledby]="'heading' + i" data-bs-parent="#tourPlan">
+                                    <div class="accordion-body">
+                                        <!-- <p>{{ data.description }}</p> -->
+                                        <ul class="exclud">
+                                            <li *ngFor="let activity of data.activities">
+                                                <i class="bi bi-check-lg"></i> {{ activity }}
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
-                              </div>
                             </div>
-                          </div>
-                          
-            </div>
+                        </div>
+                        <div class="note" *ngIf="item.note">
+                            <p><strong>Note:</strong> {{item.note}}</p>
+                        </div>
+                        <div class="action-btns d-flex justify-content-between mx-0">
+                            <div><Button class="primary-btn3" (click)="openDialog('CancellationPolicy')">Cancellation policy</Button></div>
+                            <div><button class="primary-btn3" (click)="openDialogwide('tandc')">Terms and Conditions</button></div>
+                        </div>
+                        </div>
         </div>
+        
     </div>
 </div>
 

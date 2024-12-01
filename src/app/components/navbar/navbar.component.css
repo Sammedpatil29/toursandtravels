@@ -1,0 +1,6 @@
+/* Example CSS */
+.menu-list li.active a {
+    color: var(--primary-color1);  /* Change to your desired active color */
+    font-weight: bold; /* Optional: Make the active item bold */
+  }
+  

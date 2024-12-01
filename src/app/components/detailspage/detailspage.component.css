@@ -30,4 +30,15 @@ ul {
     text-align: center; /* Center the text inside the button */
     white-space: nowrap; /* Prevent text from wrapping */
   }
+
+  .note {
+    border: 1px solid var(--primary-color1);
+    border-radius: 10px;
+    padding: 10px;
+    border-left: 8px solid var(--primary-color1) !important;
+  }
+
+  .action-btns {
+    padding: 20px 0px;
+  }
   

@@ -1,9 +1,10 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, Inject } from '@angular/core';
 import {ChangeDetectionStrategy, inject} from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import {MatButtonModule} from '@angular/material/button';
 import {
+  MAT_DIALOG_DATA,
   MatDialog,
   MatDialogActions,
   MatDialogClose,
@@ -24,6 +25,7 @@ phoneNumber: string = ''
 place: string =  ''
 request: string = ''
 warning:boolean = false;
+constructor(@Inject(MAT_DIALOG_DATA) public data:any) {}
 send(){
   if(this.customerName == '' || this.phoneNumber == '' || this.place == '' || this.request == ''){
     this.warning = true 
@@ -35,6 +37,18 @@ send(){
   window.open(whatsappUrl, '_blank');
   }
   
+}
+
+printContent() {
+  const printContents = document.querySelector('.package-terms')?.innerHTML;
+  const originalContents = document.body.innerHTML;
+
+  // Set the body content to the print content and trigger the print dialog
+  document.body.innerHTML = printContents as string;
+  window.print();
+
+  // Restore the original content after printing
+  document.body.innerHTML = originalContents;
 }
 
 }

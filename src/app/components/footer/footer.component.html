@@ -1,6 +1,6 @@
 <!-- Start Footer Section -->
  <!-- Start Banner3 section section -->
- <div class="banner3-section click" (click)="openDialog()" title="Click to customise trip">
+ <div class="banner3-section click" (click)="openDialog('form')" title="Click to customise trip">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -101,6 +101,7 @@
                     <div class="footer-widget">
                         <div class="widget-title">
                             <h5>We Are Here</h5>
+
                         </div>
                         <div class="payment-partner">
                             <div class="widget-title">
@@ -142,8 +143,8 @@
                     <!-- <p>©Copyright 2024 MahadevToursandTravels | Design By <a href="https://www.egenslab.com/">Sri mahaadeva</a></p> -->
                     <div class="footer-right">
                         <ul>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms & Condition</a></li>
+                            <li><a href="javascript:void(0)" (click)="openDialog('CancellationPolicy')">Cancellation Policy</a></li>
+                            <li><a href="javascript:void(0)" (click)="openDialogwide('tandc')">Terms & Condition</a></li>
                         </ul>
                     </div>
                 </div>

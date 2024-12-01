@@ -9,3 +9,25 @@ h6 {
     line-height: 1.4;
     color: var(--title-color);
 }
+
+.cancellation-policy table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .cancellation-policy th, .cancellation-policy td {
+    padding: 12px;
+    border: 1px solid var(--primary-color1);
+    text-align: center;
+  }
+  
+  .cancellation-policy th {
+    background-color: var(--primary-color1);
+    font-weight: bold;
+  }
+  
+  .cancellation-policy td {
+    background-color: #fafafa;
+  }
+  
