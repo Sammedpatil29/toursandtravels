@@ -41,14 +41,17 @@ send(){
   
 }
 sent: boolean = false;
+spinner: boolean = false;
 sendMail(){
   let message = {'name': this.customerName, 'contact': this.phoneNumber, 'place': this.place, 'message': this.request};
 console.log(message)
 if(this.customerName == '' || this.phoneNumber == '' || this.place == '' || this.request == ''){
   this.warning = true 
 } else {
+  this.spinner = true
     this._service.sendMail(message).subscribe((res:any) => {
       this.sent = true
+      this.spinner = false
     })
   }
 }
