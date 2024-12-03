@@ -1,0 +1,21 @@
+.truncate-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;  /* Limits the text to 2 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal; /* Ensures that text wraps normally */
+  }
+
+  .search{
+    padding: 10px;
+border-radius: 50px;
+width: 75%;
+padding-left: 20px;
+border: 2px solid var(--primary-color1)
+  }
+
+  .search:focus{
+    border: 3px solid var(--primary-color1);
+    font-weight: 700;
+  }

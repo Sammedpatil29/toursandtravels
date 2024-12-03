@@ -19,8 +19,29 @@
     list-style-type: none;
     padding-left: 0;
   }
+
+  a {
+    color: var(--primary-color1) !important;
+    font-weight: 600;
+  }
   
   ul li {
     margin-bottom: 5px;
   }
+
+  /* Global styling for the iframe */
+.map-iframe {
+    border: 1px solid var(--primary-color1); /* Define border color */
+    border-radius: 8px; /* Define border radius */
+}
+
+/* Ensure these styles are not overwritten on small screens */
+@media (max-width: 576px) {
+    .map-iframe {
+        border: 1px solid var(--primary-color1) !important; /* Apply border color on small screens */
+        border-radius: 8px !important; /* Apply border radius on small screens */
+    }
+}
+
+
   

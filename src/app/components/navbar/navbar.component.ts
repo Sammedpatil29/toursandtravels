@@ -35,6 +35,9 @@ navigate(event:any) {
    else if(event == 'all') {
     this.router.navigate(['/contact'], {queryParams:{branch: event}})
   }
+   else if(event == 'search') {
+    this.router.navigate(['/search'])
+  }
 }
 
 activeMenu: string = 'Home'; // Default active menu

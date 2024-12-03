@@ -10,6 +10,7 @@ import { NgModule } from '@angular/core';
 import { AboutusComponent } from './components/aboutus/aboutus.component';
 import { DetailspageComponent } from './components/detailspage/detailspage.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { SearchComponent } from './components/search/search.component';
 
 export const routes: Routes = [
     {path:'', component: LayoutComponent, children: [
@@ -20,6 +21,7 @@ export const routes: Routes = [
         {path: 'aboutus', component: AboutusComponent},
         {path: 'tripDetails', component: DetailspageComponent},
         {path: 'contact', component: ContactComponent},
+        {path: 'search', component: SearchComponent},
         {path: '**', component: NotfoundComponent},
     ]},
 
