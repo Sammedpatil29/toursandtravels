@@ -10,3 +10,18 @@ body {
   
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.close{
+  position: absolute;
+  top:0;
+right: 0;
+padding: 0px 10px;
+padding-bottom: 5px;
+background-color: var(--primary-color2);
+cursor: pointer;
+z-index: 1000;
+}
+
+.close:hover {
+  color: gray !important;
+}

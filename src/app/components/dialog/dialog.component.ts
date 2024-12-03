@@ -1,4 +1,4 @@
-import { Dialog } from '@angular/cdk/dialog';
+import { Dialog, DialogRef } from '@angular/cdk/dialog';
 import { CommonModule } from '@angular/common';
 import { Component, Inject } from '@angular/core';
 import {ChangeDetectionStrategy, inject} from '@angular/core';
@@ -10,6 +10,7 @@ import {
   MatDialogActions,
   MatDialogClose,
   MatDialogContent,
+  MatDialogRef,
   MatDialogTitle,
 } from '@angular/material/dialog';
 import { DataService } from '../../services/data.service';
@@ -27,19 +28,25 @@ phoneNumber: string = ''
 place: string =  ''
 request: string = ''
 warning:boolean = false;
-constructor(@Inject(MAT_DIALOG_DATA) public data:any, private _service: DataService) {}
+constructor(@Inject(MAT_DIALOG_DATA) public data:any, private _service: DataService, private dialogRef: MatDialogRef<DialogComponent>) {}
 send(){
   if(this.customerName == '' || this.phoneNumber == '' || this.place == '' || this.request == ''){
     this.warning = true 
   } else {
+    this.warning = false
     let message = `Hi, I am ${this.customerName}, from ${this.place}. can you customise below package for me!\n ${this.request}`;
   const whatsappUrl = `https://wa.me/9490391100?text=${message}`;
   
   // Open WhatsApp with the pre-filled message
   window.open(whatsappUrl, '_blank');
-  }
-  
+  this.dialogRef.close()
+  } 
 }
+
+close(){
+  this.dialogRef.close()
+}
+
 sent: boolean = false;
 spinner: boolean = false;
 sendMail(){
@@ -48,6 +55,7 @@ console.log(message)
 if(this.customerName == '' || this.phoneNumber == '' || this.place == '' || this.request == ''){
   this.warning = true 
 } else {
+  this.warning = false
   this.spinner = true
     this._service.sendMail(message).subscribe((res:any) => {
       this.sent = true
