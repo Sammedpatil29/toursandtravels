@@ -26,4 +26,9 @@ openModal(): void {
 closeModal(): void {
   this.modalSubject.next(false); // Close the modal
 }
+
+sendMail(data: any): Observable<any> {
+  console.log(data)
+return this.http.post<any>('https://tourandtravels-bkd.onrender.com/send-email', data)
+}
 }

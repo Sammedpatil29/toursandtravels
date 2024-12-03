@@ -4,6 +4,7 @@ import { FooterComponent } from "../footer/footer.component";
 import { RouterOutlet } from '@angular/router';
 import { DataService } from '../../services/data.service';
 import { DialogComponent } from '../dialog/dialog.component';
+import { Title, Meta} from '@angular/platform-browser';
 
 @Component({
   selector: 'app-layout',
@@ -14,10 +15,13 @@ import { DialogComponent } from '../dialog/dialog.component';
 })
 export class LayoutComponent implements OnInit {
 
-  constructor(private dataService: DataService){}
+  constructor(private dataService: DataService, private titleService: Title, private metaService: Meta) { }
 
   ngOnInit() {
     this.getTripData()
+    this.titleService.setTitle('Tour Packages – Sri Mahaadev Tours and Travels');
+    this.metaService.updateTag({ name: 'description', content: 'Explore the best domestic and international tour packages with Sri Mahaadev Tours and Travels.' });
+    this.metaService.updateTag({ name: 'keywords', content: 'Proddatur, international tour packages, family vacations, honeymoon tours, proddatur, srikakulam, tours and travels in proddatur' });
   }
   onclick(){
     let message = "Hi, I need details about your trip plans!!";

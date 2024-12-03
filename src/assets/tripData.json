@@ -1,6 +1,7 @@
 [
     {
       "package_name": "EUROPE SPL Tour package",
+      "videoLink":"https://www.youtube.com/embed/PHWDwdadnCo?si=MdZSymrj2zMQyBN6&amp;controls=0",
       "place": "Europe",
       "category": ["International","Special"],
       "places_visiting": [
@@ -222,6 +223,7 @@
     },
     {
         "package_name": "BALI SPECIAL TOUR",
+        "videoLink": "https://www.youtube.com/embed/CBwKJfrm5-U?si=ufVosZHTlpK4uIJB&amp;controls=0",
         "place": "Bali",
         "category": ["International","Special"],
         "places_visiting": ["Bali", "Kintamani", "Tanjung", "Uluwatu", "Tanah Lot"],
@@ -310,6 +312,7 @@
     },
     {
         "package_name": "MALDIVES SPECIAL PACKAGE",
+        "videoLink":"https://www.youtube.com/embed/Z755vZBf9oM?si=YOdP8Vp9n-sHeUjz&amp;controls=0",
         "place": "Maldives",
         "category": ["International","Special"],
         "places_visiting": ["Maldives"],
@@ -380,6 +383,7 @@
     },
     {
   "package_name": "Singapore-Malaysia",
+  "videoLink":"https://www.youtube.com/embed/L8sPZIkKywA?si=GjJfA870vwU9cp_w&amp;controls=0",
   "place": "Singapore-Malasiya",
   "category": ["International"],
   "places_visiting": [
@@ -486,6 +490,7 @@
     },
     {
         "package_name": "Bangkok – Pattaya - Phuket Tour Package",
+        "videoLink": "https://www.youtube.com/embed/iix88meGvXM?si=IK-pWmuNWjUiCPtl&amp;controls=0",
         "place": "Bangkok-Pattaya-Phuket-Phi Phi Island",
         "category": ["International"],
         "places_visiting": [
@@ -601,6 +606,7 @@
     },
     {
         "package_name": "Sri Lanka Tour Package",
+        "videoLink":"https://www.youtube.com/embed/buns7DpTL_I?si=1b6DZLCYBwZS0I-J&amp;controls=0",
         "place": "Sri Lanka",
         "days": "6 Days / 5 Nights",
         "category": ["International"],
@@ -719,6 +725,7 @@
     },
     {
         "package_name": "Kailash-Manasarovar Yatra",
+        "videoLink":"https://www.youtube.com/embed/d7KtraRw0KI?si=FFzCRmHgArG14pg4&amp;controls=0",
         "place": "Kailash-Manasarovar",
         "category": ["International"],
         "days": "14 Days / 13 Nights",
@@ -911,6 +918,7 @@
     },
     {
         "package_name": "Bangkok-Pattaya Tour Package",
+        "videoLink": "https://www.youtube.com/embed/iix88meGvXM?si=IK-pWmuNWjUiCPtl&amp;controls=0",
         "place": "Bangkok-Pattaya",
         "category": ["International"],
         "days": "4 Nights - 5 Days",
@@ -1010,6 +1018,7 @@
     },
     {
         "package_name": "Dubai Special Tour",
+        "videoLink":"https://www.youtube.com/embed/R43ISf6di0Q?si=_bnFk4Q6YL0Kma-J&amp;controls=0",
         "place": "Dubai",
         "category": ["International","Special"],
         "days": "4 Nights - 5 Days",
@@ -1125,6 +1134,7 @@
     },
     {
         "package_name": "Chardham Special Package",
+        "videoLink":"https://www.youtube.com/embed/ZvYAv8iCd60?si=cMgyTX5Ul8UZYtfg&amp;controls=0",
         "place": "Chardham ",
         "category": ["Temple", "Special","Domestic"],
         "days": "13 Nights - 14 Days",
@@ -1324,6 +1334,7 @@
     },
     {
         "package_name": "North India Special Package",
+        "videoLink": "https://www.youtube.com/embed/moO-3xl8xrk?si=kIQ2J1Aifn8z__8l&amp;controls=0",
         "place": "North India",
         "category": ["Domestic", "Special"],
         "days": "12 Nights - 13 Days",
@@ -1523,6 +1534,7 @@
     },
     {
         "package_name": "Gujarat Special Flight Package",
+        "videoLink":"https://www.youtube.com/embed/7IGFs2zqPWY?si=ScDD_WgKCaDEbVzW&amp;controls=0",
         "place": "Gujarat",
         "category": ["Domestic", "Special"],
         "days": "11 Nights - 12 Days",
@@ -1726,6 +1738,7 @@
     },
     {
         "package_name": "Naimisaranyam Kashi-Gaya Special Package",
+        "videoLink":"https://www.youtube.com/embed/890MOuBOUGE?si=9m0IF7OvNLaqNywi&amp;controls=0",
         "place": "Naimisaranyam Kashi-Gaya",
         "category": ["Domestic", "Special", "Temple"],
         "days": "11 Nights - 12 Days",
@@ -1916,6 +1929,7 @@
     },
     {
         "package_name": "Mukthinath Special Package",
+        "videoLink": "https://www.youtube.com/embed/wqGU0nUxoCw?si=wCvyYI0HWLbAs7G8&amp;controls=0",
         "place": "Mukthinath",
         "category": ["Domestic", "Temple", "Special"],
         "days": "12 Nights - 13 Days",
@@ -2112,6 +2126,7 @@
     },
     {
         "package_name": "Rajasthan Special Package",
+        "videoLink":"https://www.youtube.com/embed/usXEJ39uT2w?si=UPPkXGEmC7dSggv_&amp;controls=0",
         "place": "Rajasthan",
         "category": ["Domestic", "Special"],
         "days": "10 Nights - 11 Days",
@@ -2281,6 +2296,7 @@
     },
     {
         "package_name": "Kashi Special Package",
+        "videoLink":"https://www.youtube.com/embed/890MOuBOUGE?si=9m0IF7OvNLaqNywi&amp;controls=0",
         "place": "Kashi",
         "category": ["Special" ,"Domestic", "Temple"],
         "days": "9 Nights - 10 Days",
@@ -2452,6 +2468,7 @@
     },
     {
         "package_name": "Dodham Special Package",
+        "videoLink":"https://www.youtube.com/embed/D-MZNzfVi2g?si=u9Mmvnb1xl0kHK9y&amp;controls=0",
         "place": "Dodham",
         "category": ["Domestic", "Special","Temple"],
         "days": "8 Nights - 9 Days",
@@ -2587,6 +2604,7 @@
     },
     {
         "package_name": "Tamilnadu Special Package",
+        "videoLink":"https://www.youtube.com/embed/wpXCBZhzrec?si=zIBrVdtBaBkJVLzS&amp;controls=0",
         "place": "Tamilnadu",
         "category": ["Domestic", "Special"],
         "days": "7 Nights - 8 Days",
@@ -2772,6 +2790,7 @@
     },
     {
         "package_name": "Shimla-Manali Special Package",
+        "videoLink":"https://www.youtube.com/embed/_ybsjCCh0T8?si=j-hwhK08gAUNX4Fl&amp;controls=0",
         "place": "Shimla-Manali",
         "category": ["Domestic", "Special"],
         "days": "6 Nights - 7 Days",
@@ -2892,6 +2911,7 @@
     },
     {
         "package_name": "Kashmir Special Package",
+        "videoLink": "https://www.youtube.com/embed/D_bgCyM1nRY?si=oXJKr0cP2YM2yJfp&amp;controls=0",
         "place": "Kashmir",
         "category": ["Domestic", "Special"],
         "days": "6 Nights - 7 Days",
@@ -3011,6 +3031,7 @@
     },
     {
         "package_name": "Karnataka Special Package",
+        "videoLink":"https://www.youtube.com/embed/6K2nBoH8r_g?si=dJlONVVW1Ht_ZmTf&amp;controls=0",
         "place": "Karnataka",
         "category": ["Domestic", "Special"],
         "days": "6 Nights – 7 Days",
@@ -3150,6 +3171,7 @@
     },
     {
         "package_name": "Kashi-Allahabad Flight Package",
+        "videoLink":"https://www.youtube.com/embed/890MOuBOUGE?si=9m0IF7OvNLaqNywi&amp;controls=0",
         "place": "Kashi-Allahabad ",
         "category": ["Domestic", "Temple"],
         "days": "3 Nights – 4 Days",
@@ -3231,6 +3253,7 @@
     },
     {
         "package_name": "Kerala Special Package",
+        "videoLink": "https://www.youtube.com/embed/yLE5bDX7M3Y?si=UQeoaQHVMDL2RNPg&amp;controls=0",
         "place": "Kerala",
         "category": ["Domestic", "Special"],
         "days": "6 Nights – 7 Days",
@@ -3342,6 +3365,7 @@
     },
     {
         "package_name": "Maharashtra Special Package",
+        "videoLink": "https://www.youtube.com/embed/tK6aO3tmwNA?si=k-sQcgn4BqyASkt0&amp;controls=0",
         "place": "Maharashtra",
         "category": ["Domestic", "Special"],
         "days": "7 Nights – 8 Days",
@@ -3496,6 +3520,7 @@
     },
     {
         "package_name": "Goa Special Package",
+        "videoLink":"https://www.youtube.com/embed/F3YGYr37QFI?si=16dGB1YoIGhzOTf1&amp;controls=0",
         "place": "Goa",
         "category": ["Domestic", "Special"],
         "days": "2 Nights – 3 Days",
@@ -3559,6 +3584,7 @@
     },
     {
         "package_name": "Andaman Special Package",
+        "videoLink":"https://www.youtube.com/embed/NhLrrne5jXM?si=z9o8Fgl1a7AtiVL1&amp;controls=0",
         "place": "Andaman",
         "category": ["Domestic", "Special"],
         "days": "4 Nights – 5 Days",
@@ -3657,6 +3683,7 @@
     },
     {
         "package_name": "Gangtok-Darjeeling Special Package",
+        "videoLink":"https://www.youtube.com/embed/7msZa9YYpd0?si=ghaLFntQs7oqyDel&amp;controls=0",
         "place": "Gangtok-Darjeeling",
         "category": ["Domestic", "Special"],
         "days": "6 Nights – 7 Days",
@@ -3764,6 +3791,7 @@
     },
     {
         "package_name": "Guwahati-Special Package",
+        "videoLink":"https://www.youtube.com/embed/gmqJae2nIt0?si=bWxyajYXr52USo8J&amp;controls=0",
         "place": "Guwahati",
         "category": ["Domestic", "Special"],
         "days": "6 Nights – 7 Days",
@@ -3892,6 +3920,7 @@
     },
     {
       "package_name": "Amarnath Yatra Special Package",
+      "videoLink":"https://www.youtube.com/embed/CwYQpMvuiE8?si=QpUfZkFq1Hip01KK&amp;controls=0",
       "place": "Amarnath",
       "category": ["Domestic", "Temple", "Special"],
       "days": "13 Nights – 14 Days",
@@ -4079,6 +4108,7 @@
     },
     {
       "package_name": "Chardham-13days(Vizag-Vizag Flight Package)",
+      "videoLink":"https://www.youtube.com/embed/ZvYAv8iCd60?si=cMgyTX5Ul8UZYtfg&amp;controls=0",
       "place": "Chardham",
       "category": ["Special", "Temple", "Domestic"],
       "places_visiting": [
@@ -4256,6 +4286,7 @@
     
     {
       "package_name": "Chardham-14days(Srikakulam-Delhi Train, Delhi-Vizag Flight Package",
+      "videoLink":"https://www.youtube.com/embed/ZvYAv8iCd60?si=cMgyTX5Ul8UZYtfg&amp;controls=0",
       "place": "Chardham",
       "category": ["Special", "Temple", "Domestic"],
       "places_visiting": [
@@ -4444,6 +4475,7 @@
     },
     {
       "package_name": "Chardham-14days(Vizag-Vizag Flight Package)",
+      "videoLink":"https://www.youtube.com/embed/ZvYAv8iCd60?si=cMgyTX5Ul8UZYtfg&amp;controls=0",
       "days": "13 Nights / 14 Days",
       "place": "Chardham",
       "places_visiting": [
@@ -4633,6 +4665,7 @@
     },
     {
       "package_name": "Chardham-15days(Srikakulam-Delhi Train,Delhi-Vizag Flight Package)",
+      "videoLink":"https://www.youtube.com/embed/ZvYAv8iCd60?si=cMgyTX5Ul8UZYtfg&amp;controls=0",
       "days": "14 Nights / 15 Days",
       "place": "Chardham",
       "places_visiting": [
@@ -4827,6 +4860,7 @@
     },
     {
       "package_name": "Dodham-9days(Vizag-Vizag_Flight Package)",
+      "videoLink":"https://www.youtube.com/embed/D-MZNzfVi2g?si=u9Mmvnb1xl0kHK9y&amp;controls=0",
       "days": "8 Nights / 9 Days",
       "place": "Dodham",
       "places_visiting": [
@@ -4969,6 +5003,7 @@
     },
     {
       "package_name": "Dodham-10days(Srikakulam-Delhi Train,Delhi-Vizag Flight Package)",
+      "videoLink":"https://www.youtube.com/embed/D-MZNzfVi2g?si=u9Mmvnb1xl0kHK9y&amp;controls=0",
       "days": "9 Nights / 10 Days",
       "place": "Dodham",
     
@@ -5121,6 +5156,7 @@
     },
     {
       "package_name": "Dodham-10days(Vizag-Vizag Flight Package)",
+      "videoLink":"https://www.youtube.com/embed/D-MZNzfVi2g?si=u9Mmvnb1xl0kHK9y&amp;controls=0",
       "days": "9 Nights / 10 Days",
       "place": "Dodham",
       "places_visiting": [
@@ -5270,6 +5306,7 @@
     },
     {
       "package_name": "Dodham-11days(Srikakulam-Delhi Train,Delhi-Vizag Flight Package)",
+      "videoLink":"https://www.youtube.com/embed/D-MZNzfVi2g?si=u9Mmvnb1xl0kHK9y&amp;controls=0",
       "days": "10 Nights / 11 Days",
       "place": "Dodham",
       "places_visiting": [
@@ -5425,6 +5462,7 @@
     },
     {
       "package_name": "single dham-6days(Vizag-Vizag Flight Package)",
+      "videoLink":"https://www.youtube.com/embed/D-MZNzfVi2g?si=u9Mmvnb1xl0kHK9y&amp;controls=0",
       "days": "5 Nights / 6 Days",
       "place": "single Dham",
       "places_visiting": [
@@ -5528,6 +5566,7 @@
     },
     {
       "package_name": "Single dham-7days(Srikakulam-Delhi Train,Delhi-Vizag Flight Package)",
+      "videoLink":"https://www.youtube.com/embed/D-MZNzfVi2g?si=u9Mmvnb1xl0kHK9y&amp;controls=0",
       "days": "6 Nights / 7 Days",
       "place": "single Dham",
     
@@ -5639,6 +5678,7 @@
     },
     {
       "package_name": "Chardham-15days(Hyd-Hyd Train Package)",
+      "videoLink":"https://www.youtube.com/embed/ZvYAv8iCd60?si=cMgyTX5Ul8UZYtfg&amp;controls=0",
       "days": "14 Nights / 15 Days",
       "place": "Chardham",
     
@@ -5837,6 +5877,7 @@
     },
     {
       "package_name": "Chardham-16days(Hyd-Delhi-Hyd train Package)",
+      "videoLink":"https://www.youtube.com/embed/ZvYAv8iCd60?si=cMgyTX5Ul8UZYtfg&amp;controls=0",
       "days": "15 Nights / 16 Days",
       "place": "Chardham",
       "category": [
@@ -6034,6 +6075,7 @@
     },
     {
       "package_name": "Dodham-11days(Hyd-Hyd Train Package)",
+      "videoLink":"https://www.youtube.com/embed/D-MZNzfVi2g?si=u9Mmvnb1xl0kHK9y&amp;controls=0",
       "days": "10 Nights / 11 Days",
       "place": "Dodham",
       "category": [
@@ -6186,6 +6228,7 @@
     },
     {
       "package_name": "Dodham-12days(Hyd-Delhi-Hyd Train Package)",
+      "videoLink":"https://www.youtube.com/embed/D-MZNzfVi2g?si=u9Mmvnb1xl0kHK9y&amp;controls=0",
       "days": "11 Nights / 12 Days",
       "place": "Dodham",
       "category": [
@@ -6345,6 +6388,7 @@
     },
     {
       "package_name": "Single dham-8days(Hyd-Delhi-Hyd train Package)",
+      "videoLink":"https://www.youtube.com/embed/D-MZNzfVi2g?si=u9Mmvnb1xl0kHK9y&amp;controls=0",
       "days": "7 Nights / 8 Days",
       "place": "single Dham",
       "category": [
@@ -6462,6 +6506,7 @@
     },
     {
       "package_name": "Chardham-13days(Hyd-Hyd Flight Package)",
+      "videoLink":"https://www.youtube.com/embed/ZvYAv8iCd60?si=cMgyTX5Ul8UZYtfg&amp;controls=0",
       "days": "12 Nights / 13 Days",
       "place": "Chardham",
       "category": [
@@ -6658,6 +6703,7 @@
     },
     {
       "package_name": "Chardham-14days(Hyd-Hyd Flight Package)",
+      "videoLink":"https://www.youtube.com/embed/ZvYAv8iCd60?si=cMgyTX5Ul8UZYtfg&amp;controls=0",
       "days": "13 Nights / 14 Days",
       "place": "Chardham",
       "category": [
@@ -6854,6 +6900,7 @@
     },
     {
       "package_name": "Dodham-9days(Hyd-Hyd Flight Package)",
+      "videoLink":"https://www.youtube.com/embed/D-MZNzfVi2g?si=u9Mmvnb1xl0kHK9y&amp;controls=0",
       "days": "8 Nights / 9 Days",
       "place": "Dodham",
       "category": [
@@ -7003,6 +7050,7 @@
     },
     {
       "package_name": "Dodham-10days(Hyd-Hyd Flight Package)",
+      "videoLink":"https://www.youtube.com/embed/D-MZNzfVi2g?si=u9Mmvnb1xl0kHK9y&amp;controls=0",
       "days": "9 Nights / 10 Days",
       "place": "Dodham",
       "note": "Some sites can skip due to time and weather condition, Company is not responsible for any environment (climate), any political disputes during tour, flight related issues. Tour program may change in case if there is any climate change, traffic conditions.",
@@ -7163,6 +7211,7 @@
     },
     {
       "package_name": "single dham-6days(Hyd-Hyd Flight Package)",
+      "videoLink":"https://www.youtube.com/embed/D-MZNzfVi2g?si=u9Mmvnb1xl0kHK9y&amp;controls=0",
       "days": "5 Nights / 6 Days",
       "place": "single Dham",
       "note": "Some sites can skip due to time and weather condition, Company is not responsible for any environment (climate), any political disputes during tour, flight related issues. Tour program may change in case if there is any climate change, traffic conditions.",

@@ -12,6 +12,7 @@ import {
   MatDialogContent,
   MatDialogTitle,
 } from '@angular/material/dialog';
+import { DataService } from '../../services/data.service';
 
 @Component({
   selector: 'app-dialog',
@@ -26,7 +27,7 @@ phoneNumber: string = ''
 place: string =  ''
 request: string = ''
 warning:boolean = false;
-constructor(@Inject(MAT_DIALOG_DATA) public data:any) {}
+constructor(@Inject(MAT_DIALOG_DATA) public data:any, private _service: DataService) {}
 send(){
   if(this.customerName == '' || this.phoneNumber == '' || this.place == '' || this.request == ''){
     this.warning = true 
@@ -38,6 +39,18 @@ send(){
   window.open(whatsappUrl, '_blank');
   }
   
+}
+sent: boolean = false;
+sendMail(){
+  let message = {'name': this.customerName, 'contact': this.phoneNumber, 'place': this.place, 'message': this.request};
+console.log(message)
+if(this.customerName == '' || this.phoneNumber == '' || this.place == '' || this.request == ''){
+  this.warning = true 
+} else {
+    this._service.sendMail(message).subscribe((res:any) => {
+      this.sent = true
+    })
+  }
 }
 
 }

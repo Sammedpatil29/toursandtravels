@@ -41,4 +41,14 @@ ul {
   .action-btns {
     padding: 20px 0px;
   }
+
+  .iframe {
+    height: 500px
+  }
+
+  @media (max-width: 576px) {
+    .iframe {
+      height: 200px
+    }
+  }
   

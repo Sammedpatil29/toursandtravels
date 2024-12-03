@@ -10,50 +10,13 @@
     <div class="container">
         <h2 class="pb-5 text-center">{{item.package_name}}</h2>
         <div class="row">
-            <div class="co-lg-12">
-                <div class="package-img-group mb-50">
-                    <div class="row align-items-center g-3">
-    
-                        <div class="col-lg-6">
-                            <div class="gallery-img-wrap thumb">
-                                <img loading="lazy" width="1320" height="650" src="https://triprex.b-cdn.net/wp-content/uploads/2024/02/Tour-Package-10.webp" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" decoding="async" srcset="https://triprex.b-cdn.net/wp-content/uploads/2024/02/Tour-Package-10.webp 1320w, https://triprex.b-cdn.net/wp-content/uploads/2024/02/Tour-Package-10-300x148.webp 300w, https://triprex.b-cdn.net/wp-content/uploads/2024/02/Tour-Package-10-600x295.webp 600w, https://triprex.b-cdn.net/wp-content/uploads/2024/02/Tour-Package-10-768x378.webp 768w, https://triprex.b-cdn.net/wp-content/uploads/2024/02/Tour-Package-10-1024x504.webp 1024w"
-                                    sizes="(max-width: 1320px) 100vw, 1320px" /> <a data-fancybox="gallery-01" href="https://triprex.b-cdn.net/wp-content/uploads/2024/02/Tour-Package-10.webp"><i class="bi bi-eye"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 h-100">
-                            <div class="row g-3 h-100">
-                                <div class="col-6">
-                                    <div class="gallery-img-wrap">
-                                        <img src="https://triprex.b-cdn.net/wp-content/uploads/2024/02/package-02.webp" alt="thumbnail">
-                                        <a data-fancybox="gallery-01" href="https://triprex.b-cdn.net/wp-content/uploads/2024/02/package-02.webp"><i class="bi bi-eye"></i></a>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="gallery-img-wrap">
-                                        <img src="https://triprex.b-cdn.net/wp-content/uploads/2024/02/package-03.webp" alt="thumbnail">
-                                        <a data-fancybox="gallery-01" href="https://triprex.b-cdn.net/wp-content/uploads/2024/02/package-03.webp"><i class="bi bi-eye"></i></a>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="gallery-img-wrap active">
-                                        <img src="https://triprex.b-cdn.net/wp-content/uploads/2024/02/package-04.webp" alt="picture"> <button class="StartSlideShowFirstImage"><i class="bi bi-plus-lg"></i> View More Images</button>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="gallery-img-wrap active">
-                                        <img src="https://triprex.b-cdn.net/wp-content/uploads/2024/02/package-05.webp" alt="banner-image">
-                                        <a data-fancybox="gallery-01" href="https://youtu.be/u31qwQUeGuM">
-                                                <i class="bi bi-play-circle"></i> Watch Video                                                    </a>
-                                    </div>
-                                </div>
-    
-                            </div>
-                        </div>
-    
-                    </div>
-                </div>
-            </div>
-        </div>
+            <div class="co-lg-12 d-flex justify-content-center mt-2">
+                <iframe class="iframe w-100" 
+                [src]="getVideoLinkWithLoop(item.videoLink)" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+              </iframe>            </div>
         <div class="row g-xl-4 gy-5">
             <div class="col-xl-12">
                 <ul class="tour-info-metalist">

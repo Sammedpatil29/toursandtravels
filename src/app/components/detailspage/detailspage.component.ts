@@ -5,6 +5,7 @@ import { DataService } from '../../services/data.service';
 import { MatDialog } from '@angular/material/dialog';
 import { MatButtonModule } from '@angular/material/button';
 import { DialogComponent } from '../dialog/dialog.component';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-detailspage',
@@ -17,7 +18,7 @@ export class DetailspageComponent implements OnInit{
  
   readonly dialog = inject(MatDialog);
 
-  constructor(private route:ActivatedRoute, private dataService:DataService) {
+  constructor(private route:ActivatedRoute, private dataService:DataService, private sanitizer: DomSanitizer) {
     const navigation = window.history.state;
     this.item = navigation?.item;
   }
@@ -63,6 +64,7 @@ console.log(this.item)
     });
   }
 
+videoLink:any = "https://www.youtube.com/embed/D_bgCyM1nRY?si=oXJKr0cP2YM2yJfp&amp;controls=0&autoplay=1&loop=1&playlist=D_bgCyM1nRY"
   openDialog(event:any) {
     window.scrollTo(0,0)
     this.dialog.open(DialogComponent, {
@@ -72,4 +74,16 @@ console.log(this.item)
       }
     });
   }
+
+  getVideoLinkWithLoop(videoLink: string) {
+    return this.sanitizer.bypassSecurityTrustResourceUrl(`${videoLink}&autoplay=1&loop=1&playlist=${this.getVideoIdFromLink(videoLink)}`);
+  }
+
+  // Extracts video ID from the YouTube embed link
+  getVideoIdFromLink(videoLink: string): string {
+    const regex = /(?:https?:\/\/)?(?:www\.)?youtube\.com\/embed\/([a-zA-Z0-9_-]+)/;
+    const match = videoLink.match(regex);
+    return match ? match[1] : '';
+  }
+
 }

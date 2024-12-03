@@ -23,10 +23,14 @@
       <textarea type="textarea" [(ngModel)]="request" class="form-control" id="inputAddress2" placeholder="eg: I am planning a 'USA' trip but it is not available in your list. Can I get a package for me?"></textarea>
     </div>
   
-    <p *ngIf="warning == true" class="pt-1" style="color: red;">*Please fill all the fields.</p>
+    <p *ngIf="warning == true" class="pt-1 text-center" style="color: red;">*Please fill all the fields.</p>
+    <p *ngIf="sent == true" class="pt-1 text-center" style="color: var(--primary-color1);">Email sent Successfully. <br>
+    want speed reply? plase send <strong style="color: var(--primary-color1);">whatsapp message</strong></p>
   
     <div class="col-12 d-flex justify-content-center">
-      <button type="button" class="primary-btn1" (click)="send()">Send Request</button>
+      <button *ngIf="sent == false"  type="button" class="primary-btn1" (click)="sendMail()">Send Request</button>
+      <button *ngIf="sent == true" type="button" class="primary-btn1" (click)="send()">Send Whatsapp Message</button>
+      
     </div>
   </div>
   
