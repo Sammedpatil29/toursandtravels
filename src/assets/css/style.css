@@ -683,7 +683,7 @@ ul {
 }
 
 .primary-btn1:hover {
-    color: var(--title-color)
+    color: var(--title-color);
 }
 
 .primary-btn1:hover svg {

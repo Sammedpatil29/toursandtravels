@@ -1,7 +1,7 @@
 .floating-btn {
     position: fixed;  /* Fixed positioning so it stays on top */
-    bottom: 20px;         /* Distance from the top of the page */
-    right: 20px;       /* Distance from the right edge of the page */
+    top: 200px;         /* Distance from the top of the page */
+    left: -23px;       /* Distance from the right edge of the page */
     background-color: var(--primary-color1); /* Background color of the button */
     color: white;      /* Text color */
     border: none;

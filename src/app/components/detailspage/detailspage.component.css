@@ -4,7 +4,7 @@ ul {
 
 .floating-btn {
     position: fixed;  /* Fixed positioning so it stays on top */
-    top: 100px;         /* Distance from the top of the page */
+    bottom: 20px;         /* Distance from the top of the page */
     right: 20px;       /* Distance from the right edge of the page */
     background-color: var(--primary-color1); /* Background color of the button */
     color: white;      /* Text color */

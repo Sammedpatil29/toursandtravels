@@ -23,5 +23,6 @@ z-index: 1000;
 }
 
 .close:hover {
-  color: gray !important;
+  color: whitesmoke !important;
+  background-color: var(--primary-color1);
 }

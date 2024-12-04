@@ -1,4 +1,4 @@
-<button class="close" (click)="close()">x</button>
+<button class="close" (click)="close()"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#FFFFFF"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></button>
 <div *ngIf="data.title === 'form'">
   <h2 mat-dialog-title class="d-flex justify-content-center pt-4 mb-0 text-center"><h2>Request <span style="color:var(--primary-color1)">Customised</span> Trip</h2>
 </h2>
@@ -24,21 +24,23 @@
       <textarea type="textarea" [(ngModel)]="request" class="form-control" id="inputAddress2" placeholder="eg: I am planning a 'USA' trip but it is not available in your list. Can I get a package for me?"></textarea>
     </div>
   
-    <p *ngIf="warning == true" class="pt-1 text-center" style="color: red;">*Please fill all the fields.</p>
-    <p *ngIf="sent == true" class="pt-1 text-center" style="color: var(--primary-color1);">Email sent Successfully. <br>
-    want speed reply? plase send <strong style="color: var(--primary-color1);">whatsapp message</strong></p>
   
-    <div class="col-12 d-flex justify-content-center">
-      <button *ngIf="sent == false"  type="button" class="primary-btn1" (click)="sendMail()"> Send Request <div *ngIf="spinner==true" class="spinner-border" role="status">
-        <span class="visually-hidden">Loading...</span>
-      </div>
-      </button>
-      <button *ngIf="sent == true" type="button" class="primary-btn1" (click)="send()">Send Whatsapp Message</button>
-      
-    </div>
+    
   </div>
   
 </mat-dialog-content>
+<p *ngIf="warning == true" class="pt-1 text-center" style="color: red;">*Please fill all the fields.</p>
+<p *ngIf="sent == true" class="pt-1 text-center" style="color: var(--primary-color1);">Email sent Successfully. <br>
+want speed reply? plase send <strong style="color: var(--primary-color1);">whatsapp message</strong></p>
+
+<div class="col-12 d-flex justify-content-center mb-3">
+  <button *ngIf="sent == false"  type="button" class="primary-btn1" (click)="sendMail()"> Send Request <div *ngIf="spinner==true" class="spinner-border" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+  </button>
+  <button *ngIf="sent == true" type="button" class="primary-btn1" (click)="send()">Send Whatsapp Message</button>
+  
+</div>
 </div>
 
 <div *ngIf="data.title === 'CancellationPolicy'">
@@ -70,131 +72,134 @@
   
 </div>
 <div *ngIf="data.title === 'tandc'">
-  <div class="package-terms p-4">
-    <div class="text-center"><h2>Terms and Conditions</h2></div>
+  <div class="text-center"><h2 mat-dialog-title class="mb-2">Terms and Conditions</h2></div>
+
+  <mat-dialog-content>
+    <div class="package-terms">
   
-    <ul>
-      <li>
-        <strong style="color: var(--primary-color1);">Advance Payment:</strong>
-        <ul>
-          <li>An advance payment is required to hold the booking for the package.</li>
-          <li>The balance amount should be paid 20 days before the date of the journey.</li>
-        </ul>
-      </li>
-  
-      <li>
-        <strong style="color: var(--primary-color1);">Domestic Group Packages:</strong>
-        <ul>
-          <li>Rs. 20,000/- per person for Domestic group packages.</li>
-        </ul>
-      </li>
-  
-      <li>
-        <strong style="color: var(--primary-color1);">Payment Methods:</strong>
-        <ul>
-          <li>Advance/full payment can be made via:</li>
+      <ul>
+        <li>
+          <strong style="color: var(--primary-color1);">Advance Payment:</strong>
           <ul>
-            <li><strong>Online Payment</strong></li>
-            <li><strong>Bank Deposit</strong></li>
-            <li><strong>Cash or Cheque</strong> at the office or to the executive.</li>
+            <li>An advance payment is required to hold the booking for the package.</li>
+            <li>The balance amount should be paid 20 days before the date of the journey.</li>
           </ul>
-        </ul>
-      </li>
-  
-      <li>
-        <strong style="color: var(--primary-color1);">Hotel Accommodation:</strong>
-        <ul>
-          <li>Hotels will be provided according to the package itinerary.</li>
-        </ul>
-      </li>
-  
-      <li>
-        <strong style="color: var(--primary-color1);">Children Policy:</strong>
-        <ul>
-          <li><strong>Children below 5 years:</strong> No charge (no seats provided).</li>
-          <li><strong>Children aged 5 to 10 years:</strong> 70% of the package cost is applicable (extra mattresses will be provided in the room).</li>
-        </ul>
-      </li>
-  
-      <li>
-        <strong style="color: var(--primary-color1);">Conveyance Charges:</strong>
-        <ul>
-          <li>Any additional conveyance charges from the bus alighting point to mountains, hotels, or other locations where the tourist bus cannot go due to traffic regulations or conditions are to be borne by the tourists.</li>
-        </ul>
-      </li>
-  
-      <li>
-        <strong style="color: var(--primary-color1);">Sightseeing & Meal Refund:</strong>
-        <ul>
-          <li>No refund will be provided for missed sightseeing tours or unused meals (including complimentary meals).</li>
-        </ul>
-      </li>
-  
-      <li>
-        <strong style="color: var(--primary-color1);">Triple Sharing:</strong>
-        <ul>
-          <li>In case of triple sharing (e.g., a couple with a mother), extra mattresses will be provided in the same room. Room heater charges and other incidentals are extra.</li>
-        </ul>
-      </li>
-  
-      <li>
-        <strong style="color: var(--primary-color1);">Personal Belongings:</strong>
-        <ul>
-          <li>Passengers are requested to take care of their personal belongings.</li>
-          <li>The management is not responsible for any damage, theft, or loss of items left in the coach or handed over to staff.</li>
-        </ul>
-      </li>
-  
-      <li>
-        <strong style="color: var(--primary-color1);">Vehicle Change:</strong>
-        <ul>
-          <li>Depending on the number of people in the tour, the vehicle type may be changed from a bus to a smaller vehicle (e.g., Tempo Traveler, Toyota, Car, etc.).</li>
-        </ul>
-      </li>
-  
-      <li>
-        <strong style="color: var(--primary-color1);">Seating Arrangement for Bus Packages:</strong>
-        <ul>
-          <li>For bus packages, seating will be arranged on a "Dip and Daily Seat Rotation" basis.</li>
-        </ul>
-      </li>
-  
-      <li>
-        <strong style="color: var(--primary-color1);">Minimum Batch Requirement:</strong>
-        <ul>
-          <li>If a minimum batch size is not met for any package, the scheduled date may be changed or an alternate vehicle may be arranged as per bookings.</li>
-        </ul>
-      </li>
-  
-      <li>
-        <strong style="color: var(--primary-color1);">No Responsibility for Personal Belongings:</strong>
-        <ul>
-          <li>Tour managers and company staff are not responsible for any personal belongings such as cameras, mobiles, or ornaments.</li>
-        </ul>
-      </li>
-  
-      <li>
-        <strong style="color: var(--primary-color1);">Medical Report for Tourists Above 65:</strong>
-        <ul>
-          <li>Tourists above the age of 65 years are required to submit a medical report signed by an MD doctor, which should not be older than 30 days.</li>
-        </ul>
-      </li>
-  
-      <li>
-        <strong style="color: var(--primary-color1);">Health Insurance:</strong>
-        <ul>
-          <li>Health insurance is mandatory for all travelers, covering the entire travel period.</li>
-          <li><strong>SRI MAHAADEV TOURS & TRAVELS</strong> is not responsible for health-related issues during the tour.</li>
-        </ul>
-      </li>
-  
-      <li>
-        <strong style="color: var(--primary-color1);">Final Itinerary:</strong>
-        <ul>
-          <li>The final itinerary will be provided two days before the travel date.</li>
-        </ul>
-      </li>
-    </ul>
-  </div>
+        </li>
+    
+        <li>
+          <strong style="color: var(--primary-color1);">Domestic Group Packages:</strong>
+          <ul>
+            <li>Rs. 20,000/- per person for Domestic group packages.</li>
+          </ul>
+        </li>
+    
+        <li>
+          <strong style="color: var(--primary-color1);">Payment Methods:</strong>
+          <ul>
+            <li>Advance/full payment can be made via:</li>
+            <ul>
+              <li><strong>Online Payment</strong></li>
+              <li><strong>Bank Deposit</strong></li>
+              <li><strong>Cash or Cheque</strong> at the office or to the executive.</li>
+            </ul>
+          </ul>
+        </li>
+    
+        <li>
+          <strong style="color: var(--primary-color1);">Hotel Accommodation:</strong>
+          <ul>
+            <li>Hotels will be provided according to the package itinerary.</li>
+          </ul>
+        </li>
+    
+        <li>
+          <strong style="color: var(--primary-color1);">Children Policy:</strong>
+          <ul>
+            <li><strong>Children below 5 years:</strong> No charge (no seats provided).</li>
+            <li><strong>Children aged 5 to 10 years:</strong> 70% of the package cost is applicable (extra mattresses will be provided in the room).</li>
+          </ul>
+        </li>
+    
+        <li>
+          <strong style="color: var(--primary-color1);">Conveyance Charges:</strong>
+          <ul>
+            <li>Any additional conveyance charges from the bus alighting point to mountains, hotels, or other locations where the tourist bus cannot go due to traffic regulations or conditions are to be borne by the tourists.</li>
+          </ul>
+        </li>
+    
+        <li>
+          <strong style="color: var(--primary-color1);">Sightseeing & Meal Refund:</strong>
+          <ul>
+            <li>No refund will be provided for missed sightseeing tours or unused meals (including complimentary meals).</li>
+          </ul>
+        </li>
+    
+        <li>
+          <strong style="color: var(--primary-color1);">Triple Sharing:</strong>
+          <ul>
+            <li>In case of triple sharing (e.g., a couple with a mother), extra mattresses will be provided in the same room. Room heater charges and other incidentals are extra.</li>
+          </ul>
+        </li>
+    
+        <li>
+          <strong style="color: var(--primary-color1);">Personal Belongings:</strong>
+          <ul>
+            <li>Passengers are requested to take care of their personal belongings.</li>
+            <li>The management is not responsible for any damage, theft, or loss of items left in the coach or handed over to staff.</li>
+          </ul>
+        </li>
+    
+        <li>
+          <strong style="color: var(--primary-color1);">Vehicle Change:</strong>
+          <ul>
+            <li>Depending on the number of people in the tour, the vehicle type may be changed from a bus to a smaller vehicle (e.g., Tempo Traveler, Toyota, Car, etc.).</li>
+          </ul>
+        </li>
+    
+        <li>
+          <strong style="color: var(--primary-color1);">Seating Arrangement for Bus Packages:</strong>
+          <ul>
+            <li>For bus packages, seating will be arranged on a "Dip and Daily Seat Rotation" basis.</li>
+          </ul>
+        </li>
+    
+        <li>
+          <strong style="color: var(--primary-color1);">Minimum Batch Requirement:</strong>
+          <ul>
+            <li>If a minimum batch size is not met for any package, the scheduled date may be changed or an alternate vehicle may be arranged as per bookings.</li>
+          </ul>
+        </li>
+    
+        <li>
+          <strong style="color: var(--primary-color1);">No Responsibility for Personal Belongings:</strong>
+          <ul>
+            <li>Tour managers and company staff are not responsible for any personal belongings such as cameras, mobiles, or ornaments.</li>
+          </ul>
+        </li>
+    
+        <li>
+          <strong style="color: var(--primary-color1);">Medical Report for Tourists Above 65:</strong>
+          <ul>
+            <li>Tourists above the age of 65 years are required to submit a medical report signed by an MD doctor, which should not be older than 30 days.</li>
+          </ul>
+        </li>
+    
+        <li>
+          <strong style="color: var(--primary-color1);">Health Insurance:</strong>
+          <ul>
+            <li>Health insurance is mandatory for all travelers, covering the entire travel period.</li>
+            <li><strong>SRI MAHAADEV TOURS & TRAVELS</strong> is not responsible for health-related issues during the tour.</li>
+          </ul>
+        </li>
+    
+        <li>
+          <strong style="color: var(--primary-color1);">Final Itinerary:</strong>
+          <ul>
+            <li>The final itinerary will be provided two days before the travel date.</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </mat-dialog-content>
   
 </div>
