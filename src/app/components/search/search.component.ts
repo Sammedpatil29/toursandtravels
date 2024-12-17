@@ -29,10 +29,15 @@ this.filteredData = data;
 })
 }
 
-search(event:any){
+search(event: any) {
   let input = event.target as HTMLInputElement;
   this.searchTerm = input.value;
-  this.filteredData = this.allTripData.filter((data:any) => data.package_name.toLowerCase().includes(this.searchTerm.toLowerCase()))
+
+  // Filter the allTripData based on package_name or places_visiting
+  this.filteredData = this.allTripData.filter((data: any) => 
+    data.package_name.toLowerCase().includes(this.searchTerm.toLowerCase()) || 
+    data.places_visiting.some((place: any) => place.toLowerCase().includes(this.searchTerm.toLowerCase()))
+  );
 }
 
 onButtonClick(item:any) {

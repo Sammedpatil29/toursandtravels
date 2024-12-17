@@ -15,4 +15,16 @@
     text-overflow: ellipsis;
     white-space: normal; /* Ensures that text wraps normally */
   }
+
+  .iframe {
+    width:100%;
+    height: 500px;
+    border-radius: 10px;
+  }
+
+  @media (max-width: 576px) {
+    .iframe {
+      height: 200px
+    }
+  }
   
