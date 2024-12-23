@@ -33,13 +33,19 @@
                     </li>
                 </ul>
                 <h4>Included and Excluded</h4>
-                        <div class="includ-and-exclud-area mb-20">
-                            <ul>
+                        <div class="includ-and-exclud-area mb-20 w-100">
+                            <div class="d-flex flex-column" style="width: -webkit-fill-available;">
+                                <h4>Included</h4>
+                            <ul style="width: 0px;">
                                 <li *ngFor="let data of item.package_includes"><i class="bi bi-check-lg"></i> {{data}}</li>
                             </ul>
+                            </div>
+                            <div class="d-flex flex-column" style="width: -webkit-fill-available;">
+                                <h4>Excluded</h4>
                             <ul class="exclud">
                                 <li *ngFor="let data of item.package_excludes"><i class="bi bi-check-lg"></i> {{data}}</li>
                             </ul>
+                            </div>
                         </div>
                         <h4 *ngIf="item.places_visiting">Places Visiting</h4>
                         <div class="note mt-4 d-inline-block" *ngIf="item.places_visiting">
