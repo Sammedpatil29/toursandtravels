@@ -1,7 +1,17 @@
 .click:hover {
-    color: var(--primary-color1)
+  color: var(--primary-color1);
 }
 
 .click {
-    cursor: pointer;
+  cursor: pointer;
 }
+.imagebg {
+  max-width: 100%;
+  height: auto;
+  background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 10px;
+}
+/* img {
+  
+} */

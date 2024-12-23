@@ -1,8 +1,8 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { DataService } from '../../services/data.service';
-import {ChangeDetectionStrategy, inject} from '@angular/core';
-import {MatButtonModule} from '@angular/material/button';
+import { ChangeDetectionStrategy, inject } from '@angular/core';
+import { MatButtonModule } from '@angular/material/button';
 import {
   MatDialog,
   MatDialogActions,
@@ -17,70 +17,68 @@ import { DialogComponent } from '../dialog/dialog.component';
   standalone: true,
   imports: [MatButtonModule],
   templateUrl: './footer.component.html',
-  styleUrl: './footer.component.css'
+  styleUrl: './footer.component.css',
 })
-export class FooterComponent implements OnInit{
+export class FooterComponent implements OnInit {
   readonly dialog = inject(MatDialog);
 
-  @Input() International: any[] = [];  // Array of international trips
+  @Input() International: any[] = []; // Array of international trips
   @Input() Domestic: any[] = [];
   @Input() Temple: any[] = [];
-email: string = 'srimahaadevtoursntravels@gmail.com';
+  email: string = 'srimahaadevtoursntravels@gmail.com';
 
-constructor(private router:Router, private dataService:DataService){}
+  constructor(private router: Router, private dataService: DataService) {}
 
-ngOnInit(): void {
-  
-}
+  ngOnInit(): void {}
 
-openAllPackages(category:any) {
-  window.scrollTo(0, 0);
+  openAllPackages(category: any) {
+    window.scrollTo(0, 0);
 
-  // Determine the data based on the category
-  let data: any[] = [];
-  if (category === 'International') {
-    data = this.International;
-  } else if (category === 'Domestic') {
-    data = this.Domestic;
-  } else if (category === 'Temple') {
-    data = this.Temple;
+    // Determine the data based on the category
+    let data: any[] = [];
+    if (category === 'International') {
+      data = this.International;
+    } else if (category === 'Domestic') {
+      data = this.Domestic;
+    } else if (category === 'Special') {
+      data = this.Temple;
+    }
+
+    // Navigate to the home page first
+    this.router.navigate(['/home']).then(() => {
+      // After navigating to the home page, wait for a short period before navigating back
+      setTimeout(() => {
+        // Navigate back to the current page with the updated data
+        this.router.navigate(['/packagelist'], {
+          state: { item: data, title: category },
+        });
+      }, 0); // 500ms delay (you can adjust this duration)
+    });
   }
 
-  // Navigate to the home page first
-  this.router.navigate(['/home']).then(() => {
-    // After navigating to the home page, wait for a short period before navigating back
-    setTimeout(() => {
-      // Navigate back to the current page with the updated data
-      this.router.navigate(['/packagelist'], { state: { item: data, title: category } });
-    }, 0);  // 500ms delay (you can adjust this duration)
-  });
+  openDialog(event: any) {
+    window.scrollTo(0, 0);
+    this.dialog.open(DialogComponent, {
+      width: '600px',
+      data: {
+        title: event,
+      },
+    });
+  }
 
-}
+  openDialogwide(event: any) {
+    window.scrollTo(0, 0);
+    this.dialog.open(DialogComponent, {
+      height: '75vh',
+      data: {
+        title: event,
+      },
+    });
+  }
 
-openDialog(event:any) {
-  window.scrollTo(0,0)
-  this.dialog.open(DialogComponent, {
-    width: '600px',
-    data: {
-      title: event
-    }
-  });
-}
-
-openDialogwide(event:any) {
-  window.scrollTo(0,0)
-  this.dialog.open(DialogComponent, {
-    height: '75vh',
-    data: {
-      title: event
-    }
-  });
-}
-
-onclick(){
-  let message = "Hi, I need details about your trip plans!!";
-  const whatsappUrl=`https://wa.me/9490391100?text=${message}`
-  window.open(whatsappUrl, '_blank');
-}
-
+  onclick() {
+    let message = 'Hi, I need details about your trip plans!!';
+    const whatsappUrl = `https://wa.me/9490391100?text=${message}`;
+    window.open(whatsappUrl, '_blank');
+  }
 }
