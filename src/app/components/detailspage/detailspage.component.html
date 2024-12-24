@@ -113,11 +113,18 @@
               >
                 <div class="accordion-body">
                   <!-- <p>{{ data.description }}</p> -->
-                  <ul class="exclud">
-                    <li *ngFor="let activity of data.activities">
-                      <i class="bi bi-check-lg"></i> {{ activity }}
-                    </li>
-                  </ul>
+                  <div class="row text-wrap">
+                    <div class="col-md-12 col-lg-6">
+                      <ul class="exclud">
+                        <li *ngFor="let activity of data.activities">
+                          <i class="bi bi-check-lg"></i> {{ activity }}
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-md-12 col-lg-6 text-center">
+                      <img class="img-fluid imgstyle" src="assets/img/package_karnataka.png" alt="">
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

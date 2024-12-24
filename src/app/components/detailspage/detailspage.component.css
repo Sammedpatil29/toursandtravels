@@ -51,4 +51,11 @@ ul {
       height: 200px
     }
   }
+
+  .imgstyle {
+    border: 1px solid var(--primary-color1);
+    border-radius: 10px;
+    border-bottom: 5px solid var(--primary-color1);
+    border-right: 5px solid var(--primary-color1);
+  }
   
