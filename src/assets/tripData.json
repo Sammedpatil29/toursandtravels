@@ -1,231 +1,239 @@
 [
   {
-    "package_name": "EUROPE SPL Tour package",
-    "videoLink": "https://www.youtube.com/embed/PHWDwdadnCo?si=MdZSymrj2zMQyBN6&amp;controls=0",
-    "place": "Europe",
-    "category": ["International", "Special"],
-    "places_visiting": [
-      "Paris",
-      "Eiffel Tower",
-      "Disneyland",
-      "The Grand Place",
-      "Amsterdam Canal Cruise",
-      "Cologne Cathedral"
-    ],
-    "days": "15 Days / 14 Nights",
-    "package_description": "The EUROPE SPL Tour package is a 15-day journey through Europe's most iconic destinations. Visit Paris, Brussels, Amsterdam, Stuttgart, Zurich, Venice, Pisa, Florence, and Rome. Explore historical landmarks, cultural sites, and scenic beauty, including the Eiffel Tower, Disneyland, Rhine Falls, and the Colosseum.",
-    "itinerary": [
-      {
-        "day": 1,
-        "title": "Flight to Paris and City Tour",
-        "activities": [
-          "Flight to Paris",
-          "Arrival in Paris",
-          "After immigration, Paris city tour",
-          "Paris city tour (2 hours)",
-          "05:00pm - Hotel check-in",
-          "Rest",
-          "Dinner (packed dinner)"
-        ],
-        "imageurl": "assets/img/international/europe/day-1.jpg"
-      },
-      {
-        "day": 2,
-        "title": "Overnight Stay at Paris",
-        "activities": [
-          "07:00am - Breakfast",
-          "10:00am to 01:00pm - Eiffel Tower visit",
-          "02:00pm - Lunch",
-          "03:00pm to 04:00pm - Seine River Cruise",
-          "04:00pm to 06:00pm - Shopping",
-          "06:30pm - Dinner",
-          "07:30pm - Drop at hotel"
-        ],
-        "imageurl": "assets/img/international/europe/day-2.jpg"
-      },
-      {
-        "day": 3,
-        "title": "Overnight Stay at Paris",
-        "activities": [
-          "07:00am to 08:00am - Breakfast",
-          "10:00am to 06:00pm - Disneyland visit",
-          "Back to hotel",
-          "Dinner (packed dinner)"
-        ],
-        "imageurl": "assets/img/international/europe/day-3.jpg"
-      },
-      {
-        "day": 4,
-        "title": "Overnight Stay at Brussels",
-        "activities": [
-          "07:00am - Breakfast",
-          "08:00am - Hotel checkout",
-          "Proceed to Brussels (5 hrs approx.)",
-          "01:00pm - View of Atomium, Mini Europe with lunch",
-          "04:00pm - Visit The Grand Place",
-          "07:00pm - Check-in to hotel with packed dinner"
-        ],
-        "imageurl": "assets/img/international/europe/day-4.jpg"
-      },
-      {
-        "day": 5,
-        "title": "Overnight Stay at Amsterdam",
-        "activities": [
-          "07:00am - Breakfast",
-          "Proceed to Amsterdam (3 hrs approx.)",
-          "Lunch",
-          "01:00pm - Zaanse Schan windmills & cheese shop",
-          "02:00pm - Proceed to Amsterdam",
-          "04:00pm - Amsterdam canal cruise and free time for shopping",
-          "07:00pm - Check-in hotel with packed dinner"
-        ],
-        "imageurl": "assets/img/international/europe/day-5.jpg"
-      },
-      {
-        "day": 6,
-        "title": "Overnight Stay at Stuttgart",
-        "activities": [
-          "07:00am - Breakfast and hotel checkout",
-          "08:00am - Journey to Germany (3hrs 30mins approx.)",
-          "01:00pm - Lunch",
-          "02:00pm to 03:00pm - Visit Cologne Cathedral",
-          "03:00pm - Journey to Stuttgart (4 hrs approx.)",
-          "08:00pm - Check-in hotel with packed dinner"
-        ]
-      },
-      {
-        "day": 7,
-        "title": "Overnight Stay at Zurich",
-        "activities": [
-          "07:00am - Breakfast",
-          "08:00am - Journey to Switzerland (3hrs approx.)",
-          "12:00pm - Visit Drubba Cuckoo clock",
-          "01:00pm - Lunch",
-          "04:00pm - Visit Rhine Falls",
-          "08:00pm - Check-in hotel with packed dinner"
-        ]
-      },
-      {
-        "day": 8,
-        "title": "Overnight Stay at Zurich",
-        "activities": [
-          "07:00am - Breakfast",
-          "08:00am - Proceed to Engelberg Station (Mount Titlis)",
-          "10:00am to 12:00pm - At Mount Titlis",
-          "12:00pm - Proceed to Lucerne",
-          "01:00pm - Lunch at Lucerne",
-          "03:00pm to 05:30pm - Lucerne walking tour",
-          "07:00pm - Dinner in Zurich (packed dinner)"
-        ]
-      },
-      {
-        "day": 9,
-        "title": "Overnight Stay at Zurich",
-        "activities": [
-          "07:00am - Breakfast",
-          "Full day - Jungfraujoch in Interlaken",
-          "08:00pm - Dinner"
-        ]
-      },
-      {
-        "day": 10,
-        "title": "Overnight Stay at Venice",
-        "activities": [
-          "07:00am - Breakfast",
-          "08:00am - Hotel checkout",
-          "Proceed to Venice (6 hrs approx.)",
-          "Lunch",
-          "03:00pm - Half-day walking tour in Venice Island – Saint Mark’s Basilica, St. Mark’s Square, Bridge of Sighs",
-          "05:00pm - Gondola boat ride (25 mins, 5 persons in each gondola)",
-          "08:00pm - Check into hotel with packed dinner"
-        ]
-      },
-      {
-        "day": 11,
-        "title": "Overnight Stay at Pisa",
-        "activities": [
-          "08:00am - Breakfast",
-          "10:00am - Hotel check-out",
-          "Proceed to Florence (3 hrs approx.)",
-          "01:00pm - Lunch",
-          "02:00pm to 04:30pm - Florence sightseeing",
-          "05:00pm - Journey to Pisa",
-          "07:30pm - Dinner",
-          "08:00pm - Check-in hotel"
-        ]
-      },
-      {
-        "day": 12,
-        "title": "Overnight Stay at Rome",
-        "activities": [
-          "07:00am - Breakfast",
-          "09:00am - Hotel check-out and visit Leaning Tower of Pisa",
-          "01:00pm - Lunch",
-          "02:00pm - Proceed to Rome (4 hrs approx.)",
-          "06:00pm - Check-in hotel",
-          "07:00pm - Dinner (packed)"
-        ]
-      },
-      {
-        "day": 13,
-        "title": "Overnight Stay at Rome",
-        "activities": [
-          "08:00am - Breakfast",
-          "10:00am to 01:00pm - Vatican tour with admission to Vatican Museum",
-          "02:00pm - Lunch",
-          "04:00pm - Visit Trevi Fountain",
-          "07:00pm - Check-in hotel with packed dinner"
-        ]
-      },
-      {
-        "day": 14,
-        "title": "Overnight Stay at Rome",
-        "activities": [
-          "07:00am - Breakfast",
-          "08:00am - Hotel check-out",
-          "10:00am - Visit Colosseum",
-          "12:30pm - Lunch",
-          "01:30pm to 05:30pm - Free time for shopping at Porta di Roma Galleria Commerciale",
-          "07:00pm - Drop at hotel with packed dinner"
-        ]
-      },
-      {
-        "day": 15,
-        "title": "Departure from Rome",
-        "activities": [
-          "05:00am - Hotel check-out with packed breakfast",
-          "06:00am - Drop at airport",
-          "Flight to Hyderabad"
-        ]
-      }
-    ],
-    "package_includes": [
-      "Airfare",
-      "Visa fee",
-      "Meals: Breakfast at Hotel",
-      "Lunch: Indian Restaurant/ Packed Indian lunches veg/non-veg menu as per itinerary",
-      "Dinner: Indian restaurants with standard menu veg/non-veg menu",
-      "Travel insurance",
-      "3/4-star hotels",
-      "Deluxe coach",
-      "Entrance fees as mentioned in the Itinerary",
-      "Sightseeing as mentioned in the itinerary",
-      "Daily 1 mineral bottle (500ml)"
-    ],
-    "package_excludes": [
-      "Tips to driver (4€ per day per person)",
-      "Anything not mentioned in inclusions",
-      "Optional tours other than mentioned in the Itinerary",
-      "Any meals/drinks other than mentioned in the Itinerary",
-      "5% GST and 5% TCS",
-      "Gondola tickets"
-    ],
-    "media": [
-      "assets/img/package_europe.jpg",
-      "https://example.com/images/europe_2.jpg",
-      "https://example.com/videos/europe_tour.mp4"
-    ]
-  },
+      "package_name": "EUROPE SPL Tour package",
+      "videoLink":"https://www.youtube.com/embed/PHWDwdadnCo?si=MdZSymrj2zMQyBN6&amp;controls=0",
+      "place": "Europe",
+      "category": ["International","Special"],
+      "places_visiting": [
+        "Paris",
+        "Eiffel Tower",
+        "Disneyland",
+        "The Grand Place",
+        "Amsterdam Canal Cruise",
+        "Cologne Cathedral"
+      ],
+      "days": "15 Days / 14 Nights",
+      "package_description": "The EUROPE SPL Tour package is a 15-day journey through Europe's most iconic destinations. Visit Paris, Brussels, Amsterdam, Stuttgart, Zurich, Venice, Pisa, Florence, and Rome. Explore historical landmarks, cultural sites, and scenic beauty, including the Eiffel Tower, Disneyland, Rhine Falls, and the Colosseum.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Flight to Paris and City Tour",
+          "activities": [
+            "Flight to Paris",
+            "Arrival in Paris",
+            "After immigration, Paris city tour",
+            "Paris city tour (2 hours)",
+            "05:00pm - Hotel check-in",
+            "Rest",
+            "Dinner (packed dinner)"
+          ],
+          "imageurl": "assets/img/international/europe/day-1.jpg"
+        },
+        {
+          "day": 2,
+          "title": "Overnight Stay at Paris",
+          "activities": [
+            "07:00am - Breakfast",
+            "10:00am to 01:00pm - Eiffel Tower visit",
+            "02:00pm - Lunch",
+            "03:00pm to 04:00pm - Seine River Cruise",
+            "04:00pm to 06:00pm - Shopping",
+            "06:30pm - Dinner",
+            "07:30pm - Drop at hotel"
+          ],
+          "imageurl": "assets/img/international/europe/day-2.jpg"
+        },
+        {
+          "day": 3,
+          "title": "Overnight Stay at Paris",
+          "activities": [
+            "07:00am to 08:00am - Breakfast",
+            "10:00am to 06:00pm - Disneyland visit",
+            "Back to hotel",
+            "Dinner (packed dinner)"
+          ],
+          "imageurl": "assets/img/international/europe/day-3.jpg"
+        },
+        {
+          "day": 4,
+          "title": "Overnight Stay at Brussels",
+          "activities": [
+            "07:00am - Breakfast",
+            "08:00am - Hotel checkout",
+            "Proceed to Brussels (5 hrs approx.)",
+            "01:00pm - View of Atomium, Mini Europe with lunch",
+            "04:00pm - Visit The Grand Place",
+            "07:00pm - Check-in to hotel with packed dinner"
+          ],
+          "imageurl": "assets/img/international/europe/day-4.jpg"
+        },
+        {
+          "day": 5,
+          "title": "Overnight Stay at Amsterdam",
+          "activities": [
+            "07:00am - Breakfast",
+            "Proceed to Amsterdam (3 hrs approx.)",
+            "Lunch",
+            "01:00pm - Zaanse Schan windmills & cheese shop",
+            "02:00pm - Proceed to Amsterdam",
+            "04:00pm - Amsterdam canal cruise and free time for shopping",
+            "07:00pm - Check-in hotel with packed dinner"
+          ],
+          "imageurl": "assets/img/international/europe/day-5.jpg"
+        },
+        {
+          "day": 6,
+          "title": "Overnight Stay at Stuttgart",
+          "activities": [
+            "07:00am - Breakfast and hotel checkout",
+            "08:00am - Journey to Germany (3hrs 30mins approx.)",
+            "01:00pm - Lunch",
+            "02:00pm to 03:00pm - Visit Cologne Cathedral",
+            "03:00pm - Journey to Stuttgart (4 hrs approx.)",
+            "08:00pm - Check-in hotel with packed dinner"
+          ],
+          "imageurl": "assets/img/international/europe/day-6.jpg"
+        },
+        {
+          "day": 7,
+          "title": "Overnight Stay at Zurich",
+          "activities": [
+            "07:00am - Breakfast",
+            "08:00am - Journey to Switzerland (3hrs approx.)",
+            "12:00pm - Visit Drubba Cuckoo clock",
+            "01:00pm - Lunch",
+            "04:00pm - Visit Rhine Falls",
+            "08:00pm - Check-in hotel with packed dinner"
+          ],
+          "imageurl": "assets/img/international/europe/day-7.jpg"
+        },
+        {
+          "day": 8,
+          "title": "Overnight Stay at Zurich",
+          "activities": [
+            "07:00am - Breakfast",
+            "08:00am - Proceed to Engelberg Station (Mount Titlis)",
+            "10:00am to 12:00pm - At Mount Titlis",
+            "12:00pm - Proceed to Lucerne",
+            "01:00pm - Lunch at Lucerne",
+            "03:00pm to 05:30pm - Lucerne walking tour",
+            "07:00pm - Dinner in Zurich (packed dinner)"
+          ],
+          "imageurl": "assets/img/international/europe/day-8.jpg"
+        },
+        {
+          "day": 9,
+          "title": "Overnight Stay at Zurich",
+          "activities": [
+            "07:00am - Breakfast",
+            "Full day - Jungfraujoch in Interlaken",
+            "08:00pm - Dinner"
+          ]
+        },
+        {
+          "day": 10,
+          "title": "Overnight Stay at Venice",
+          "activities": [
+            "07:00am - Breakfast",
+            "08:00am - Hotel checkout",
+            "Proceed to Venice (6 hrs approx.)",
+            "Lunch",
+            "03:00pm - Half-day walking tour in Venice Island – Saint Mark’s Basilica, St. Mark’s Square, Bridge of Sighs",
+            "05:00pm - Gondola boat ride (25 mins, 5 persons in each gondola)",
+            "08:00pm - Check into hotel with packed dinner"
+          ],
+          "imageurl": "assets/img/international/europe/day-10.jpg"
+        },
+        {
+          "day": 11,
+          "title": "Overnight Stay at Pisa",
+          "activities": [
+            "08:00am - Breakfast",
+            "10:00am - Hotel check-out",
+            "Proceed to Florence (3 hrs approx.)",
+            "01:00pm - Lunch",
+            "02:00pm to 04:30pm - Florence sightseeing",
+            "05:00pm - Journey to Pisa",
+            "07:30pm - Dinner",
+            "08:00pm - Check-in hotel"
+          ],
+          "imageurl": "assets/img/international/europe/day-11.jpg"
+        },
+        {
+          "day": 12,
+          "title": "Overnight Stay at Rome",
+          "activities": [
+            "07:00am - Breakfast",
+            "09:00am - Hotel check-out and visit Leaning Tower of Pisa",
+            "01:00pm - Lunch",
+            "02:00pm - Proceed to Rome (4 hrs approx.)",
+            "06:00pm - Check-in hotel",
+            "07:00pm - Dinner (packed)"
+          ],
+          "imageurl": "assets/img/international/europe/day-12.jpg"
+        },
+        {
+          "day": 13,
+          "title": "Overnight Stay at Rome",
+          "activities": [
+            "08:00am - Breakfast",
+            "10:00am to 01:00pm - Vatican tour with admission to Vatican Museum",
+            "02:00pm - Lunch",
+            "04:00pm - Visit Trevi Fountain",
+            "07:00pm - Check-in hotel with packed dinner"
+          ],
+          "imageurl": "assets/img/international/europe/day-13.jpg"
+        },
+        {
+          "day": 14,
+          "title": "Overnight Stay at Rome",
+          "activities": [
+            "07:00am - Breakfast",
+            "08:00am - Hotel check-out",
+            "10:00am - Visit Colosseum",
+            "12:30pm - Lunch",
+            "01:30pm to 05:30pm - Free time for shopping at Porta di Roma Galleria Commerciale",
+            "07:00pm - Drop at hotel with packed dinner"
+          ],
+          "imageurl": "assets/img/international/europe/day-14.jpg"
+        },
+        {
+          "day": 15,
+          "title": "Departure from Rome",
+          "activities": [
+            "05:00am - Hotel check-out with packed breakfast",
+            "06:00am - Drop at airport",
+            "Flight to Hyderabad"
+          ]
+        }
+      ],
+      "package_includes": [
+        "Airfare",
+        "Visa fee",
+        "Meals: Breakfast at Hotel",
+        "Lunch: Indian Restaurant/ Packed Indian lunches veg/non-veg menu as per itinerary",
+        "Dinner: Indian restaurants with standard menu veg/non-veg menu",
+        "Travel insurance",
+        "3/4-star hotels",
+        "Deluxe coach",
+        "Entrance fees as mentioned in the Itinerary",
+        "Sightseeing as mentioned in the itinerary",
+        "Daily 1 mineral bottle (500ml)"
+      ],
+      "package_excludes": [
+        "Tips to driver (4€ per day per person)",
+        "Anything not mentioned in inclusions",
+        "Optional tours other than mentioned in the Itinerary",
+        "Any meals/drinks other than mentioned in the Itinerary",
+        "5% GST and 5% TCS",
+        "Gondola tickets"
+      ],
+      "media": [
+        "assets/img/package_europe.jpg",
+        "https://example.com/images/europe_2.jpg",
+        "https://example.com/videos/europe_tour.mp4"
+      ]
+    },
   {
     "package_name": "BALI SPECIAL TOUR",
     "videoLink": "https://www.youtube.com/embed/CBwKJfrm5-U?si=ufVosZHTlpK4uIJB&amp;controls=0",
@@ -392,216 +400,234 @@
     "media": ["assets/img/package_maldives.jpg"]
   },
   {
-    "package_name": "Singapore-Malaysia",
-    "videoLink": "https://www.youtube.com/embed/L8sPZIkKywA?si=GjJfA870vwU9cp_w&amp;controls=0",
-    "place": "Singapore-Malasiya",
-    "category": ["International"],
-    "places_visiting": ["Singapore"],
-    "days": "6 Days / 5 Nights",
-    "package_description": "The Singapore-Malaysia package offers a perfect blend of adventure and leisure, focusing on iconic Singapore attractions such as Universal Studios, Sentosa Island, Gardens by the Bay, and the Night Safari. This package includes flights, accommodation, meals, and all major sightseeing tours in Singapore.",
-    "itinerary": [
-      {
-        "day": 1,
-        "title": "Journey to Singapore",
-        "activities": [
-          "Journey starts from Hyderabad to Singapore. Meet at RGI Airport at 10:00 pm.",
-          "International departure at 01:40 am (TR575).",
-          "08:50 am Arrival in Singapore. Freshen up at the airport.",
-          "10:00 am to 01:00 pm: City tour with Singapore Flyer.",
-          "01:30 pm: Lunch at Indian restaurant.",
-          "02:00 pm: Hotel check-in.",
-          "05:00 pm: Pick-up for Night Safari.",
-          "09:00 pm: Dinner at an Indian restaurant."
-        ]
-      },
-      {
-        "day": 2,
-        "title": "Universal Studios and Sea Aquarium",
-        "activities": [
-          "08:00 am: Breakfast.",
-          "10:00 am to 05:30 pm: Visit Universal Studios and Sea Aquarium.",
-          "08:30 pm: Dinner at an Indian restaurant."
-        ]
-      },
-      {
-        "day": 3,
-        "title": "Gardens by the Bay, Sentosa Island, and Madam Tussauds",
-        "activities": [
-          "08:00 am: Breakfast and hotel checkout.",
-          "10:00 am: Visit Gardens by the Bay.",
-          "01:00 pm: Lunch.",
-          "02:30 pm: Visit Sentosa Island by one-way cable car.",
-          "03:00 pm to 04:30 pm: Visit Madam Tussauds.",
-          "06:30 pm to 07:00 pm: Wings of Time show.",
-          "08:00 pm: Dinner."
-        ]
-      },
-      {
-        "day": 4,
-        "title": "Explore Singapore",
-        "activities": [
-          "07:00 am: Breakfast at hotel.",
-          "Morning: Explore Singapore at leisure.",
-          "Lunch at an Indian restaurant.",
-          "Visit more attractions or shopping in Singapore.",
-          "08:30 pm: Dinner at an Indian restaurant."
-        ]
-      },
-      {
-        "day": 5,
-        "title": "Leisure Day and Shopping",
-        "activities": [
-          "08:00 am: Breakfast.",
-          "Full day at leisure for shopping or exploring.",
-          "Lunch at an Indian restaurant.",
-          "Optional visit to more attractions.",
-          "08:30 pm: Dinner."
-        ]
-      },
-      {
-        "day": 6,
-        "title": "Departure to Hyderabad",
-        "activities": [
-          "08:00 am: Breakfast at hotel.",
-          "10:30 am: Hotel checkout.",
-          "11:30 am: Visit Petronas Twin Towers (optional, if time permits).",
-          "01:30 pm: Lunch at Indian restaurant.",
-          "06:00 pm: Drop at the airport.",
-          "09:20 pm: Departure from Singapore (AK 68).",
-          "11:40 pm: Arrival in Hyderabad."
-        ]
-      }
+      "package_name": "Singapore-Malaysia",
+      "videoLink":"https://www.youtube.com/embed/L8sPZIkKywA?si=GjJfA870vwU9cp_w&amp;controls=0",
+      "place": "Singapore-Malasiya",
+      "category": ["International"],
+      "places_visiting": [
+        "Singapore"
+      ],
+      "days": "6 Days / 5 Nights",
+      "package_description": "The Singapore-Malaysia package offers a perfect blend of adventure and leisure, focusing on iconic Singapore attractions such as Universal Studios, Sentosa Island, Gardens by the Bay, and the Night Safari. This package includes flights, accommodation, meals, and all major sightseeing tours in Singapore.",
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Journey to Singapore",
+          "activities": [
+            "Journey starts from Hyderabad to Singapore. Meet at RGI Airport at 10:00 pm.",
+            "International departure at 01:40 am (TR575).",
+            "08:50 am Arrival in Singapore. Freshen up at the airport.",
+            "10:00 am to 01:00 pm: City tour with Singapore Flyer.",
+            "01:30 pm: Lunch at Indian restaurant.",
+            "02:00 pm: Hotel check-in.",
+            "05:00 pm: Pick-up for Night Safari.",
+            "09:00 pm: Dinner at an Indian restaurant."
+          ],
+          "imageurl":"assets/img/international/Singapore/day-1.jpg"
+        },
+        {
+          "day": 2,
+          "title": "Universal Studios and Sea Aquarium",
+          "activities": [
+            "08:00 am: Breakfast.",
+            "10:00 am to 05:30 pm: Visit Universal Studios and Sea Aquarium.",
+            "08:30 pm: Dinner at an Indian restaurant."
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Gardens by the Bay, Sentosa Island, and Madam Tussauds",
+          "activities": [
+            "08:00 am: Breakfast and hotel checkout.",
+            "10:00 am: Visit Gardens by the Bay.",
+            "01:00 pm: Lunch.",
+            "02:30 pm: Visit Sentosa Island by one-way cable car.",
+            "03:00 pm to 04:30 pm: Visit Madam Tussauds.",
+            "06:30 pm to 07:00 pm: Wings of Time show.",
+            "08:00 pm: Dinner."
+          ],
+          "imageurl":"assets/img/international/Singapore/day-3.jpg"
+        },
+        {
+          "day": 4,
+          "title": "Explore Singapore",
+          "activities": [
+            "07:00 am: Breakfast at hotel.",
+            "Morning: Explore Singapore at leisure.",
+            "Lunch at an Indian restaurant.",
+            "Visit more attractions or shopping in Singapore.",
+            "08:30 pm: Dinner at an Indian restaurant."
+          ],
+          "imageurl":"assets/img/international/Singapore/day-4.jpg"
+        },
+        {
+          "day": 5,
+          "title": "Leisure Day and Shopping",
+          "activities": [
+            "08:00 am: Breakfast.",
+            "Full day at leisure for shopping or exploring.",
+            "Lunch at an Indian restaurant.",
+            "Optional visit to more attractions.",
+            "08:30 pm: Dinner."
+          ],
+          "imageurl":"assets/img/international/Singapore/day-5.jpg"
+        },
+        {
+          "day": 6,
+          "title": "Departure to Hyderabad",
+          "activities": [
+            "08:00 am: Breakfast at hotel.",
+            "10:30 am: Hotel checkout.",
+            "11:30 am: Visit Petronas Twin Towers (optional, if time permits).",
+            "01:30 pm: Lunch at Indian restaurant.",
+            "06:00 pm: Drop at the airport.",
+            "09:20 pm: Departure from Singapore (AK 68).",
+            "11:40 pm: Arrival in Hyderabad."
+          ],
+          "imageurl":"assets/img/international/Singapore/day-6.jpg"
+        }
+      ],
+      "package_includes": [
+        "Hyderabad – Singapore air tickets",
+        "Singapore visa charges",
+        "Breakfast, Lunch, and Dinner",
+        "3* hotel accommodation on twin/triple sharing basis",
+        "Vehicle for transportation",
+        "Entry tickets as mentioned in the itinerary"
+      ],
+      "package_excludes": [
+        "Personal expenses",
+        "Travel medical insurance (mandatory)",
+        "Optional tours, attractions, and vehicle charges",
+        "Mini bar items kept at hotel rooms (alcoholic beverages, cool drinks, and other eatables)",
+        "Tips",
+        "Any items specifically not mentioned in the itinerary",
+        "Breakfast, Lunch, and Dinner cannot be provided at flight transits or at airports"
+      ],
+      "note": "This is a tentative itinerary. The final itinerary will be issued two days before the travel date.",
+      "media": [
+            "assets/img/package_singapore.png",
+            "https://example.com/images/europe_2.jpg",
+            "https://example.com/videos/europe_tour.mp4"
+          ]
+        },
+  {
+      "package_name": "Bangkok – Pattaya - Phuket Tour Package",
+      "videoLink": "https://www.youtube.com/embed/iix88meGvXM?si=IK-pWmuNWjUiCPtl&amp;controls=0",
+      "place": "Bangkok-Pattaya-Phuket-Phi Phi Island",
+      "category": ["International"],
+      "places_visiting": [
+        "Bangkok",
+        "Pattaya",
+        "Phuket",
+        "Phi Phi Island"
+      ],
+      "days": "6 Days / 5 Nights",
+      "package_description": "This exciting tour takes you through the highlights of Thailand, including the beaches of Pattaya and Phuket, the vibrant city of Bangkok, and the beautiful Phi Phi Islands. Experience Coral Island tours, Alcazar shows, Nong Nooch Village, and a relaxing cruise dinner, with sightseeing and shopping experiences throughout.",
+      "itinerary": [
+  {
+    "day": 1,
+    "title": "Journey to Bangkok",
+    "activities": [
+      "Departure to Bangkok (Thai Airways TG 330).",
+      "Arrival in Bangkok.",
+      "Transfer to Pattaya after breakfast.",
+      "Stop for breakfast and zoo entry at Si Racha Tiger Zoo.",
+      "02:00 pm: Check-in at hotel in Pattaya.",
+      "Lunch at an Indian restaurant.",
+      "Transfer to Nong Nooch Village.",
+      "Dinner at an Indian restaurant.",
+      "Return to hotel."
     ],
-    "package_includes": [
-      "Hyderabad – Singapore air tickets",
-      "Singapore visa charges",
-      "Breakfast, Lunch, and Dinner",
-      "3* hotel accommodation on twin/triple sharing basis",
-      "Vehicle for transportation",
-      "Entry tickets as mentioned in the itinerary"
-    ],
-    "package_excludes": [
-      "Personal expenses",
-      "Travel medical insurance (mandatory)",
-      "Optional tours, attractions, and vehicle charges",
-      "Mini bar items kept at hotel rooms (alcoholic beverages, cool drinks, and other eatables)",
-      "Tips",
-      "Any items specifically not mentioned in the itinerary",
-      "Breakfast, Lunch, and Dinner cannot be provided at flight transits or at airports"
-    ],
-    "note": "This is a tentative itinerary. The final itinerary will be issued two days before the travel date.",
-    "media": [
-      "assets/img/package_singapore.png",
-      "https://example.com/images/europe_2.jpg",
-      "https://example.com/videos/europe_tour.mp4"
-    ]
+    "imageurl": "assets/img/international/bangkok/day-1.jpg"
   },
   {
-    "package_name": "Bangkok – Pattaya - Phuket Tour Package",
-    "videoLink": "https://www.youtube.com/embed/iix88meGvXM?si=IK-pWmuNWjUiCPtl&amp;controls=0",
-    "place": "Bangkok-Pattaya-Phuket-Phi Phi Island",
-    "category": ["International"],
-    "places_visiting": ["Bangkok", "Pattaya", "Phuket", "Phi Phi Island"],
-    "days": "6 Days / 5 Nights",
-    "package_description": "This exciting tour takes you through the highlights of Thailand, including the beaches of Pattaya and Phuket, the vibrant city of Bangkok, and the beautiful Phi Phi Islands. Experience Coral Island tours, Alcazar shows, Nong Nooch Village, and a relaxing cruise dinner, with sightseeing and shopping experiences throughout.",
-    "itinerary": [
-      {
-        "day": 1,
-        "title": "Journey to Bangkok",
-        "activities": [
-          "Departure to Bangkok (Thai Airways TG 330).",
-          "Arrival in Bangkok.",
-          "Transfer to Pattaya after breakfast.",
-          "Stop for breakfast and zoo entry at Si Racha Tiger Zoo.",
-          "02:00 pm: Check-in at hotel in Pattaya.",
-          "Lunch at an Indian restaurant.",
-          "Transfer to Nong Nooch Village.",
-          "Dinner at an Indian restaurant.",
-          "Return to hotel."
-        ]
-      },
-      {
-        "day": 2,
-        "title": "Pattaya Exploration",
-        "activities": [
-          "Breakfast at the hotel.",
-          "09:30 am: Pickup for Coral Island Tour.",
-          "02:00 pm: Lunch at an Indian restaurant.",
-          "Return to hotel.",
-          "05:30 pm: Pickup for Alcazar Show."
-        ]
-      },
-      {
-        "day": 3,
-        "title": "Pattaya to Phuket",
-        "activities": [
-          "Breakfast at the hotel.",
-          "Journey to Bangkok airport for the flight to Phuket.",
-          "Lunch and check-in to hotel in Phuket.",
-          "Leisure time at the hotel.",
-          "Dinner at an Indian restaurant."
-        ]
-      },
-      {
-        "day": 4,
-        "title": "Phi Phi Island Tour",
-        "activities": [
-          "06:00 am: Breakfast at the hotel.",
-          "08:00 am: Pickup for Phi Phi Island tour with lunch.",
-          "04:00 pm: Return to hotel.",
-          "Leisure time for own activities.",
-          "08:00 pm: Dinner at the hotel."
-        ]
-      },
-      {
-        "day": 5,
-        "title": "Phuket to Bangkok",
-        "activities": [
-          "07:00 am to 08:00 am: Breakfast at the hotel.",
-          "09:00 am: Hotel checkout.",
-          "10:30 am: Drop at Phuket airport.",
-          "01:40 pm: Flight to Bangkok.",
-          "03:05 pm: Arrival in Bangkok.",
-          "05:00 pm: Check-in to the hotel in Bangkok.",
-          "05:30 pm: Pickup for dinner cruise.",
-          "09:00 pm: Return to hotel."
-        ]
-      },
-      {
-        "day": 6,
-        "title": "Departure to Hyderabad",
-        "activities": [
-          "07:00 am to 08:00 am: Breakfast.",
-          "09:00 am to 11:30 am: Shopping at Indra Market.",
-          "12:00 pm: Check-out from hotel.",
-          "01:00 pm to 02:00 pm: Lunch.",
-          "02:00 pm to 05:00 pm: Bangkok city temple tour.",
-          "Drop at airport for the flight to Hyderabad.",
-          "12:10 am (Next day): Arrival in Hyderabad."
-        ]
-      }
+    "day": 2,
+    "title": "Pattaya Exploration",
+    "activities": [
+      "Breakfast at the hotel.",
+      "09:30 am: Pickup for Coral Island Tour.",
+      "02:00 pm: Lunch at an Indian restaurant.",
+      "Return to hotel.",
+      "05:30 pm: Pickup for Alcazar Show."
     ],
-    "package_includes": [
-      "02 Nights in Phuket, 02 Nights in Pattaya, 01 Night in Bangkok.",
-      "Phi Phi Island Tour.",
-      "Coral Island Tour on SIC (Seat-in-Coach).",
-      "Alcazar Show.",
-      "Nong Nooch Village.",
-      "Cruise Dinner.",
-      "Bangkok City Temple Tour.",
-      "Return airport and all other transfers on PVT basis.",
-      "Mineral water bottles."
+    "imageurl": "assets/img/international/bangkok/day-2.jpg"
+  },
+  {
+    "day": 3,
+    "title": "Pattaya to Phuket",
+    "activities": [
+      "Breakfast at the hotel.",
+      "Journey to Bangkok airport for the flight to Phuket.",
+      "Lunch and check-in to hotel in Phuket.",
+      "Leisure time at the hotel.",
+      "Dinner at an Indian restaurant."
     ],
-    "package_excludes": [
-      "Personal expenses.",
-      "Entry tickets other than itinerary.",
-      "Optional tours and vehicle charges.",
-      "Alcoholic beverages, cool drinks, and tips.",
-      "Any items specifically not mentioned in the itinerary.",
-      "Visa charges.",
-      "Lunch and Dinner (except as mentioned)."
+    "imageurl": "assets/img/international/bangkok/day-3.jpg"
+  },
+  {
+    "day": 4,
+    "title": "Phi Phi Island Tour",
+    "activities": [
+      "06:00 am: Breakfast at the hotel.",
+      "08:00 am: Pickup for Phi Phi Island tour with lunch.",
+      "04:00 pm: Return to hotel.",
+      "Leisure time for own activities.",
+      "08:00 pm: Dinner at the hotel."
     ],
-    "media": [
+    "imageurl": "assets/img/international/bangkok/day-4.jpg"
+  },
+  {
+    "day": 5,
+    "title": "Phuket to Bangkok",
+    "activities": [
+      "07:00 am to 08:00 am: Breakfast at the hotel.",
+      "09:00 am: Hotel checkout.",
+      "10:30 am: Drop at Phuket airport.",
+      "01:40 pm: Flight to Bangkok.",
+      "03:05 pm: Arrival in Bangkok.",
+      "05:00 pm: Check-in to the hotel in Bangkok.",
+      "05:30 pm: Pickup for dinner cruise.",
+      "09:00 pm: Return to hotel."
+    ],
+    "imageurl": "assets/img/international/bangkok/day-5.jpg"
+  },
+  {
+    "day": 6,
+    "title": "Departure to Hyderabad",
+    "activities": [
+      "07:00 am to 08:00 am: Breakfast.",
+      "09:00 am to 11:30 am: Shopping at Indra Market.",
+      "12:00 pm: Check-out from hotel.",
+      "01:00 pm to 02:00 pm: Lunch.",
+      "02:00 pm to 05:00 pm: Bangkok city temple tour.",
+      "Drop at airport for the flight to Hyderabad.",
+      "12:10 am (Next day): Arrival in Hyderabad."
+    ],
+    "imageurl": "assets/img/international/bangkok/day-6.jpg"
+  }
+],
+      "package_includes": [
+        "02 Nights in Phuket, 02 Nights in Pattaya, 01 Night in Bangkok.",
+        "Phi Phi Island Tour.",
+        "Coral Island Tour on SIC (Seat-in-Coach).",
+        "Alcazar Show.",
+        "Nong Nooch Village.",
+        "Cruise Dinner.",
+        "Bangkok City Temple Tour.",
+        "Return airport and all other transfers on PVT basis.",
+        "Mineral water bottles."
+      ],
+      "package_excludes": [
+        "Personal expenses.",
+        "Entry tickets other than itinerary.",
+        "Optional tours and vehicle charges.",
+        "Alcoholic beverages, cool drinks, and tips.",
+        "Any items specifically not mentioned in the itinerary.",
+        "Visa charges.",
+        "Lunch and Dinner (except as mentioned)."
+      ],
+      "media": [
       "assets/img/package_bangkok.png",
       "https://example.com/images/europe_2.jpg",
       "https://example.com/videos/europe_tour.mp4"
@@ -920,97 +946,105 @@
     "note": "Customers should pay for any extra charges incurred due to returning from the tour early because of health conditions or personal problems. This includes visa cancellation charges, transportation, accommodation, and flight tickets."
   },
   {
-    "package_name": "Bangkok-Pattaya Tour Package",
-    "videoLink": "https://www.youtube.com/embed/iix88meGvXM?si=IK-pWmuNWjUiCPtl&amp;controls=0",
-    "place": "Bangkok-Pattaya",
-    "category": ["International"],
-    "days": "4 Nights - 5 Days",
-    "package_description": "This exciting 5-day tour package takes you through the vibrant cities of Bangkok and Pattaya. Explore Pattaya’s beautiful Coral Island, Nong Nooch Village, and experience the famous Alcazar Show. In Bangkok, visit the iconic Marble Temple, Golden Buddha Temple, and enjoy leisure shopping at local markets. Enjoy a mix of cultural experiences, stunning attractions, and plenty of relaxation with meals included throughout your stay.",
-    "places_visiting": ["Bangkok", "Pattaya"],
-    "itinerary": [
-      {
-        "day": 1,
-        "title": "Journey to Bangkok",
-        "activities": [
-          "Departure to Bangkok.",
-          "Arrival at Bangkok and after immigration, journey to Pattaya.",
-          "Breakfast.",
-          "Pattaya City tour.",
-          "Lunch.",
-          "2:30 pm: Hotel check-in.",
-          "5:00 pm: Pickup for Alcazar Show.",
-          "9:00 pm: Dinner.",
-          "Overnight stay at Pattaya."
-        ]
-      },
-      {
-        "day": 2,
-        "title": "Pattaya - Coral Island Tour",
-        "activities": [
-          "8:00 am: Breakfast at the hotel.",
-          "8:30 am: Pickup for Coral Island Tour with lunch.",
-          "4:00 pm: Return to hotel.",
-          "Free time for own activities.",
-          "Dinner.",
-          "Overnight stay at Pattaya."
-        ]
-      },
-      {
-        "day": 3,
-        "title": "Pattaya - Noong Nooch Village Visit",
-        "activities": [
-          "8:00 am: Breakfast.",
-          "9:00 am: Pickup for Noong Nooch Village visit.",
-          "Lunch at Noong Nooch Village.",
-          "3:00 pm: Return to hotel.",
-          "Free time for own activities.",
-          "Dinner.",
-          "Overnight stay at Pattaya."
-        ]
-      },
-      {
-        "day": 4,
-        "title": "Pattaya to Bangkok",
-        "activities": [
-          "8:00 am: Breakfast.",
-          "11:30 am: Hotel checkout.",
-          "12:00 pm: Journey to Bangkok.",
-          "Lunch.",
-          "3:00 pm: Hotel check-in at Bangkok.",
-          "Free time for own activities.",
-          "Dinner.",
-          "Overnight stay at Bangkok."
-        ]
-      },
-      {
-        "day": 5,
-        "title": "Bangkok – Hyderabad",
-        "activities": [
-          "8:00 am: Breakfast.",
-          "11:00 am: Hotel checkout.",
-          "Lunch.",
-          "11:30 am to 4:00 pm: Visit Marble Temple and Golden Buddha Temple.",
-          "Drop at the airport.",
-          "Flight to Hyderabad."
-        ]
-      }
-    ],
-    "package_includes": [
-      "Breakfast, Lunch, and Dinner.",
-      "Hotel accommodation at Pattaya and Bangkok.",
-      "All entry tickets as mentioned in the itinerary.",
-      "Transfers on a private basis (except for Coral Island).",
-      "Travel insurance."
-    ],
-    "package_excludes": [
-      "Flights.",
-      "On arrival visa charges.",
-      "Any operational tours and personal activities.",
-      "Tips and any other personal expenses.",
-      "Any entry tickets other than those mentioned in the itinerary.",
-      "Alcoholic beverages, cool drinks."
-    ],
-    "media": [
+      "package_name": "Bangkok-Pattaya Tour Package",
+      "videoLink": "https://www.youtube.com/embed/iix88meGvXM?si=IK-pWmuNWjUiCPtl&amp;controls=0",
+      "place": "Bangkok-Pattaya",
+      "category": ["International"],
+      "days": "4 Nights - 5 Days",
+      "package_description": "This exciting 5-day tour package takes you through the vibrant cities of Bangkok and Pattaya. Explore Pattaya’s beautiful Coral Island, Nong Nooch Village, and experience the famous Alcazar Show. In Bangkok, visit the iconic Marble Temple, Golden Buddha Temple, and enjoy leisure shopping at local markets. Enjoy a mix of cultural experiences, stunning attractions, and plenty of relaxation with meals included throughout your stay.",
+      "places_visiting": [
+        "Bangkok",
+        "Pattaya"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Journey to Bangkok",
+          "activities": [
+            "Departure to Bangkok.",
+            "Arrival at Bangkok and after immigration, journey to Pattaya.",
+            "Breakfast.",
+            "Pattaya City tour.",
+            "Lunch.",
+            "2:30 pm: Hotel check-in.",
+            "5:00 pm: Pickup for Alcazar Show.",
+            "9:00 pm: Dinner.",
+            "Overnight stay at Pattaya."
+          ],
+          "imageurl":"assets/img/international/bangkok/day-1.jpg"
+        },
+        {
+          "day": 2,
+          "title": "Pattaya - Coral Island Tour",
+          "activities": [
+            "8:00 am: Breakfast at the hotel.",
+            "8:30 am: Pickup for Coral Island Tour with lunch.",
+            "4:00 pm: Return to hotel.",
+            "Free time for own activities.",
+            "Dinner.",
+            "Overnight stay at Pattaya."
+          ],
+          "imageurl":"assets/img/international/bangkok/day-2.jpg"
+        },
+        {
+          "day": 3,
+          "title": "Pattaya - Noong Nooch Village Visit",
+          "activities": [
+            "8:00 am: Breakfast.",
+            "9:00 am: Pickup for Noong Nooch Village visit.",
+            "Lunch at Noong Nooch Village.",
+            "3:00 pm: Return to hotel.",
+            "Free time for own activities.",
+            "Dinner.",
+            "Overnight stay at Pattaya."
+          ],
+          "imageurl":"assets/img/international/bangkok/day-3.jpg"
+        },
+        {
+          "day": 4,
+          "title": "Pattaya to Bangkok",
+          "activities": [
+            "8:00 am: Breakfast.",
+            "11:30 am: Hotel checkout.",
+            "12:00 pm: Journey to Bangkok.",
+            "Lunch.",
+            "3:00 pm: Hotel check-in at Bangkok.",
+            "Free time for own activities.",
+            "Dinner.",
+            "Overnight stay at Bangkok."
+          ],
+          "imageurl":"assets/img/international/bangkok/day-4.jpg"
+        },
+        {
+          "day": 5,
+          "title": "Bangkok – Hyderabad",
+          "activities": [
+            "8:00 am: Breakfast.",
+            "11:00 am: Hotel checkout.",
+            "Lunch.",
+            "11:30 am to 4:00 pm: Visit Marble Temple and Golden Buddha Temple.",
+            "Drop at the airport.",
+            "Flight to Hyderabad."
+          ],
+          "imageurl":"assets/img/international/bangkok/day-5.jpg"
+        }
+      ],
+      "package_includes": [
+        "Breakfast, Lunch, and Dinner.",
+        "Hotel accommodation at Pattaya and Bangkok.",
+        "All entry tickets as mentioned in the itinerary.",
+        "Transfers on a private basis (except for Coral Island).",
+        "Travel insurance."
+      ],
+      "package_excludes": [
+        "Flights.",
+        "On arrival visa charges.",
+        "Any operational tours and personal activities.",
+        "Tips and any other personal expenses.",
+        "Any entry tickets other than those mentioned in the itinerary.",
+        "Alcoholic beverages, cool drinks."
+      ],
+      "media": [
       "assets/img/package_pattaya.png",
       "https://example.com/images/europe_2.jpg",
       "https://example.com/videos/europe_tour.mp4"
