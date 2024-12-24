@@ -121,8 +121,8 @@
                         </li>
                       </ul>
                     </div>
-                    <div class="col-md-12 col-lg-6 text-center">
-                      <img class="img-fluid imgstyle" src="assets/img/package_karnataka.png" alt="">
+                    <div class="col-md-12 col-lg-6 text-center" *ngIf="data.imageurl">
+                      <img class="img-fluid imgstyle" [src]="data.imageurl" alt="">
                     </div>
                   </div>
                 </div>

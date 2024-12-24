@@ -26,7 +26,8 @@
             "05:00pm - Hotel check-in",
             "Rest",
             "Dinner (packed dinner)"
-          ]
+          ],
+          "imageurl": "assets/img/international/europe/day-1.jpg"
         },
         {
           "day": 2,
@@ -39,7 +40,8 @@
             "04:00pm to 06:00pm - Shopping",
             "06:30pm - Dinner",
             "07:30pm - Drop at hotel"
-          ]
+          ],
+          "imageurl": "assets/img/international/europe/day-2.jpg"
         },
         {
           "day": 3,
@@ -49,7 +51,8 @@
             "10:00am to 06:00pm - Disneyland visit",
             "Back to hotel",
             "Dinner (packed dinner)"
-          ]
+          ],
+          "imageurl": "assets/img/international/europe/day-3.jpg"
         },
         {
           "day": 4,
@@ -61,7 +64,8 @@
             "01:00pm - View of Atomium, Mini Europe with lunch",
             "04:00pm - Visit The Grand Place",
             "07:00pm - Check-in to hotel with packed dinner"
-          ]
+          ],
+          "imageurl": "assets/img/international/europe/day-4.jpg"
         },
         {
           "day": 5,
@@ -74,7 +78,8 @@
             "02:00pm - Proceed to Amsterdam",
             "04:00pm - Amsterdam canal cruise and free time for shopping",
             "07:00pm - Check-in hotel with packed dinner"
-          ]
+          ],
+          "imageurl": "assets/img/international/europe/day-5.jpg"
         },
         {
           "day": 6,
@@ -4301,7 +4306,8 @@
             "1:30 pm - Lunch, Journey to Akshardham",
             "4:00 pm to 8:30 pm - Visit Akshardham",
             "9:00 pm - Dinner"
-          ]
+          ],
+          "imageUrl":"assets/international/"
         },
         {
           "day": 4,
