@@ -27,7 +27,6 @@ export class DetailspageComponent implements OnInit{
     window.scrollTo(0,0)
     this.route.queryParams.subscribe(params => {
       this.place = params['title'];
-      console.log('Received title:', this.place);
     });
 
     this.displayData()

@@ -50,7 +50,6 @@ export class LayoutComponent implements OnInit {
    this.specialPackagesForHome = this.specialPackages.slice(0,3)
    this.templePackagesForHome = this.templePackages.slice(0,3)
    
-   console.log("data fetched", this.internationalPackagesForHome.length) 
     })
    }
 }

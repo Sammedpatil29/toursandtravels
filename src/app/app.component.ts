@@ -12,6 +12,8 @@ export class AppComponent implements OnInit{
   title = 'toursandtravels';
 
   ngOnInit(): void {
-    window.scrollTo(0,0)
-  }
+    if (typeof window !== 'undefined') {
+      window.scrollTo(0, 0); 
+    }
+}
 }

@@ -4,6 +4,7 @@ import { DataService } from '../../services/data.service';
 import { CommonModule } from '@angular/common';
 import { Router } from '@angular/router';
 import { ContactComponent } from '../contact/contact.component';
+import Swiper from 'swiper';
 
 @Component({
   selector: 'app-home',
@@ -24,14 +25,26 @@ export class HomeComponent implements OnInit {
     this.dataService.modalState$.subscribe(state => {
       this.isModalOpen = state;
     });
+
+    const swiper = new Swiper('.home1-banner-slider', {
+      autoplay: {
+        delay: 3000,  // Delay in ms (3 seconds)
+        disableOnInteraction: false,  // Keeps autoplay going even when the user interacts with the slider
+      },
+      navigation: {
+        nextEl: '.home1-banner-next',
+        prevEl: '.home1-banner-prev',
+      },
+      loop: true,  // Loops the slides continuously
+    });
   }
 
   bookTrip(banner:any) {
-    this.router.navigate(['/tripDetails'], { queryParams: { title: banner.package_name } });
+    this.router.navigate(['/tripDetails'], { queryParams: { title: banner } });
   }
 
   closeModal(): void {
-    this.dataService.closeModal(); // Close the modal when the close button is clicked
+    this.dataService.closeModal(); 
   }
 
   banners: any[] = [];
@@ -59,7 +72,6 @@ this.domesticPackagesForHome = this.domesticPackages.slice(0,3)
 this.specialPackagesForHome = this.specialPackages.slice(0,3)
 this.templePackagesForHome = this.templePackages.slice(0,3)
 
-console.log("data fetched", this.internationalPackagesForHome.length) 
  })
 }
 
