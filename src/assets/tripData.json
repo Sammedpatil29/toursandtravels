@@ -665,7 +665,8 @@
           "3:30 pm: Visit to Muneeswaran Temple.",
           "4:30 pm: Visit to Manalvari Temple.",
           "8:00 pm: Dinner at the hotel."
-        ]
+        ],
+        "imageurl": "assets/img/international/Srilanka/day-1.jpg"
       },
       {
         "day": 2,
@@ -678,7 +679,8 @@
           "3:30 pm: Visit to Dambulla Golden Buddha Temple.",
           "4:30 pm: Visit to Sigiriya Lion Rock (outside view).",
           "8:30 pm: Dinner at the hotel."
-        ]
+        ],
+        "imageurl": "assets/img/international/Srilanka/day-2.jpg"
       },
       {
         "day": 3,
@@ -692,7 +694,8 @@
           "4:30 pm to 5:30 pm: Visit Kandy Tooth Relic Temple.",
           "6:30 pm: Check-in at hotel.",
           "8:30 pm: Dinner at the hotel."
-        ]
+        ],
+        "imageurl": "assets/img/international/Srilanka/day-3.jpg"
       },
       {
         "day": 4,
@@ -706,7 +709,8 @@
           "6:00 pm: Visit to Tea Factory.",
           "8:00 pm: Back to hotel.",
           "8:30 pm: Dinner at the hotel."
-        ]
+        ],
+        "imageurl": "assets/img/international/Srilanka/day-4.jpg"
       },
       {
         "day": 5,
@@ -719,7 +723,8 @@
           "4:00 pm to 6:00 pm: Shopping at Colombo.",
           "7:30 pm: Check-in at hotel.",
           "8:00 pm: Dinner at the hotel."
-        ]
+        ],
+        "imageurl": "assets/img/international/Srilanka/day-5.jpg"
       },
       {
         "day": 6,
@@ -728,7 +733,8 @@
           "4:30 am: Drop at airport with packed breakfast.",
           "7:50 am: Return journey to Hyderabad (UL177Q - Sri Lankan Airlines).",
           "9:15 am: Arrival in Hyderabad."
-        ]
+        ],
+        "imageurl": "assets/img/international/Srilanka/day-6.jpg"
       }
     ],
     "package_includes": [
@@ -1078,7 +1084,8 @@
           "6:00 pm: Pickup for Marina Cruise Dinner.",
           "After dinner, drop at hotel.",
           "Overnight stay in Dubai."
-        ]
+        ],
+        "imageurl": "assets/img/international/Dubai/day-1.jpg"
       },
       {
         "day": 2,
@@ -1092,7 +1099,8 @@
           "8:00 pm: Dinner at hotel or Indian restaurant.",
           "Drop back to hotel.",
           "Overnight stay in Dubai."
-        ]
+        ],
+        "imageurl": "assets/img/international/Dubai/day-2.jpg"
       },
       {
         "day": 3,
@@ -1107,7 +1115,8 @@
           "5:00 pm: Return to Dubai.",
           "9:00 pm: Dinner at hotel or Indian restaurant.",
           "Overnight stay in Dubai."
-        ]
+        ],
+        "imageurl": "assets/img/international/Dubai/day-3.jpg"
       },
       {
         "day": 4,
@@ -1119,7 +1128,8 @@
           "3:00 pm: Pickup for Desert Safari Dinner.",
           "9:00 pm: Drop back to hotel.",
           "Overnight stay in Dubai."
-        ]
+        ],
+        "imageurl": "assets/img/international/Dubai/day-4.jpg"
       },
       {
         "day": 5,
@@ -1133,7 +1143,8 @@
           "Drop at airport.",
           "Flight to Hyderabad.",
           "Arrival in Hyderabad."
-        ]
+        ],
+        "imageurl": "assets/img/international/Dubai/day-5.jpg"
       }
     ],
     "package_includes": [
