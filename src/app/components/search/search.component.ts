@@ -31,7 +31,7 @@ this.filteredData = data;
 
 search(event: any) {
   let input = event.target as HTMLInputElement;
-  this.searchTerm = input.value;
+  this.searchTerm = input.value.toUpperCase();
 
   // Filter the allTripData based on package_name or places_visiting
   this.filteredData = this.allTripData.filter((data: any) => 
